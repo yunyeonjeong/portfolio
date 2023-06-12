@@ -60,3 +60,7 @@ header .header-wrapper .header-nav .nav-box li a {
   color: var(--text-color);
   transition: 0.25s ease;
 }
+
+header .header-wrapper .hamburger {
+  display: none;
+}
