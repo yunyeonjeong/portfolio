@@ -17,7 +17,6 @@
 }
 
 /***** header *****/
-
 header .header-wrapper h1 {
   width: 120px;
 }
@@ -32,6 +31,12 @@ header .header-wrapper h1 {
 
 .green-btn {
   font-size: var(--font-size16);
+}
+
+/***** contents *****/
+/***** main *****/
+.main .main-imgBox {
+  margin-bottom: 100px;
 }
 
 .main .main-imgBox img:nth-child(3) {
@@ -51,10 +56,12 @@ header .header-wrapper h1 {
 /***** section1 *****/
 .box1 .gray-text {
   font-size: var(--font-size20);
+  margin-left: 130px;
 }
 
 .box1 h3 {
   font-size: var(--font-size46);
+  margin-left: 130px;
 }
 
 .box1 .box1-textBox h5 {
@@ -72,4 +79,75 @@ header .header-wrapper h1 {
 
 .box1 .box1-textBox strong {
   font-size: var(--font-size16);
+}
+
+.box1-textBox {
+  margin-left: 100px;
+}
+
+.box1 .white-btn {
+  margin-left: 330px;
+}
+
+/***** banner1 *****/
+.banner1 {
+  height: 382px;
+  background-position: 72%;
+}
+
+.guide .bg-box img {
+  /* width: 100%; */
+}
+
+/***** banner2 *****/
+.banner2 .banner2-box img {
+  width: 240px;
+}
+
+.banner2 .banner2-imgBox h3 {
+  font-size: var(--font-size43);
+  margin-bottom: 60px;
+}
+
+.banner2 .banner2-imgBox {
+  margin-right: 40px;
+}
+
+.banner2 .banner2-imgBox img {
+  width: 192px;
+}
+
+/***** section3 *****/
+
+/***** section4 *****/
+.flag .gray-text {
+  font-size: var(--font-size20);
+  margin: 130px 0 40px 60px;
+}
+
+.flag h3 {
+  font-size: var(--font-size50);
+  margin: 0 0 100px 60px;
+}
+
+.flag .flag-wrap {
+  margin-bottom: 160px;
+}
+
+.flag .flag-imgBox img {
+  height: 110px;
+}
+
+/***** section5 *****/
+.content {
+  height: 800px;
+}
+
+.content h3 {
+  font-size: var(--font-size48);
+}
+
+/***** footer *****/
+.last .port {
+  margin-left: 480px;
 }
