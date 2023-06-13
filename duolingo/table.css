@@ -5,3 +5,71 @@
 
 /* common */
 @import url(./common.css);
+
+/* 스크롤바 */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--point-color1);
+  border-radius: 4px;
+}
+
+/***** header *****/
+
+header .header-wrapper h1 {
+  width: 120px;
+}
+
+.main .text {
+  font-size: var(--font-size20);
+}
+
+.main h2 {
+  font-size: var(--font-size43);
+}
+
+.green-btn {
+  font-size: var(--font-size16);
+}
+
+.main .main-imgBox img:nth-child(3) {
+  padding: 0 50px;
+}
+
+.main .main-imgBox img:nth-child(2) {
+  transform: translate(0 0);
+  transform: scaleY(100%);
+}
+
+.main .main-imgBox img:nth-child(4) {
+  transform: translate(0 30);
+  transform: scaleY(100%);
+}
+
+/***** section1 *****/
+.box1 .gray-text {
+  font-size: var(--font-size20);
+}
+
+.box1 h3 {
+  font-size: var(--font-size46);
+}
+
+.box1 .box1-textBox h5 {
+  font-size: var(--font-size20);
+}
+
+.box1 .box1-textBox span {
+  font-size: var(--font-size20);
+  width: 100%;
+}
+
+.box1 .box1-textBox h6 {
+  font-size: var(--font-size20);
+}
+
+.box1 .box1-textBox strong {
+  font-size: var(--font-size16);
+}

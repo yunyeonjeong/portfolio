@@ -106,7 +106,7 @@ header .header-wrapper .hamburger {
 }
 
 .main .main-imgBox img:nth-child(3) {
-  transform: scale(0.5px 0.5px);
+  padding: 0 10px;
 }
 
 .main .main-imgBox img:nth-child(2) {
@@ -151,6 +151,7 @@ header .header-wrapper .hamburger {
   color: var(--point-color1);
   margin-bottom: 20px;
 }
+
 .box1 .box1-textBox span {
   font-size: var(--font-size16);
   font-weight: 500;
