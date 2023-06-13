@@ -7,22 +7,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>DuoLingo</title>
 
+    <!-- 오픈그래피-->
+    <meta property="og:title" content="duolingo">
+    <meta property="og:description" content="세계 최고의 언어 학습 방법">
+    <meta property="og:image" content="https://yunyeonjeong.github.io/portfolio/duolingo/og/og.png">
+    <meta property="og:url" content="https://yunyeonjeong.github.io/portfolio/duolingo/duolingo">
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="./favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
     <!-- 초기화 -->
     <link rel="stylesheet" href="../common/style/reset.css">
     <!-- 폰트 -->
     <link rel="stylesheet" href="../common/style/pretendardvariable-dynamic-subset.css">
-    <!-- 스타일 공통 -->
-    <link rel="stylesheet" href="./style.css">
-    <!-- index.html 문서에만 들어가는 스타일 -->
-    <link rel="stylesheet" href="./index.css">
     <!-- 모바일 버전 -->
-    <link rel="stylesheet" href="./mobile.css" media="(width >=414px)">
+    <link rel="stylesheet" href="./index.css" media="(width >=414px)">
     <!-- 태블릿 버전 -->
+    <link rel="stylesheet" href="./table.css" media="(width >=769px)">
     <!-- 피씨 버전 -->
     <link rel="stylesheet" href="./pc.css" media="(width >=1200px)">
 </head>
-<style>
-</style>
 
 <body>
     <!-- header -->
@@ -95,35 +100,57 @@
     <div class="banner1">노트북을 보며 환호하는 아이들</div>
 
     <!-- section2 -->
-    <div class="slide">
-        <div class="slide-textBox flex">
+    <div class="guide flex">
+        <div class="guide-txt1">
             <h3>duolingo는 지속적인 연구를 통해<br>체계적인 공부법을 제시합니다.</h3>
             <p>최고의 AI 및 언어 과학을 적용하여, 학습자에게 적합한<br>수준과 페이스로 학습할 수 있도록 맞춤 레슨을 제공합니다.</p>
         </div>
-        <div class="swiper flex">
-            <div class="swiper-wrapper flex">
-                <div class="swiper-slide flex">
-                    <div class="img-box"><img src="./images/1.png" alt="단발머리여자와 노트북이 함께 있는 그림"></div>
-                    <div class="text-box"><a href="#">리스닝</a>
+        <div class="bg-box flex">
+            <img src="./images/con-tr.png" alt="배경" class="tr">
+            <img src="./images/con-bl.png" alt="배경" class="br">
+        </div>
+        <div class="big-box flex">
+            <div class="middle-box flex">
+                <div class="img-box">
+                    <img src="./images/1.png" alt="단발머리여자와 노트북이 함께 있는 그림">
+                </div>
+                <div class="small-box flex">
+                    <div class="text-box">
+                        <a href="#">리스닝</a>
+                    </div>
+                    <div class="text-box">
                         <a href="#">듣기 훈련</a>
                     </div>
                 </div>
-                <div class="swiper-slide flex">
-                    <div class="img-box"><img src="./images/2.png" alt="서 있는 아저씨 그림"></div>
-                    <div class="text-box"><a href="#">스피킹</a>
+            </div>
+            <div class="middle-box flex">
+                <div class="img-box">
+                    <img src="./images/2.png" alt="서 있는 아저씨 그림" class="h-img">
+                </div>
+                <div class="small-box flex">
+                    <div class="text-box">
+                        <a href="#">스피킹</a>
+                    </div>
+                    <div class="text-box">
                         <a href="#">말하기 훈련</a>
                     </div>
                 </div>
-                <div class="swiper-slide flex">
-                    <div class="img-box"><img src="./images/3.png" alt="밥먹었냐고 물어보는 여자 그림"></div>
-                    <div class="text-box"><a href="#">리딩</a>
+            </div>
+            <div class="middle-box flex">
+                <div class="img-box">
+                    <img src="./images/3.png" alt="밥먹었냐고 물어보는 여자 그림">
+                </div>
+                <div class="small-box flex">
+                    <div class="text-box">
+                        <a href="#">리 딩</a>
+                    </div>
+                    <div class="text-box">
                         <a href="#">읽기 훈련</a>
                     </div>
                 </div>
             </div>
-            <div class="swiper-pagination"></div>
         </div>
-        <div class="slide-textbox">
+        <div class="guide-txt2">
             <h3>부담없이 언제든지<br>취소하세요.</h3>
             <p>슈퍼 듀오링고를 2주 동안 무료로 체험하고 지속해 보세요.<br>무료교육을 지원하고 실력향상에 큰 도움이 됩니다.</p>
         </div>
@@ -164,19 +191,19 @@
                     <span>duolingo<br>사용 전</span>
                     <span>duolingo<br>사용 후</span>
                 </div>
-                <div class="textbox3-middle flex">
-                    <span>300</span>
-                    <span class="gray">평균 단어 수<br>(개)</span>
-                    <span class="blue">700</span>
+                <div class="textBox3-middle flex">
+                    <span class="black-text">300</span>
+                    <span class="gray-text1">평균 단어 수<br>(개)</span>
+                    <span class="blue-text">700</span>
                 </div>
-                <div class="textbox3-under flex">
-                    <span>80%</span>
-                    <span class="gray">어휘력</span>
-                    <span class="blue">120%</span>
+                <div class="textBox3-under flex">
+                    <span class="black-text">80%</span>
+                    <span class="gray-text1">어휘력</span>
+                    <span class="blue-text">120%</span>
                 </div>
-            </div>
-            <div class="btnbox">
-                <span>평균 단어 400개 증가, 평균 어휘력 40% 증가</span>
+                <div class="btnBox flex">
+                    <span>평균 단어 400개 증가,<br>평균 어휘력 40% 증가</span>
+                </div>
             </div>
         </div>
     </div>

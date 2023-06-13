@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+/* 변수 선언 */
+@import url(./variable.css);
+
+/* common */
+@import url(./common.css);
+
 header .header-fix {
   border-bottom: 0.1px solid var(--gray-color3);
   width: 100%;

@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+.flex {
+  display: flex;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--main-font);
+  /* word-break: break-all; */
+  overflow-wrap: break-word;
+}
+
+/* 위로버튼 */
+.upTo {
+  position: fixed;
+  right: 14px;
+  bottom: 20px;
+  background: url(./images/right.svg) no-repeat 100% / 80%;
+  width: 50px;
+  height: 50px;
+  text-indent: -999px;
+  overflow: hidden;
+  opacity: 0.5;
+  z-index: 99;
+  transform: rotate(-90deg);
+}
+
+.upTo:hover {
+  opacity: 1;
+  bottom: 22px;
+}
+
+.green-btn {
+  display: block;
+  width: 125px;
+  height: 36px;
+  border-radius: 18px;
+  font-size: var(--font-size14);
+  background-color: var(--point-color1);
+  font-weight: normal;
+  color: #fff;
+  text-align: center;
+  line-height: 36px;
+}
+
+.green-btn:hover {
+  background-color: #fff;
+  color: var(--point-color1);
+  border: 1px solid var(--point-color1);
+}
+
+.white-btn {
+  display: block;
+  width: 168px;
+  height: 36px;
+  border-radius: 18px;
+  font-size: var(--font-size14);
+  border: 1px solid var(--text-color);
+  font-weight: normal;
+  color: var(--text-color);
+  text-align: center;
+  line-height: 36px;
+}
+
+.white-btn:hover {
+  color: #fff;
+  background-color: var(--point-color1);
+  border: none;
+}
+
+h3 {
+  font-size: var(--font-size26);
+  font-weight: bold;
+  line-height: 1.43;
+  letter-spacing: -0.69px;
+  color: var(--title-color);
+  transition: 0.5s ease;
+  transition-delay: 0.6s;
+}
+
+.gray-text {
+  font-size: var(--font-size18);
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  color: var(--gray-color1);
+  transition: 0.5s ease;
+  transition-delay: 0.3s;
+}
+
+.blue-text {
+  color: var(--point-color2);
+  font-size: var(--font-size30);
+  font-weight: bold;
+  letter-spacing: -0.63px;
+}
+
+.black-text {
+  color: var(--text-color);
+  font-size: var(--font-size30);
+  font-weight: bold;
+  letter-spacing: -0.63px;
+}
+
+.gray-text1 {
+  font-size: var(--font-size14);
+  font-weight: 500;
+  letter-spacing: -0.27px;
+  line-height: 1.56;
+  color: var(--gray-color1);
+}
