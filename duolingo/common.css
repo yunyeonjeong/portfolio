@@ -1,5 +1,27 @@
 @charset "utf-8";
 
+@keyframes flag {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes flag-reverse {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/*.reverse {
+  animation: flag-reverse 15s linear infinite;
+}*/
+
 .flex {
   display: flex;
 }
@@ -10,8 +32,6 @@ html {
 
 body {
   font-family: var(--main-font);
-  /* word-break: break-all; */
-  overflow-wrap: break-word;
 }
 
 /* 위로버튼 */
@@ -36,15 +56,10 @@ body {
 
 .green-btn {
   display: block;
-  width: 125px;
-  height: 36px;
-  border-radius: 18px;
-  font-size: var(--font-size14);
   background-color: var(--point-color1);
   font-weight: normal;
   color: #fff;
   text-align: center;
-  line-height: 36px;
 }
 
 .green-btn:hover {
@@ -55,15 +70,10 @@ body {
 
 .white-btn {
   display: block;
-  width: 140px;
-  height: 36px;
-  border-radius: 18px;
-  font-size: var(--font-size14);
   border: 1px solid var(--text-color);
   font-weight: normal;
   color: var(--text-color);
   text-align: center;
-  line-height: 36px;
 }
 
 .white-btn:hover {
@@ -72,23 +82,11 @@ body {
   border: none;
 }
 
-h3 {
-  font-size: var(--font-size26);
+h4 {
   font-weight: bold;
-  line-height: 1.43;
-  letter-spacing: -0.69px;
   color: var(--title-color);
   transition: 0.5s ease;
   transition-delay: 0.6s;
-}
-
-.gray-text {
-  font-size: var(--font-size18);
-  font-weight: 600;
-  letter-spacing: -0.3px;
-  color: var(--gray-color1);
-  transition: 0.5s ease;
-  transition-delay: 0.3s;
 }
 
 .blue-text {

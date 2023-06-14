@@ -137,35 +137,48 @@ header .header-wrapper .hamburger {
 /***** section2 *****/
 /***** banner2 *****/
 /***** section3 *****/
-/***** section4 *****/
 
+/***** section4 *****/
 /***** section5 *****/
-.content {
-  width: 100%;
-}
 
 /***** footer  *****/
-.last {
+.f-box {
   flex-direction: row;
-}
-
-.last h1 {
-  width: 172px;
-}
-
-.last .last-in {
-  flex-direction: column;
   align-items: center;
 }
-
-.last .footer-box li a {
+/*** f-logo ***/
+.f-box h2 {
+  width: 220px;
+}
+/*** f-text ***/
+.f-box .f-inner {
+  margin-left: 100px;
+}
+.f-box .f-inner .f-txt {
+  margin: 0 0 30px 0;
+}
+.f-box .f-txt li a {
   font-size: var(--font-size16);
 }
-
-.last .footer-box li .box-line::before {
+.f-box .f-txt li .f-line::before {
   height: 10px;
 }
-
-.last .footer-box li .box-line::after {
+.f-box .f-txt li .f-line::after {
   height: 10px;
+}
+/*** f-sns ***/
+.f-box .f-inner .f-sns img {
+  width: 30px;
+  height: 30px;
+  margin-right: 40px;
+}
+/*** f-btn ***/
+.f-box .f-tb {
+  width: 280px;
+  height: 60px;
+  font-size: var(--font-size20);
+  line-height: 60px;
+  border-radius: 28px;
+  margin: 0;
+  transform: translateX(-60%);
 }

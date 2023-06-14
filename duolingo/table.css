@@ -185,23 +185,29 @@ header .header-wrapper h1 {
 }
 
 /***** section4 *****/
-.flag .gray-text {
+.flag span {
   font-size: var(--font-size20);
-  margin: 130px 0 40px 60px;
+  margin: 150px 0 30px 0;
+  line-height: 0;
 }
 
-.flag h3 {
+.flag h4 {
   font-size: var(--font-size50);
-  margin: 0 0 100px 60px;
+  margin-bottom: 104px;
+  line-height: 1.4;
 }
 
-.flag .flag-wrap {
-  margin-bottom: 160px;
+.flag .flag-inner {
+  margin-bottom: 142px;
 }
 
-.flag .flag-imgBox img {
-  height: 110px;
+.flag .flag-inner .flag-wrap {
+  height: 130px;
+}
+
+.flag .flag-inner .flag-wrap .flag-box .flag-img img {
   margin-right: 60px;
+  height: 126px;
 }
 
 /***** section5 *****/
@@ -209,15 +215,33 @@ header .header-wrapper h1 {
   height: 800px;
 }
 
-.content h3 {
+.content h4 {
   font-size: var(--font-size48);
 }
 
-/***** footer *****/
-.last .port {
-  margin-left: 480px;
+.content .green-btn {
+  font-size: var(--font-size16);
+  width: 140px;
+  height: 44px;
+  line-height: 44px;
+  border-radius: 26px;
 }
 
-.last h1 {
+/***** footer *****/
+.f-box .f-tb {
+  transform: translateX(300%);
+}
+/*** f-text ***/
+.f-box .f-txt li a {
+  font-size: var(--font-size16);
+}
+.f-box .f-txt li .f-line::before {
+  height: 10px;
+}
+.f-box .f-txt li .f-line::after {
+  height: 10px;
+}
+/*** f-logo ***/
+.f-box h2 {
   width: 120px;
 }
