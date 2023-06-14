@@ -528,31 +528,31 @@ header .header-wrapper .hamburger {
 }
 
 /***** footer  *****/
-.last {
+.f-box {
   flex-direction: column;
   width: 100%;
   margin: 50px 0;
   padding-left: 60px;
 }
-
-.last h1 {
+/*** f-logo ***/
+.f-box h2 {
   width: 86px;
 }
 
-.last h1 img {
+.f-box h2 .f-logo {
   opacity: 0.5;
 }
-
-.last .footer-box {
+/*** f-text ***/
+.f-box .f-txt {
   margin: 30px 0 30px 0;
 }
 
-.last .footer-box li a {
+.f-box .f-txt li a {
   font-size: var(--font-size13);
   color: #000;
 }
 
-.last .footer-box li .box-line::before {
+.f-box .f-txt li .f-line::before {
   content: '';
   display: inline-block;
   width: 1px;
@@ -561,7 +561,7 @@ header .header-wrapper .hamburger {
   background-color: #000;
 }
 
-.last .footer-box li .box-line::after {
+.f-box .f-txt li .f-line::after {
   content: '';
   display: inline-block;
   width: 1px;
@@ -569,8 +569,29 @@ header .header-wrapper .hamburger {
   margin: 0 10px;
   background-color: #000;
 }
+/*** f-sns ***/
+.f-box .f-sns {
+  margin-left: 6px;
+}
 
-.last .port {
+.f-box .f-sns li a {
+  display: block;
+  transition: all 0.2s linear;
+}
+
+.f-box .f-sns li a:hover {
+  transform: translateY(-10px);
+  opacity: 0.5;
+}
+
+.f-box .f-sns img {
+  width: 20px;
+  height: 20px;
+  margin-right: 30px;
+}
+
+/*** f-btn ***/
+.f-box .f-tb {
   display: block;
   font-size: var(--font-size14);
   color: #fff;
@@ -581,32 +602,11 @@ header .header-wrapper .hamburger {
   width: 160px;
   height: 40px;
   line-height: 40px;
-  box-shadow: var(--box-shadow);
   margin-top: 30px;
 }
 
-.last .port:hover {
+.f-box .f-tb:hover {
   background-color: #fff;
   color: var(--point-color1);
   border: 1px solid var(--point-color1);
-}
-
-.last .footer-go {
-  margin-left: 6px;
-}
-
-.last .footer-go li a {
-  display: block;
-  transition: all 0.2s linear;
-}
-
-.last .footer-go li a:hover {
-  transform: translateY(-10px);
-  opacity: 0.5;
-}
-
-.last .footer-go img {
-  width: 20px;
-  height: 20px;
-  margin-right: 30px;
 }
