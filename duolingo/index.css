@@ -266,12 +266,16 @@ header .header-wrapper .hamburger {
 .guide .bg-box .br {
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 63%;
 }
 
 .guide .big-box {
   width: 60%;
   flex-direction: column;
+}
+
+.guide .big-box div:nth-child(4) {
+  display: none;
 }
 
 .guide .big-box .middle-box {
@@ -319,6 +323,7 @@ header .header-wrapper .hamburger {
   align-items: center;
   justify-content: space-evenly;
   padding: 80px 0;
+  background-color: #fff;
 }
 
 .banner2 .banner2-box img {
@@ -339,7 +344,6 @@ header .header-wrapper .hamburger {
 
 .banner2 .banner2-imgBox img {
   width: 100px;
-  box-shadow: var(--box-shadow);
 }
 
 .banner2 .banner2-imgBox a:nth-child(3) img {
@@ -447,7 +451,7 @@ header .header-wrapper .hamburger {
   padding: 40px;
 }
 
-.btnBox {
+.research .research-box .research-textBox3 .btnBox {
   background-color: var(--point-color2);
   font-size: var(--font-size20);
   font-weight: bold;

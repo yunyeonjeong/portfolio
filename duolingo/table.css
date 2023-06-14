@@ -99,6 +99,37 @@ header .header-wrapper h1 {
   /* width: 100%; */
 }
 
+/***** section2 *****/
+.guide .guide-txt1 h3 {
+  font-size: var(--font-size46);
+}
+
+.guide .guide-txt1 p {
+  font-size: var(--font-size20);
+}
+
+.guide .guide-txt2 h3 {
+  font-size: var(--font-size46);
+}
+
+.guide .guide-txt2 p {
+  font-size: var(--font-size20);
+}
+
+.guide .big-box {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 30%;
+}
+
+.h-img {
+  height: 26.008vw;
+}
+
+.guide .big-box div:nth-child(4) {
+  display: block;
+}
+
 /***** banner2 *****/
 .banner2 .banner2-box img {
   width: 240px;
@@ -118,6 +149,40 @@ header .header-wrapper h1 {
 }
 
 /***** section3 *****/
+.research-box {
+  width: 688px;
+}
+.research .research-box h4 {
+  font-size: var(--font-size26);
+}
+
+.research .research-box .research-textBox3 .black-text {
+  font-size: var(--font-size42);
+}
+
+.research .research-box .research-textBox3 .blue-text {
+  font-size: var(--font-size42);
+}
+
+.research .research-box .research-textBox3 .gray-text1 {
+  font-size: var(--font-size18);
+  text-align: center;
+}
+
+.research .research-box .research-textBox3 .textBox3-under {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.research .research-box .research-textBox3 .btnBox {
+  font-size: var(--font-size24);
+  width: 624px;
+  height: 125px;
+}
+
+.research .research-box .research-textBox3 .btnBox .btnBox-br {
+  display: none;
+}
 
 /***** section4 *****/
 .flag .gray-text {
@@ -136,6 +201,7 @@ header .header-wrapper h1 {
 
 .flag .flag-imgBox img {
   height: 110px;
+  margin-right: 60px;
 }
 
 /***** section5 *****/
@@ -150,4 +216,8 @@ header .header-wrapper h1 {
 /***** footer *****/
 .last .port {
   margin-left: 480px;
+}
+
+.last h1 {
+  width: 120px;
 }
