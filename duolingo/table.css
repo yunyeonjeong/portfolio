@@ -95,130 +95,119 @@ header .header-wrapper h1 {
   background-position: 72%;
 }
 
-.guide .bg-box img {
-  /* width: 100%; */
-}
-
 /***** section2 *****/
-.guide .guide-txt1 h3 {
+/*** study ***/
+.study .s-bg img {
+  width: 640px;
+}
+/*** title ***/
+.study .s-box {
+  margin-top: 150px;
+}
+.study .s-box1 {
+  margin-bottom: 150px;
+  margin-top: 100px;
+}
+.study h4 {
   font-size: var(--font-size46);
 }
-
-.guide .guide-txt1 p {
+.study span {
   font-size: var(--font-size20);
 }
-
-.guide .guide-txt2 h3 {
-  font-size: var(--font-size46);
+.study .s-box h4 {
+  text-align: left;
 }
-
-.guide .guide-txt2 p {
-  font-size: var(--font-size20);
+.study .s-box span {
+  text-align: left;
 }
-
-.guide .big-box {
+/*** img ***/
+.study .s-case {
   flex-direction: row;
   flex-wrap: wrap;
-  width: 30%;
+  justify-content: center;
 }
-
-.h-img {
-  height: 26.008vw;
+.s-case .s-inner {
+  margin: 100px 40px;
 }
-
-.guide .big-box div:nth-child(4) {
-  display: block;
+.s-case .s-inner .s-img {
+  width: 100%;
 }
 
 /***** banner2 *****/
-.banner2 .banner2-box img {
-  width: 240px;
+.banner2 .b-img img {
+  width: 220px;
 }
-
-.banner2 .banner2-imgBox h3 {
-  font-size: var(--font-size43);
-  margin-bottom: 60px;
+.banner2 .b-box h4 {
+  font-size: var(--font-size42);
+  line-height: 1.6;
+  margin-bottom: 86px;
 }
-
-.banner2 .banner2-imgBox {
-  margin-right: 40px;
-}
-
-.banner2 .banner2-imgBox img {
-  width: 192px;
+.banner2 .b-box img {
+  width: 190px;
+  margin-left: 20px;
 }
 
 /***** section3 *****/
-.research-box {
-  width: 688px;
+/*** research ***/
+.r-br {
+  display: none;
 }
-.research .research-box h4 {
+.research .r-inner {
+  padding: 40px;
+}
+.research .r-inner .r-text2 h4 {
   font-size: var(--font-size26);
 }
-
-.research .research-box .research-textBox3 .black-text {
+.research .r-inner .r-box .r-use {
+  margin-bottom: 10px;
+}
+.research .r-inner .r-box .r-use span {
+  font-size: var(--font-size22);
+}
+.research .r-inner .r-box .ba {
   font-size: var(--font-size42);
 }
-
-.research .research-box .research-textBox3 .blue-text {
-  font-size: var(--font-size42);
-}
-
-.research .research-box .research-textBox3 .gray-text1 {
+.research .r-inner .r-box .ga {
   font-size: var(--font-size18);
-  text-align: center;
 }
-
-.research .research-box .research-textBox3 .textBox3-under {
-  margin-left: 20px;
-  margin-bottom: 20px;
+.research .r-inner .r-box .st {
+  font-size: var(--font-size42);
 }
-
-.research .research-box .research-textBox3 .btnBox {
+.research .r-inner .r-box .r-result {
   font-size: var(--font-size24);
-  width: 624px;
-  height: 125px;
-}
-
-.research .research-box .research-textBox3 .btnBox .btnBox-br {
-  display: none;
 }
 
 /***** section4 *****/
+/*** flag-slide ***/
 .flag span {
   font-size: var(--font-size20);
   margin: 150px 0 30px 0;
   line-height: 0;
 }
-
 .flag h4 {
   font-size: var(--font-size50);
   margin-bottom: 104px;
   line-height: 1.4;
 }
-
 .flag .flag-inner {
   margin-bottom: 142px;
 }
-
 .flag .flag-inner .flag-wrap {
   height: 130px;
 }
-
 .flag .flag-inner .flag-wrap .flag-box .flag-img img {
   margin-right: 60px;
   height: 126px;
 }
 
 /***** section5 *****/
+/*** content ***/
 .content {
   height: 800px;
 }
-
 .content h4 {
   font-size: var(--font-size48);
 }
-
 .content .green-btn {
   font-size: var(--font-size16);
   width: 140px;

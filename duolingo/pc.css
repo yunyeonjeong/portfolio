@@ -133,10 +133,91 @@ header .header-wrapper .hamburger {
 }
 
 /***** section1 *****/
+
 /***** banner1 *****/
+
 /***** section2 *****/
+/*** study ***/
+/*** title ***/
+.study .s-box {
+  padding-left: 20%;
+}
+.study .s-box1 {
+  padding-right: 20%;
+}
+/*** img ***/
+.s-case {
+  padding-left: 10%;
+}
+.s-case .s-inner .s-img img {
+  height: 250px;
+  margin: 0 20px;
+}
 /***** banner2 *****/
+.banner2 {
+  justify-content: space-around;
+}
+.banner2 .b-box h4 {
+  font-size: var(--font-size48);
+  margin: 0 60px 0 -60px;
+}
+.banner2 .b-box {
+  flex-direction: row;
+  align-items: center;
+}
+.banner2 .b-box img {
+  width: 220px;
+  margin-left: 40px;
+}
 /***** section3 *****/
+.research .r-inner {
+  width: 1228px;
+}
+.research .r-inner .r-text1 span {
+  font-size: var(--font-size22);
+}
+.research .r-inner .r-text2 {
+  margin-bottom: 0;
+}
+.research .r-inner .r-text2 h4 {
+  font-size: var(--font-size36);
+  margin-bottom: 30px;
+}
+.research .r-inner .r-text3 {
+  margin-top: -170px;
+}
+.research .r-inner .r-text3 span {
+  font-size: var(--font-size16);
+  margin-bottom: 20px;
+}
+.research .r-inner .r-text3 strong {
+  font-size: var(--font-size16);
+}
+.research .r-inner .r-box {
+  margin-top: 40px;
+}
+.research .r-inner .r-box .r-use span {
+  font-size: var(--font-size24);
+}
+.research .r-inner .r-box .ba {
+  font-size: var(--font-size46);
+}
+.research .r-inner .r-box .ga {
+  margin: 0 70px;
+}
+.research .r-inner .r-box .st {
+  font-size: var(--font-size46);
+}
+.research .r-inner .r-box .r-count {
+  margin: 50px 0;
+}
+.research .r-inner .r-box .r-lang {
+  margin: 50px 0;
+}
+.research .r-inner .r-box .r-result {
+  font-size: var(--font-size36);
+  height: 125px;
+}
 
 /***** section4 *****/
 /***** section5 *****/
@@ -173,12 +254,12 @@ header .header-wrapper .hamburger {
   margin-right: 40px;
 }
 /*** f-btn ***/
-.f-box .f-tb {
+.f-box .green-btn {
   width: 280px;
   height: 60px;
   font-size: var(--font-size20);
   line-height: 60px;
   border-radius: 28px;
   margin: 0;
-  transform: translateX(-60%);
+  transform: translateX(-40%);
 }
