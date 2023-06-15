@@ -56,140 +56,182 @@ header .header-wrapper .hamburger {
 
 /***** contents *****/
 /***** main *****/
-
 .main {
   width: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
-.main .text {
-  font-size: var(--font-size18);
-  color: #000;
-  font-weight: 600;
-  text-align: center;
-  margin: 120px 0 30px 0;
-  letter-spacing: -0.3px;
+/*** text ***/
+.main {
+  width: 100%;
 }
-
-.main h2 {
+.main .m-txt {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+.main .m-txt span {
+  display: block;
+  font-size: var(--font-size18);
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  text-align: center;
+  color: #000;
+  animation: motion-title 0.5s 0.5s ease forwards;
+  margin: 120px 0 30px 0;
+}
+.main .m-txt h3 {
   font-size: var(--font-size30);
   font-weight: bold;
   line-height: 1.34;
+  letter-spacing: -0.84px;
   text-align: center;
   color: #000;
+  animation: motion-title 0.5s 0.5s ease forwards;
   margin-bottom: 40px;
-  letter-spacing: -0.5px;
 }
-
-.main .main-imgBox {
-  width: 100%;
-  justify-content: center;
-  align-items: flex-end;
-  margin: 80px 0 40px 0;
+.main .m-btn {
 }
-
-.main .main-imgBox .imgBox-box {
+.main .m-txt .m-btn .green-btn {
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 24px;
+  border: 1px solid transparent;
+  font-size: var(--font-size16);
+  font-weight: 500;
+  animation: opacity1 0.5s 3s ease-in-out forwards;
+  transition: 0.3s ease;
+}
+/*** img ***/
+.main .m-box {
+  flex-direction: column;
+  align-items: center;
   width: 100%;
+  background: #fff;
+  position: relative;
+  padding-top: 60px;
+  height: 710px;
+}
+.main .m-box .m-img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: fit-content;
   justify-content: center;
   align-items: flex-end;
   overflow: hidden;
 }
-
-.main .main-imgBox img:nth-child(1) {
-  display: none;
+.main .m-box .m-img img {
+  height: 326px;
+  object-fit: cover;
+  position: relative;
+  margin: 0 30px;
+}
+.main .m-box .m-img img:nth-child(1) {
+  top: 0;
+  left: 150px;
+  animation: toLeft 0.7s 2.1s ease forwards;
+}
+.main .m-box .m-img img:nth-child(2) {
+  top: 0;
+  left: 150px;
+  animation: toLeft 0.7s 1.9s ease forwards;
+}
+.main .m-box .m-img img:nth-child(3) {
+  animation: toUp 0.95s 1s ease forwards;
+  z-index: 10;
 }
 
-.main .main-imgBox img:nth-child(5) {
-  display: none;
+.main .m-box .m-img img:nth-child(4) {
+  right: 150px;
+  top: 0;
+  animation: toRight 0.7s 1.9s ease forwards;
 }
-
-.main .main-imgBox img:nth-child(3) {
-  padding: 0 10px;
-}
-
-.main .main-imgBox img:nth-child(2) {
-  transform: translate(0 30%);
-  transform: scaleY(80%);
-}
-
-.main .main-imgBox img:nth-child(4) {
-  transform: translate(0 30%);
-  transform: scaleY(80%);
+.main .m-box .m-img img:nth-child(5) {
+  right: 150px;
+  top: 0;
+  animation: toRight 0.7s 2.1s ease forwards;
 }
 
 /***** section1 *****/
-
-.box1 {
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  transition: 0.3s ease;
+/*** effect ***/
+.effect .e-box {
+  display: none;
 }
-
-.box1 h3 {
+.effect {
   width: 100%;
-  margin: 10px 0 30px 30px;
+  flex-direction: column;
+}
+.effect .e-inner {
+  width: 90%;
+  margin: 0 auto;
+}
+/*** text ***/
+.effect .e-inner .e-txt {
+  width: 100%;
+}
+.effect .e-inner .e-txt strong {
+  display: block;
+  font-size: var(--font-size18);
+  letter-spacing: -0.3px;
   text-align: left;
+  color: var(--gray-color1);
+  transition: 0.5s ease;
+  transition-delay: 0.3s;
+  margin: 100px 0 20px 0;
 }
-
-.box1 .box1-textBox {
-  width: 100%;
-  justify-content: flex-end;
-  flex-direction: column;
-  transition: 0.7s ease;
-  transition-delay: 1.6s;
-  padding-left: 20px;
+.effect .e-inner .e-txt h4 {
+  font-size: var(--font-size26);
+  line-height: 1.43;
+  letter-spacing: -0.69px;
+  text-align: left;
+  color: var(--text-color);
+  margin-bottom: 50px;
 }
-
-.box1 .box1-textBox h5 {
+.effect h5 {
   font-size: var(--font-size16);
-  font-weight: 600;
+  font-weight: bold;
   letter-spacing: -0.3px;
   text-align: left;
   color: var(--point-color1);
   margin-bottom: 20px;
 }
-
-.box1 .box1-textBox span {
+.effect .e-txt2 h5 {
+  margin-top: 50px;
+}
+.effect span {
   font-size: var(--font-size16);
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.75;
   letter-spacing: -0.3px;
   text-align: left;
   color: var(--text-color);
-  width: 72%;
-}
-
-.box1 .box1-textBox h6 {
-  font-size: var(--font-size16);
-  font-weight: 600;
-  letter-spacing: -0.3px;
-  text-align: left;
-  color: var(--point-color1);
-  margin: 50px 0 20px 0;
-}
-
-.box1 .box1-textBox strong {
   word-break: keep-all;
+}
+.effect .e-txt2 p {
   font-size: var(--font-size13);
-  color: var(--gray-color1);
-  text-align: left;
-  font-weight: normal;
+  font-weight: 600;
   letter-spacing: -0.21px;
+  text-align: left;
+  color: var(--gray-color1);
   line-height: 22px;
+  word-break: keep-all;
   margin-top: 17px;
-  width: 87%;
 }
-
-.white-btn {
-  margin: 80px 0 180px 200px;
-  transition: 0.3s ease, right 0.5s ease 0.9s, opacity 0.5s ease 0.9s;
+/*** btn ***/
+.effect .e-inner .e-btn {
+  justify-content: flex-end;
+  margin: 80px auto 120px 0;
 }
-
-.box1 .box1-imgBox {
-  display: none;
+.effect .e-inner .e-btn .white-btn {
+  font-size: var(--font-size13);
+  font-weight: 600;
+  width: 140px;
+  height: 38px;
+  line-height: 38px;
 }
 
 /***** banner1 *****/

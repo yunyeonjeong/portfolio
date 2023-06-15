@@ -88,7 +88,32 @@ header .header-wrapper h1 {
 .box1 .white-btn {
   margin-left: 330px;
 }
-
+/***** section1 *****/
+/*** effect ***/
+.effect .e-inner .e-txt strong {
+  width: var(--main-width);
+  font-size: var(--font-size20);
+  margin-top: 230px;
+}
+.effect .e-inner .e-txt h4 {
+  width: var(--main-width);
+  font-size: var(--font-size46);
+  margin-bottom: 104px;
+}
+.effect h5 {
+  font-size: var(--font-size20);
+  margin-bottom: 25px;
+}
+.effect .e-txt2 h5 {
+  margin-top: 80px;
+}
+.effect span {
+  font-size: var(--font-size20);
+  word-break: normal;
+}
+.effect .e-txt2 p {
+  font-size: var(--font-size14);
+}
 /***** banner1 *****/
 .banner1 {
   height: 382px;
