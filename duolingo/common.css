@@ -31,6 +31,25 @@
   }
 }
 
+@keyframes main-r {
+  100% {
+    right: 0;
+    opacity: 1;
+  }
+}
+@keyframes main-l {
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+@keyframes main-t {
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
 /*.reverse {
   animation: flag-reverse 15s linear infinite;
 }*/

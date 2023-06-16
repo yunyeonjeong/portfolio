@@ -34,8 +34,7 @@
   --font-size50: 3.125rem;
   --font-size56: 3.5rem;
 
-  --box-shadow1: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  --box-shadow2: 0 3px 15px 0 rgba(0, 0, 0, 0.07);
+  --box-shadow1: 0 3px 15px 0 rgba(0, 0, 0, 0.07);
 
   --main-width: 1228px;
 }
