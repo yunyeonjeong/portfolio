@@ -659,7 +659,7 @@ header .header-wrapper .hamburger {
 }
 /*** f-sns ***/
 .f-box .f-inner .f-sns {
-  width: calc(100%+6);
+  width: calc(100% - 6px);
 }
 .f-box .f-inner .f-sns li a {
   display: block;
