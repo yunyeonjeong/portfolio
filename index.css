@@ -1,1 +1,96 @@
 @charset "utf-8";
+
+/* 변수 선언 */
+@import url(./variable.css);
+
+/* common */
+@import url(./common.css);
+
+/***** header *****/
+header {
+  width: 100%;
+}
+header .h-box {
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 24px 32px;
+  position: static;
+  height: 140px;
+}
+header .h-box .h-menu {
+  font-family: var(--en-font);
+  font-size: var(--font-size14);
+}
+header .h-box .h-menu a {
+  color: #fff;
+  margin-left: 6rem;
+}
+header .h-box .h-menu .c-g {
+  color: var(--point-color);
+}
+header .h-box .h-menu .g-g:hover {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.6);
+}
+header .h-box .h-menu .c-g:hover {
+  text-decoration: underline;
+}
+
+/***** title *****/
+section {
+  width: 100%;
+}
+section .s-title {
+  margin: 0 auto;
+  padding: 0 32px 24px 32px;
+  color: #fff;
+  font-family: var(--main-font);
+  font-size: var(--font-size150);
+  flex-direction: column;
+  align-items: flex-start;
+}
+section .s-title .s-t-1 {
+  margin-bottom: -16px;
+}
+section .s-title .s-t-2 {
+  margin-left: 11rem;
+  color: var(--point-color);
+}
+section .s-title .s-t-3 .s-sns {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 1.6vw;
+  margin: 1.2vw 14vw 2.2vw 0;
+}
+section .s-title .s-t-3 .s-sns img {
+  width: 55px;
+  height: 55px;
+  transform: translateY(20%);
+}
+section .s-title .s-t-3 .s-sns a {
+  width: 80px;
+  height: 80px;
+  display: block;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  text-align: center;
+}
+section .s-title .s-t-3 .s-sns a .s-i {
+  height: 50px;
+  width: 50px;
+  transform: translateY(30%);
+}
+section .s-title .s-t-4 {
+  margin-top: -2vw;
+}
+section .s-title .s-t-5 .s-t-6 {
+  font-size: var(--font-size14);
+  font-family: var(--en-font);
+  line-height: 30px;
+  gap: 6vw;
+}
+section .s-title .s-t-5 h1 {
+  transform: translateX(202%);
+  margin-top: -2.2vw;
+}

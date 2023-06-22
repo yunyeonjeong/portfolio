@@ -2,10 +2,10 @@
 
 :root {
   --main-font: 'PP NeueBit', sans-serif;
-  --en-text-font: 'astra 100', sans-serif;
-  --ko-text-font: '둥근모꼴', sans-serif;
+  --en-font: 'astra 100', sans-serif;
+  --ko-font: '둥근모꼴', sans-serif;
 
-  --point-color1: #4ced00;
+  --point-color: #4ced00;
 
   --font-size150: 9.375rem;
   --font-size114: 7.125rem;

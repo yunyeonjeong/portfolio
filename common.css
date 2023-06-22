@@ -1,1 +1,21 @@
 @charset "utf-8";
+/* 스크롤바 */
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: #000;
+  background-image: url(./images/main-bg.svg);
+  background-position: 0 0;
+  background-size: auto;
+  overflow: visible;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
