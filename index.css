@@ -42,6 +42,7 @@ section {
   width: 100%;
 }
 section .s-title {
+  width: 100%;
   margin: 0 auto;
   padding: 0 32px 24px 32px;
   color: #fff;
@@ -89,8 +90,54 @@ section .s-title .s-t-5 .s-t-6 {
   font-family: var(--en-font);
   line-height: 30px;
   gap: 6vw;
+  margin-right: 45vw;
 }
 section .s-title .s-t-5 h1 {
-  transform: translateX(202%);
   margin-top: -2.2vw;
+}
+section .s-title .s-t-7 {
+  position: absolute;
+  top: 80vh;
+  bottom: 0%;
+  left: 50vw;
+  right: 0%;
+}
+section .s-title .s-t-7 strong {
+  font-size: var(--font-size48);
+  color: var(--point-color);
+}
+
+/***** main *****/
+main {
+  margin-top: 12vw;
+  width: 100%;
+}
+
+main .m-box {
+  margin: 0 auto;
+  padding: 0 32px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  justify-items: center;
+}
+main .m-box img {
+  outline: 4px solid rgba(255, 255, 255, 0.2);
+  height: 100%;
+  width: 32vw;
+  position: relative;
+  overflow: hidden;
+}
+main .m-box .m-text {
+  font-family: var(--en-font);
+  position: absolute;
+  bottom: -94%;
+  left: 3%;
+}
+main .m-box .m-text .m-t {
+  font-size: var(--font-size26);
+  color: #fff;
+}
+main .m-box .m-text .m-tt {
+  font-size: var(--font-size18);
+  color: var(--point-color);
 }
