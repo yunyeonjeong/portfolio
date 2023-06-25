@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/* 변수 선언 */
+@import url(./variable.css);
+
+/* common */
+@import url(./common.css);
+
+body {
+    font-family: var(--ko-font);
+    color: #fff;
+    text-align: center;
+    font-size: var(--font-size22);
+    line-height: 40px;
+    background: url(./images/bg.png);
+    overflow: visible;
+    overscroll-behavior: none;
+}
+/***** header *****/
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+
+/*** background image **/
+.box1 {
+    background: url(./images/bg.png);
+    margin-top: 10vw;
+}
+.box2 {
+    background: url(./images/bg.png);
+}
+.box3 {
+    background: url(./images/bg.png);
+}
+.box4 {
+    background: url(./images/bg.png);
+}
+.box5 {
+    background: url(./images/bg.png);
+}
+.box6 {
+    background: url(./images/bg-f.png);
+}
+.box7 {
+    background: url(./images/bg-f1.png);
+}
+
+/*** point text ***/
+h6 {
+    color: var(--point-color);
+    font-size: var(--font-size32);
+    margin: 2vw 0;
+}
+
+/*** text box ***/
+.inner {
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #fff;
+}
+
+.inner1 {
+    width: 800px;
+    height: 300px;
+}
+
+.b-p {
+    color: var(--point-color);
+}

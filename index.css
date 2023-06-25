@@ -6,35 +6,13 @@
 /* common */
 @import url(./common.css);
 
-/***** header *****/
-header {
-  width: 100%;
-}
-header .h-box {
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-  padding: 24px 32px;
-  position: static;
-  height: 140px;
-}
-header .h-box .h-menu {
-  font-family: var(--en-font);
-  font-size: var(--font-size14);
-}
-header .h-box .h-menu a {
-  color: #fff;
-  margin-left: 6rem;
-}
-header .h-box .h-menu .c-g {
-  color: var(--point-color);
-}
-header .h-box .h-menu .g-g:hover {
-  text-decoration: underline;
-  color: rgba(255, 255, 255, 0.6);
-}
-header .h-box .h-menu .c-g:hover {
-  text-decoration: underline;
+body {
+  background-color: #000;
+  background-image: url(./images/main-bg.svg);
+  background-position: 0 0;
+  background-size: auto;
+  overflow: visible;
+  overscroll-behavior: none;
 }
 
 /***** title *****/
