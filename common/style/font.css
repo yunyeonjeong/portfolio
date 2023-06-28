@@ -3,7 +3,7 @@
   src: url(../fonts/astra-100.woff2) format("woff2");
   font-weight: 700;
   font-style: Regular;
-  font-display: Uncategorized;
+  font-display: swap;
 }
 @font-face {
   font-family: "둥근모꼴";
