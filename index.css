@@ -205,6 +205,7 @@ footer .f-3 {
 footer .f-3 .f-g {
   color: var(--point-color);
   margin-right: 8vw;
+  animation: right 4s linear 0s infinite;
 }
 /*** fourth line ***/
 footer .f-4 {

@@ -26,6 +26,17 @@
     margin-top: 0px;
   }
 }
+@keyframes right {
+  30% {
+    margin-right: 10px;
+  }
+  40% {
+    margin-right: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
 
 .flex {
   display: flex;
@@ -81,14 +92,14 @@ header .h-box .h-menu .c-g:hover {
   width: 80px;
   height: 80px;
   display: block;
-  border: 1px solid #fff;
+  border: 2.5px solid rgba(255, 255, 255, 0.3);
   border-radius: 20px;
   text-align: center;
 }
 .sns a .s-i {
   height: 50px;
   width: 50px;
-  transform: translateY(30%);
+  transform: translateY(26%);
 }
 
 .sns a:hover {
