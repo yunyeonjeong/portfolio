@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "astra 100";
+  src: url(../fonts/astra-100.woff2) format("font-woff2");
+  font-weight: 700;
+  font-style: Regular;
+  font-display: Uncategorized;
+}
+@font-face {
+  font-family: "둥근모꼴";
+  src: url(../fonts/DungGeunMo.woff2) format("font-woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PP NeueBit";
+  src: url(../fonts/PPNeueBit-Bold.woff2) format("font-woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
