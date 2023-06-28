@@ -1,12 +1,12 @@
 //arrow
 
-$(document).ready(function () {
+/*$(document).ready(function () {
   Moving();
 });
 function Moving() {
-  $("#down").animate({ marginBottom: "40px" }, 200, "", function () {
-    $(this).animate({ margin: "0px" }, 200, "", function () {
+  $('.box5').animate({ marginBottom: '100px' }, 300, '', function () {
+    $(this).animate({ margin: '0px' }, 300, '', function () {
       Moving();
     });
   });
-}
+}*/
