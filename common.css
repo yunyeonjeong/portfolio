@@ -60,7 +60,7 @@ header .h-box {
 }
 header .h-box .h-menu {
   font-family: var(--en-font);
-  font-size: var(--font-size14);
+  font-size: var(--font-size20);
 }
 header .h-box .h-menu a {
   color: #fff;

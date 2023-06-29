@@ -56,7 +56,7 @@ header {
 /***** section *****/
 section .s-box {
   width: 100%;
-  height: 260vh;
+  height: 200vh;
   position: relative;
 }
 section .s-box .textBox {
@@ -68,7 +68,7 @@ section .s-box .textBox {
   opacity: 1;
 }
 section .s-box .textBox .t-box {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   border: 3px solid #000;
   outline: 3px solid #fff;
   margin-top: 18vh;
@@ -88,18 +88,74 @@ h6 {
 .b-p {
   color: var(--point-color);
 }
-
+/*** background ***/
 section .box1 {
   width: 100%;
   height: 34vh;
+  position: relative;
+}
+section .box1 .space1 {
+  position: absolute;
+  right: 1%;
+  top: 188%;
+}
+section .box1 .space1 img {
+  width: 30vw;
+}
+section .box1 .space2 {
+  position: absolute;
+  right: 10%;
+  top: 130%;
+}
+section .box1 .space2 img {
+  width: 28vw;
+}
+section .box1 .space3 {
+  position: absolute;
+  left: 2%;
+  top: 140%;
+  transform: rotate(30deg);
+}
+section .box1 .space3 img {
+  width: 28vw;
+}
+section .box1 .space4 {
+  position: absolute;
+  left: 16%;
+}
+section .box1 .space4 img {
+  width: 10vw;
+}
+section .box1 .space5 {
+  position: absolute;
+  right: 16%;
+  top: 30%;
+}
+section .box1 .space5 img {
+  width: 12vw;
 }
 section .box2 {
   width: 100%;
-  height: 30vh;
-  /*background-image: url(./images/bg-f.png);*/
+  position: relative;
+}
+section .box2 .space6 {
+  position: absolute;
+  left: 10%;
+  bottom: 110%;
+}
+section .box2 .space6 img {
+  width: 12vw;
+}
+section .box2 .space7 {
+  position: absolute;
+  right: 10%;
+  bottom: 150%;
+}
+section .box2 .space7 img {
+  width: 6vw;
 }
 section .box3 {
   width: 100%;
-  height: 30vh;
-  background: url(./images/bg-f1.png) repeat 1% / contain;
+  height: 80vh;
+  background: url(./images/bg-f1.png) repeat-x 0% / cover;
 }
