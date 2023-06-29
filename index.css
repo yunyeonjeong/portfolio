@@ -129,20 +129,25 @@ main .m-wrapper .m-6 {
 }
 /*** text ***/
 main .m-wrapper .m-t-box {
-  height: 100%;
   font-family: var(--en-font);
-  text-align: left;
-  font-size: var(--font-size26);
+  font-size: var(--font-size32);
   color: #fff;
-  align-items: flex-end;
-  padding: 0 0 15px 15px;
   position: relative;
   overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.8);
+  outline: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: right;
+  width: 42%;
+  height: 8vh;
+  transform: translate(131%, 13%);
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1vw;
 }
 main .m-wrapper .m-t-box .m-g {
   color: var(--point-color);
-  font-size: var(--font-size20);
-  margin-top: 0.7vw;
+  font-size: var(--font-size22);
+  margin-top: 0.7vw;26
 }
 main .m-wrapper .m-k {
   font-family: var(--ko-font);
