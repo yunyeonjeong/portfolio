@@ -1,77 +1,40 @@
 //Loading
-const loader = document.querySelector(".loader");
-const html = document.querySelector("html");
+const loader = document.querySelector('.loader');
+const html = document.querySelector('html');
 
-html.style.overflow = "hidden"; //로딩 중 스크롤 방지
+html.style.overflow = 'hidden';
 
-window.addEventListener("load", () => {
+window.addEventListener('load', () => {
   setTimeout(() => {
-    //  <-* 로딩속도를 구현하기 위한 코드로 실제 적용시 제거
-
-    loader.style.opacity = "0";
-    html.style.overflow = "auto"; //스크롤 방지 해제
+    loader.style.opacity = '0';
+    html.style.overflow = 'auto';
 
     setTimeout(() => {
-      loader.style.display = "none";
+      loader.style.display = 'none';
     }, 400);
-  }, 2000); // <-* 로딩속도 구현
+  }, 2000);
 });
 
-/*const loader = $(".loader");
-const html = $("html");
-
-html.css({ overflow: "hidden" }); //로딩 중 스크롤 방지
-
-$(window).on("load", () => {
-  setTimeout(() => {
-    //  <-* 로딩속도 구현
-
-    loader.fadeOut(300);
-    html.css({ overflow: "auto" }); //스크롤 방지 해제
-  }, 2000); //  <-* 로딩속도 구현
-});*/
-
 // 하단 소개
-/*(function sBox() {
-  let text = document.querySelector(".text");
-  let tBox1 = document.querySelector(".t-box1");
-  let tBox2 = document.querySelector(".t-box2");
-  let tBox3 = document.querySelector(".t-box3");
-  let tBox4 = document.querySelector(".t-box4");
-  let tBox5 = document.querySelector(".t-box5");
+$(window).on('scroll', () => {
+  if ('.textBox'.offsetTop > '#t-box1'.offsetTop) {
+    $('#t-box1').css({ opacity: 1 });
+  } else {
+    $('#t-box1').css({ opacity: 0 });
+  }
+});
 
-  addEventListener("scroll", () => {
-    console.log(text.scrollTop);
+/*$(window).on('scroll', () => {
+  let scrollHt = $(document).scrollTop();
 
-    if (ImgBox.offsetTop > txt1.offsetTop) {
-      ImgBox.style.transform = "translateY(0)";
-      ImgBox.style.opacity = "1";
-      if (ImgBox.offsetTop >= txt1.offsetTop - 300) {
-        img1.style.opacity = "1";
-        if (ImgBox.offsetTop >= txt2.offsetTop - 200) {
-          img2.style.opacity = "1";
-          if (ImgBox.offsetTop >= txt3.offsetTop - 200) {
-            img3.style.opacity = "1";
-            if (ImgBox.offsetTop >= txt4.offsetTop - 200) {
-              img4.style.opacity = "1";
-              if (ImgBox.offsetTop > txt4.offsetTop) {
-                ImgBox.style.opacity = "0";
-              }
-            } else {
-              img4.style.opacity = "0";
-            }
-          } else {
-            img3.style.opacity = "0";
-          }
-        } else {
-          img2.style.opacity = "0";
-        }
-      } else {
-        img1.style.opacity = "0";
-      }
-    } else {
-      ImgBox.style.opacity = "0";
-      ImgBox.style.transform = "translateY(-150px)";
-    }
-  });
-})();*/
+  if (scrollY > 200) {
+    $('#t-box1').css({ opacity: 1 });
+  } else {
+    $('#t-box1').css({ opacity: 0 });
+  }
+  if (scrollY > 200) {
+    $('#t-box2').css({ opacity: 1 });
+  } else {
+    $('#t-box2').css({ opacity: 0 });
+  }
+});*/

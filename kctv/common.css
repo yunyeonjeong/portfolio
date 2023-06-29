@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+body {
+  font-family: var(--main-font);
+  text-transform: uppercase;
+  text-align: center;
+  word-break: break-all;
+  overflow-wrap: break-word;
+  line-height: 1.7;
+}
+
+img {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
