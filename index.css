@@ -114,10 +114,12 @@ main .m-wrapper .m-4 {
 main .m-wrapper .m-5 {
   width: 31.5vw;
   height: 45.7vw;
-  background: url() no-repeat center / cover;
   outline: 3px solid rgba(255, 255, 255, 0.6);
   border: 3px solid #000;
   transition: all 0.1s linear;
+  background: url(./images/m5.png) no-repeat center / cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
 }
 main .m-wrapper .m-6 {
   width: 31.5vw;
