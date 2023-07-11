@@ -3,8 +3,8 @@
 /* 변수 선언 */
 
 :root {
-  --main-font: "Noto Sans KR", -apple-system, BlinkMacSystemFont,
-    "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+  --main-font: 'Noto Sans KR', -apple-system, BlinkMacSystemFont,
+    'Malgun Gothic', '맑은 고딕', helvetica, 'Apple SD Gothic Neo', sans-serif;
 
   --font-size13: 0.813rem;
   --font-size14: 0.875rem;

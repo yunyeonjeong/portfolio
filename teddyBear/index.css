@@ -243,7 +243,7 @@ main .animation {
 main .zookeeper_wrapper {
   height: 2000px;
   position: sticky;
-  top: 120px;
+  top: 80px;
 }
 main .animation .zookeeper {
   height: 100vh;
@@ -290,7 +290,7 @@ main .animation .where_wrapper {
 }
 main .animation .where {
   position: sticky;
-  top: 120px;
+  top: 80px;
   height: 100vh;
   text-align: center;
   background-color: #ffad99;
@@ -320,18 +320,19 @@ main .animation .where > p {
   transition: 1s;
 }
 
-main .animation .where a{
+main .animation .where a {
   position: absolute;
-  left: 43%; bottom: 1%;
-  transform: translate(-50%,-50%);
+  left: 43%;
+  bottom: 1%;
+  transform: translate(-50%, -50%);
 }
 
 main .animation .where .button--nina.button--nina {
   background: var(--color-gray);
   color: var(--color-pink);
 }
-main .animation .where .button--nina:hover{
-  background:var(--color-white);
+main .animation .where .button--nina:hover {
+  background: var(--color-white);
 }
 
 main .animation .where .where-ani {
@@ -450,4 +451,3 @@ main .schedule .button--nina {
   justify-content: center;
   position: relative;
 }
-

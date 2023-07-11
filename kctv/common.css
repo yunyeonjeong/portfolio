@@ -1,5 +1,20 @@
 @charset "utf-8";
 
+::-webkit-scrollbar {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 17px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.1);
+  background: var(--point-color);
+  border-radius: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--main-font);
   text-transform: uppercase;
@@ -9,10 +24,10 @@ body {
   line-height: 1.7;
 }
 
-img {
-  width: 100%;
-}
-
 .flex {
   display: flex;
+}
+
+span {
+  display: block;
 }
