@@ -1,10 +1,10 @@
 @charset "utf-8";
 
 /* 변수 선언 */
-@import url(./variable.css);
+@import url(./common/style/variable.css);
 
 /* common */
-@import url(./common.css);
+@import url(./common/style/common.css);
 
 body {
   background-color: #000;

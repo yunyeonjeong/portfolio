@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "Helvetica-95-Black";
+  src: url("../fonts/Helvetica-95-Black.woff") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gyeonggi";
+  src: url("../fonts/경기천년바탕_Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gyeonggi";
+  src: url("../fonts/경기천년바탕_Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

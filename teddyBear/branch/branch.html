@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Teddybear Museum</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="../assets/favicon/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+  <!-- <link rel="manifest" href="../site.webmanifest"> -->
+
+  <!-- icon -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+  <!-- reset -->
+  <link rel="stylesheet" href="../assets/style/reset.css">
+
+  <!-- font -->
+  <link rel="stylesheet" href="../assets/style/fonts.css">
+
+
+  <!-- 공통 스타일 -->
+  <link rel="stylesheet" href="../assets/style/style.css">
+  <link rel="stylesheet" href="./branch.css">
+
+  <!-- script -->
+  <script src="../assets/style/jquery-3.7.0.min.js"></script>
+  <script src="../assets/style/style.js"></script>
+  <script defer src="./branch.js"></script>
+</head>
+
+<body>
+  <!----- header ----->
+  <header class="menu_wrapper flex">
+    <div class="menu_wrapper_box flex">
+      <h1><a href="../index.html" class="menu_wrapper_logo">Teddy Bear</a></h1>
+
+      <div class="menu_wrapper_nav">
+        <a href="../index.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101 90" width="101" height="90"
+            preserveAspectRatio="xMidYMid meet"
+            style="width: 22%; height: 100%; transform: translate3d(0px, 5px, 0px); content-visibility: visible;">
+            <defs>
+              <clipPath id="__lottie_element_139">
+                <rect width="101" height="90" x="0" y="0"></rect>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#__lottie_element_139)">
+              <g transform="matrix(1,0,0,1,-4.5,2)" opacity="1" style="display: block;">
+                <g opacity="1" transform="matrix(1,0,0,1,61.89899826049805,11.258999824523926)">
+                  <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(0,0,0)"
+                    stroke-opacity="1" stroke-width="4"
+                    d=" M-35.016998291015625,1.2580000162124634 C-11.746000289916992,-0.7870000004768372 11.675999641418457,-1.2589999437332153 35.016998291015625,-0.15399999916553497">
+                  </path>
+                </g>
+              </g>
+              <g transform="matrix(1,0,0,1,-4.5,2)" opacity="1" style="display: block;">
+                <g opacity="1" transform="matrix(1,0,0,1,60.31700134277344,26.56999969482422)">
+                  <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(0,0,0)"
+                    stroke-opacity="1" stroke-width="4"
+                    d=" M-34.064998626708984,2.0959999561309814 C-11.572999954223633,-1.3179999589920044 11.369999885559082,-2.0959999561309814 34.064998626708984,-0.2150000035762787">
+                  </path>
+                </g>
+              </g>
+              <g transform="matrix(1,0,0,1,-4.5,2)" opacity="1" style="display: block;">
+                <g opacity="1" transform="matrix(1,0,0,1,52.064998626708984,58.70399856567383)">
+                  <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(0,0,0)"
+                    stroke-opacity="1" stroke-width="4.000038360551817"
+                    d=" M13.355267524719238,20.08272933959961 C6.83726692199707,18.348730087280273 0.34126922488212585,15.368728637695312 -3.207730770111084,10.207728385925293 C-6.756730556488037,5.0457282066345215 -6.176729202270508,-2.6792690753936768 -0.5207290649414062,-6.042269229888916 C2.594270944595337,-7.894268989562988 7.792269229888916,-7.559269905090332 9.042268753051758,-4.417270660400391 C10.239269256591797,-1.4042704105377197 7.075270175933838,1.4937307834625244 4.042270183563232,3.207730770111084 C-5.313729763031006,8.49673080444336 -16.679729461669922,10.90772819519043 -27.70772933959961,9.89572811126709 C-30.939727783203125,9.59872817993164 -34.206729888916016,8.993728637695312 -36.95772933959961,7.457728385925293 C-39.7097282409668,5.921728610992432 -41.923728942871094,3.2837493419647217 -42.020729064941406,0.3957493305206299 C-42.176727294921875,-4.260251045227051 -37.245731353759766,-7.7352681159973145 -32.58272933959961,-9.855268478393555 C-10.45872974395752,-19.91126823425293 18.066999435424805,-19.243000030517578 42.064998626708984,-14.402999877929688">
+                  </path>
+                </g>
+              </g>
+            </g>
+          </svg>Menu</a>
+      </div>
+    </div>
+    <ul class="menu_wrapper_list">
+      <li>
+        <a href="../about/about.html">ABOUT</a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="509" height="160" viewBox="0 0 509 160" fill="none">
+          <path
+            d="M476.295 42.5259C466.824 29.6969 405.265 5.05158 234.792 9.10286C21.7015 14.167 4.02085 78.0537 2.76361 82.7241C-3.59178 106.333 25.7603 159 242.91 159C416.63 159 477.648 111.735 494.56 91.141C507.751 74.5983 516.663 50.9425 494.56 27.3343C472.456 3.72611 442.795 1.33771 427.236 1"
+            stroke="black" stroke-width="2" />
+        </svg>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" width="196" height="59" viewBox="0 0 196 59" fill="none">
+          <path
+            d="M194.418 54.0948C193.555 32.8151 170.634 -2.17117 85.8569 28.1223C37.4151 47.4169 57.2264 58.3089 66.6087 57.8596C78.6974 57.2808 113.453 46.5906 93.0137 20.5691C70.495 -3.08337 28.3431 -2.09796 0.59261 10.1695"
+            stroke="black" stroke-width="2" />
+        </svg>
+        <a href="./branch.html">BRANCH</a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="200" height="86" viewBox="0 0 200 86" fill="none">
+          <path
+            d="M51.9504 3.20464C36.4477 1.23407 4.87443 -0.739392 1.63797 10.4764C-2.16629 23.6598 35.6226 30.8239 55.5647 32.3218C13.4113 30.9712 23.9494 49.8146 28.5458 54.3862C41.6937 67.4629 66.3166 75.244 102.998 81.368C137.149 87.0697 166.232 85.2623 182.366 75.8692C189.358 71.7989 187.741 61.1158 163.263 52.7395C160.47 51.7837 115.8 37.9304 110.381 46.0345C108.9 53.8474 158.551 57.8908 169.583 57.2583C193.957 55.8607 201.129 52.4471 197.51 47.6104"
+            stroke="black" stroke-width="2" />
+        </svg>
+      </li>
+      <li>
+        <a href="../info/info.html">INFO</a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="54" height="18" viewBox="0 0 54 18" fill="none">
+          <path d="M1 16.6799C13 -1.82007 53 1.17992 53 1.17992" stroke="black" stroke-width="2" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="255" height="51" viewBox="0 0 255 51" fill="none">
+          <path
+            d="M253.097 20.7309C253.334 5.81438 225.382 -14.4154 111.684 23.9976C46.5888 47.3543 71.9978 51.1206 84.3932 48.9281C100.364 46.1031 146.865 31.5812 121.605 17.2124C93.4521 4.93873 37.8296 14.0566 0.460376 28.2978"
+            stroke="black" stroke-width="2" />
+        </svg>
+      </li>
+      <li>
+        <div class="nav_ani"></div>
+      </li>
+    </ul>
+  </header>
+
+  <!----- main ----->
+  <main>
+    <div class="bear_wrapper">
+      <img class='bear1' src="./images/bear1.png" alt="">
+    </div>
+    <!--- unique --->
+    <section class="unique_wrapper">
+      <h2 class="title1">Museum is unique <span class="block">to each branch!</span></h2>
+      <div class="deco">Out branches</div>
+    </section>
+
+    <!--- fabric --->
+    <section class="fabric_wrapper">
+      <div class="bigText fabric">
+        <span>Fabric</span>
+        <p>마티와 함께 떠나는 세계문화여행기</p>
+      </div>
+      <img class="fabric_img" src="./images/fabric.png" alt="">
+      <div class="bigText cotton">
+        <span>Cotton</span>
+        <p>테디와 친구들의 전 세계 도시로의 시공간여행!</p>
+      </div>
+      <img class="cotton_img" src="./images/cotton.png" alt="">
+      <div class="bigText needle">
+        <span>Needle</span>
+        <p>테디윌슨과 페르난도가 함께 떠나는 세계일주!</p>
+      </div>
+      <img class="needle_img" src="./images/needle.png" alt="">
+      <!-- svg -->
+
+      <svg class="arrow1" width="301" height="354" viewBox="0 0 301 354" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M105.274 330.916C28.9562 292.324 112.3 35.0584 149.182 197.863C186.064 360.667 -46.5852 160.259 207.325 21.2567"
+          stroke="black" stroke-width="4" />
+        <path d="M203.955 42.948C203.955 42.948 203.087 31.9724 211.631 19.3509" stroke="black" stroke-width="4" />
+        <path d="M186.467 13.1821C186.467 13.1821 195.942 19.8114 212.014 20.0032" stroke="black" stroke-width="4" />
+        <path d="M82.5986 338.613C82.5986 338.613 92.8845 332.893 108.885 334.177" stroke="black" stroke-width="4" />
+        <path d="M103.878 310.631C103.878 310.631 101.579 321.461 108.419 334.79" stroke="black" stroke-width="4" />
+      </svg>
+
+      <svg class="arrow2" width="257" height="288" viewBox="0 0 257 288" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M24.1862 42.571C43.0877 33.6995 248.509 205.269 99.7331 156.017C-49.0426 106.766 223.54 56.0195 234.546 243.098"
+          stroke="black" stroke-width="4" />
+        <path d="M223.283 236.849C223.283 236.849 230.004 239.106 235.556 247.088" stroke="black" stroke-width="4" />
+        <path d="M244.96 234.426C244.96 234.426 238.86 238.116 235.081 247.141" stroke="black" stroke-width="4" />
+        <path d="M35.1016 33.4983C35.1016 33.4983 30.3602 38.9237 21.0582 40.8964" stroke="black" stroke-width="4" />
+        <path d="M28.3467 54.9792C28.3467 54.9792 27.5993 47.7003 21.2042 40.4266" stroke="black" stroke-width="4" />
+      </svg>
+
+
+      <svg class="arrow3" width="348" height="336" viewBox="0 0 348 336" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M307.594 108.638C236.001 243 45.9676 205.987 31.465 199.276" stroke="black" stroke-width="4" />
+        <path d="M40.2559 190.492C40.2559 190.492 36.308 196.381 27.1449 199.634" stroke="black" stroke-width="4" />
+        <path d="M36.8828 212.042C36.8828 212.042 34.9306 205.184 27.22 199.161" stroke="black" stroke-width="4" />
+        <path d="M313.049 121.258C313.049 121.258 308.992 115.303 309.425 105.804" stroke="black" stroke-width="4" />
+        <path d="M293.96 109.313C293.96 109.313 301.193 110.423 309.842 106.065" stroke="black" stroke-width="4" />
+      </svg>
+
+
+    </section>
+    <!--- more --->
+    <section class="more_wrapper">
+      <h4>지점 상세보기</h4>
+      <ul class="museum_list">
+        <li>제주 테디베어뮤지엄
+          <div class="list_content_wrapper">
+            <p><span class="block">1902년 탄생 이래 전 연령층의 사랑을 받고있는 테디베어</span>제주 테디베어뮤지엄은 국내 최초이자 최대 규모의 테디베어 박물관으로 다양한
+              전시 콘텐츠를 선보이고
+              있습니다.
+            </p>
+            <ul class="list_content">
+              <li>
+                <img src="./images/jeju01.png" alt="">
+                <h5>역사관</h5>
+              </li>
+              <li><img src="./images/jeju02.png" alt="">
+                <h5>예술관</h5>
+              </li>
+              <li><img src="./images/jeju03.png" alt="">
+                <h5>기획전시</h5>
+              </li>
+              <li><img src="./images/jeju04.png" alt="">
+                <h5>야외정원</h5>
+              </li>
+              <li><img src="./images/jeju05.png" alt="">
+                <h5>슬로우 베어(야외무대)</h5>
+              </li>
+              <li><img src="./images/jeju06.png" alt="">
+                <h5>엘비스 공연장</h5>
+              </li>
+              <li><img src="./images/jeju07.png" alt="">
+                <h5>뮤지엄 샵</h5>
+              </li>
+              <li><img src="./images/jeju08.png" alt="">
+                <h5>테디베어 카페</h5>
+              </li>
+              <li><img src="./images/jeju09.png" alt="">
+                <h5>수유실</h5>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>설악 테디베어뮤지엄
+          <div class="list_content_wrapper">
+            <p><span class="block">테디윌슨과 페르난도가 함께 하는 설악 테디베어뮤지엄에서의 세계여행!</span> 전 세계 유명한 관광명소와 그들의 다양한 생활문화, 동화에서만 보고
+              상상하던
+              여러 주인공들을
+              테디베어로 표현하여 세계 문화를 보다 즐겁고 유쾌하게 관람할 수 있는 교육 전시이자 체험 전시입니다.</p>
+            <ul class="list_content">
+              <li><img src="./images/seorak01.png" alt="">
+                <h5>아시아</h5>
+              </li>
+              <li><img src="./images/seorak02.png" alt="">
+                <h5>아메리카, 유럽</h5>
+              </li>
+              <li><img src="./images/seorak03.png" alt="">
+                <h5>아프리카, 오세아니아</h5>
+              </li>
+              <li><img src="./images/seorak04.png" alt="">
+                <h5>동화마을</h5>
+              </li>
+              <li><img src="./images/seorak05.png" alt="">
+                <h5>궁 테디베어</h5>
+              </li>
+              <li><img src="./images/seorak06.png" alt="">
+                <h5>뮤지엄 샵</h5>
+              </li>
+              <li><img src="./images/seorak07.png" alt="">
+                <h5>아트 갤러리</h5>
+              </li>
+              <li><img src="./images/seorak08.png" alt="">
+                <h5>기네스 테디베어</h5>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>여수 테디베어뮤지엄
+          <div class="list_content_wrapper">
+            <p><span class="block">하와이 테디베어월드에서 선보였던 최고의 테디베어 전시를 여수로 옮겨왔습니다.</span>미국의 경이로운 관광지를 여행하는 테디베어와 살아있는 듯 생생하게
+              움직이는 공룡들을 만나볼 수 있으며,
+              8M 크기의 초대형 테디베어와 엘비스 프레슬리 공연, 다양한 컨셉의 포토존에서 즐거움을 만끽할 수 있습니다!</p>
+            <ul class="list_content">
+              <li><img src="./images/yeosu01.png" alt="">
+                <h5>Wonders of America 1</h5>
+              </li>
+              <li><img src="./images/yeosu02.png" alt="">
+                <h5>The World of Sweet Memories</h5>
+              </li>
+              <li><img src="./images/yeosu03.png" alt="">
+                <h5>Wonders of America 2</h5>
+              </li>
+              <li><img src="./images/yeosu04.png" alt="">
+                <h5>Dino Square</h5>
+              </li>
+              <li><img src="./images/yeosu05.png" alt="">
+                <h5>Elvis Theatre</h5>
+              </li>
+              <li><img src="./images/yeosu06.png" alt="">
+                <h5>Aquarium</h5>
+              </li>
+              <li><img src="./images/yeosu07.png" alt="">
+                <h5>Photo Zone</h5>
+              </li>
+              <li><img src="./images/yeosu08.png" alt="">
+                <h5>Save the Planet</h5>
+              </li>
+              <li><img src="./images/yeosu09.png" alt="">
+                <h5>Famous Teddy Bear</h5>
+              </li>
+              <li><img src="./images/yeosu10.png" alt="">
+                <h5>Art Gallery</h5>
+              </li>
+              <li><img src="./images/yeosu11.png" alt="">
+                <h5>Play Room</h5>
+              </li>
+              <li><img src="./images/yeosu12.png" alt="">
+                <h5>뮤지엄 샵</h5>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>군산 테디베어뮤지엄
+          <div class="list_content_wrapper">
+            <p><span class="block">사라진 테순이를 찾아 떠난 테디와 친구들의 모험이 펼처지는 군산테디베어 뮤지엄!</span>
+              20여개 나라의 현재와 과거의 모습을 담아, 역사 속에 기록된 다양한 러브스토리의 주인공들이 테디베어로 표현되어,
+              가족끼리, 친구끼리, 연인끼리 더욱 의미 있는 추억을 담을 수 있는 체험 전시 입니다</p>
+            <ul class="list_content">
+              <li><img src="./images/gunsan01.png" alt="">
+                <h5>DIORAMA</h5>
+              </li>
+              <li><img src="./images/gunsan02.png" alt="">
+                <h5>LOVE STORY</h5>
+              </li>
+              <li><img src="./images/gunsan03.png" alt="">
+                <h5>KENYA PLAINS</h5>
+              </li>
+              <li><img src="./images/gunsan04.png" alt="">
+                <h5>Gunsan History</h5>
+              </li>
+              <li><img src="./images/gunsan05.png" alt="">
+                <h5>ART GALLERY</h5>
+              </li>
+              <li><img src="./images/gunsan06.png" alt="">
+                <h5>뮤지엄 샵</h5>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!--- button --->
+    <section class="together_wrapper">
+      <div class="contentBox">
+        <h3 class="title2">Teddy Bear <span class=".block">Museum together?</span></h3>
+        <a href="./about/about.html">
+                <div class="btn button button--nina button--text-thick button--text-upper button--size-s"
+                    data-text="infomation">
+                    <span>i</span><span>n</span><span>f</span><span>o</span><span>m</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span>
+                </div>
+            </a>
+
+        <svg class="box_deco1" xmlns="http://www.w3.org/2000/svg" width="67" height="68" viewBox="0 0 67 68"
+          fill="none">
+          <path
+            d="M0.566462 24.3802C26.0979 29.5324 41.6179 11.6659 47.6031 1.11689C42.3202 16.7391 51.1563 33.5092 65.6591 46.3926C43.5276 38.9084 28.8895 57.1699 25.1505 67.5113C33.5152 42.7761 12.7873 28.9965 0.566462 24.3802Z"
+            stroke="black" stroke-width="2" />
+        </svg>
+
+        <svg class="box_deco2" width="128" height="130" viewBox="0 0 128 130" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M95.6215 124.013C98.113 122.413 88.1343 111.553 86.7141 109.687C82.8332 104.589 76.4022 100.404 70.413 98.2931C58.0317 93.93 45.3044 94.1007 32.3428 93.7821C13.7014 93.3239 -3.42075 80.3894 3.76748 59.9912C6.57722 52.0179 13.1825 49.5929 21.2784 51.4953C28.5057 53.1936 35.8642 60.0983 28.2111 66.4349C23.5251 70.3148 17.2337 64.4463 16.9916 59.4132C16.6252 51.7964 19.1407 43.5168 24.6328 38.0481C29.6169 33.0852 39.9326 32.8468 45.1796 37.3941C51.0109 42.4478 52.756 53.5509 42.1453 53.012C33.9014 52.5932 34.2252 41.9348 34.2371 36.3816C34.2553 27.8199 38.9904 18.7786 46.901 14.9905C57.1364 10.0893 81.5498 20.1925 73.271 34.1233C70.1116 39.4398 65.3446 33.7475 63.6719 30.2542C60.74 24.1317 61.3639 16.9319 65.0446 11.2822C72.0559 0.520044 90.2682 -2.24296 93.9037 12.7343C94.7394 16.1772 94.2865 26.392 88.8402 25.6166C81.3451 24.5496 85.5188 14.4513 87.1319 10.6099C89.3518 5.3233 97.1985 3.58466 102.262 4.30547C107.287 5.02081 111.311 9.94193 112.755 14.663C117.283 29.4716 111.568 44.5549 110.604 59.6261C110.019 68.7605 112.445 78.0304 116.356 86.1974C118.472 90.6168 122.136 94.1075 124.184 98.3845C125.23 100.57 127.226 101.046 124.975 103.041C122.736 105.023 121 108.673 118.791 110.926C115.108 114.684 111.377 118.113 107.404 121.58C105.546 123.201 101.616 125.907 101.578 128.133"
+            stroke="black" stroke-width="3" stroke-linecap="round" />
+        </svg>
+
+        <svg class="box_deco3" width="121" height="115" viewBox="0 0 121 115" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M46.2976 1.91096C66.6811 -3.13968 58.3315 46.3202 3.70889 71.1873C42.0193 76.1181 37.6643 71.0157 73.2343 110.623C68.7535 88.3816 69.7129 54.8328 120.187 42.3264C70.9471 44.568 -8.10698 38.4687 46.2976 1.91096Z"
+            stroke="black" stroke-width="2" />
+        </svg>
+
+        <svg class="box_deco4" width="96" height="99" viewBox="0 0 96 99" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M0.376985 35.1542C37.5331 42.6522 60.1196 16.6508 68.83 1.2988C61.1416 24.034 74.001 48.4397 95.107 67.189C62.8988 56.2972 41.5958 82.8734 36.1545 97.9234C48.3277 61.926 18.1621 41.8723 0.376985 35.1542Z"
+            stroke="black" stroke-width="2" />
+        </svg>
+        <img class="bear2" src="./images/bear2.png" alt="">
+      </div>
+    </section>
+  </main>
+  <!----- footer ----->
+  <footer>
+    <ul class="gnb flex">
+      <li>
+        <ul class="company">
+          <li>TEDDY BEAR</li>
+          <li>(주)제이에스앤에프</li>
+        </ul>
+      </li>
+      <li class="gnb_box">
+        <ul>
+          <li class="subhead">Menu</li>
+          <li>
+            <ul>
+              <li><a href="../about/about.html">about</a></li>
+              <li><a href="../branch/branch.html">branch</a></li>
+              <li><a href="../info/info.html">info</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+
+      <li class="gnb_box">
+        <ul>
+          <li class="subhead">Contact</li>
+          <li>
+            <ul>
+              <li>강남구 연주로 866 7층</li>
+              <li>205-81-13977</li>
+              <li>대표이사 : 김정수</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+      <li class="gnb_box">
+        <ul>
+          <li class="subhead">Team</li>
+          <li>
+            <ul>
+              <li><a href="https://gogoma0401.github.io/portfolio/main/main.html" target="_blank">변준현</a>
+              </li>
+              <li><a href="https://github.com/yunyeonjeong" target="_blank">윤연정</a></li>
+              <li><a href="https://mellow9307.github.io/portfolio/" target="_blank">조연희</a></li>
+              <li><a href="https://github.com/RyuKyoungHyun?tab=repositories" target="_blank">류경현</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="site">
+      <ul class="flex">
+        <li>Copyright ⓒ TEDDY BEAR MUSEUM. All Rights Reserved.</li>
+
+        <li>
+                    <a href="http://www.teddybearmuseum.com/site/" target="_blank">
+                        <div class="btn button button--nina button--text-thick button--text-upper button--size-s"
+                            data-text="기존사이트">
+                            <span>기</span><span>존</span><span
+                                class="jump"></span></span><span>사</span>
+                            <span>이</span><span>트</span>
+                        </div>
+                    </a>
+                </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>

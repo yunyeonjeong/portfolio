@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/* 변수 선언 */
+
+:root {
+  --en-font: 'Helvetica-95-Black', -apple-system, BlinkMacSystemFont,
+    'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;
+  --ko-font: 'Gyeonggi', -apple-system, BlinkMacSystemFont, 'Malgun Gothic',
+    '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;
+
+  --color-pink: #ffad99;
+  --color-gray: #f0f0f0;
+  --color-white: #ffffff;
+
+  --size-font140: 8.75rem;
+  --size-font96: 6rem;
+  --size-font90: 5.625rem;
+  --size-font30: 1.875rem;
+  --size-font24: 1.5rem;
+  --size-font22: 1.375rem;
+  --size-font21: 1.313rem;
+  --size-font20: 1.25rem;
+  --size-font18: 1.125rem;
+}

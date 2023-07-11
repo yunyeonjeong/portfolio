@@ -1,0 +1,263 @@
+@charset "utf-8";
+
+@import url(../assets/style/variable.css);
+body {
+  line-height: 1;
+}
+.block {
+  display: block;
+}
+img {
+  width: 16.979vw;
+}
+a {
+  display: block;
+}
+/*----- header -----*/
+
+/*----- main -----*/
+main {
+  font-family: var(--en-font);
+  text-align: center;
+}
+section {
+  height: 960px;
+}
+main .bear_wrapper {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+  z-index: -1;
+  /* transition: 1s; */
+}
+main:hover .bear_wrapper {
+  top: 10%;
+}
+main .bear_wrapper .bear1 {
+  transition: 1s;
+}
+/*--- unique ---*/
+main .unique_wrapper {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+main .unique_wrapper .deco {
+  position: absolute;
+  bottom: 0;
+}
+
+/*--- fabric ---*/
+main .fabric_wrapper {
+  position: relative;
+}
+main .bigText {
+  position: absolute;
+  font-size: 8rem;
+}
+main .bigText img {
+  position: absolute;
+  z-index: -1;
+}
+main .bigText p {
+  text-align: left;
+  text-indent: 5px;
+  font-family: var(--ko-font);
+  font-size: var(--size-font22);
+  margin-top: 40px;
+}
+main .fabric {
+  top: 15%;
+  left: 36%;
+}
+main .cotton {
+  bottom: 29%;
+  right: 20%;
+}
+main .needle {
+  bottom: 20%;
+  left: 15%;
+}
+main .fabric_img,
+main .cotton_img,
+main .needle_img {
+  position: absolute;
+  z-index: -1;
+  top: -120px;
+  left: 50%;
+  transform: translateX(-50%) scale(0);
+  opacity: 0;
+  transition: 1s;
+}
+main .fabric_img.active {
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+  top: -1%;
+  left: 43%;
+}
+main .cotton_img.active {
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+  top: 35%;
+  left: 71%;
+}
+main .needle_img.active {
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+  top: 53%;
+  left: 25%;
+}
+main svg {
+  position: absolute;
+}
+main .arrow1 {
+  top: 14%;
+  left: 17%;
+  transform: rotate(23deg);
+}
+main .arrow1 path,
+main .arrow2 path,
+main .arrow3 path {
+  transition: 1s;
+}
+main .arrow2 {
+  top: 12%;
+  right: 25%;
+  transform: rotate(-9deg);
+}
+main .arrow3 {
+  left: 39%;
+  bottom: 4%;
+  transform: rotate(9deg);
+}
+/*--- more ---*/
+main .more_wrapper {
+  height: auto;
+  padding: 111px 0;
+  background-color: var(--color-gray);
+  font-size: 40px;
+  font-family: var(--ko-font);
+}
+main .more_wrapper h4 {
+  font-weight: bold;
+  font-size: 3.5rem;
+  padding-bottom: 75px;
+}
+main .more_wrapper .museum_list > li {
+  text-align: left;
+  padding: 30px 75px;
+  width: 43%;
+  margin: 0 auto 25px;
+  background-color: #fff;
+  cursor: pointer;
+  position: relative;
+}
+main .more_wrapper .museum_list > li::after {
+  content: '\e5cf';
+  font-family: 'Material Symbols Outlined';
+  position: absolute;
+  top: 50px;
+  right: 40px;
+  transform: translateY(-50%);
+}
+main .more_wrapper .museum_list > li.rotate::after {
+  transform: translateY(-50%) rotate(180deg);
+}
+main .more_wrapper .museum_list .list_content_wrapper {
+  display: none;
+}
+main .more_wrapper .museum_list .list_content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: var(--size-font22);
+}
+main .more_wrapper .museum_list .list_content li {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+main .more_wrapper .museum_list p {
+  margin: 50px 0;
+  line-height: 1.5;
+  font-size: var(--size-font22);
+}
+main .more_wrapper .museum_list p span {
+  color: #ff6139;
+}
+main .more_wrapper .museum_list .list_content h5 {
+  margin: 20px;
+  text-align: center;
+}
+main .more_wrapper .museum_list .list_content img {
+  width: 80%;
+}
+
+/*--- together ---*/
+main .together_wrapper {
+  height: 830px;
+  padding: 111px 0;
+}
+main .together_wrapper .contentBox {
+  width: 82%;
+  height: 100%;
+  background-color: var(--color-pink);
+  margin: 0 auto;
+  position: relative;
+}
+main .together_wrapper .contentBox h3 {
+  padding-top: 143px;
+  margin-bottom: 40px;
+}
+main .together_wrapper .contentBox .info_button {
+  background: #fff;
+  color: #000;
+  font-size: var(--size-font30);
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: 1s;
+}
+main .together_wrapper .contentBox .button--nina.button--nina {
+  background: var(--color-gray);
+  color: var(--color-pink);
+}
+main .together_wrapper .contentBox .button--nina:hover{
+  background:var(--color-white);
+}
+main .together_wrapper .contentBox > svg {
+  position: absolute;
+}
+main .together_wrapper .contentBox > svg path {
+  transition: 1s;
+}
+main .together_wrapper .contentBox .box_deco1 {
+  top: 117px;
+  right: 271px;
+}
+main .together_wrapper .contentBox .box_deco2 {
+  top: 20%;
+  left: 6%;
+}
+main .together_wrapper .contentBox .box_deco3 {
+  bottom: 22%;
+  right: 9%;
+}
+main .together_wrapper .contentBox .box_deco4 {
+  bottom: 10%;
+  right: 19%;
+}
+main .together_wrapper .contentBox .bear2 {
+  position: absolute;
+  width: 400px;
+  bottom: 5%;
+  left: 2%;
+}
+/*----- footer ------*/
+
+footer {
+  margin: 0;
+}

@@ -1,0 +1,271 @@
+@charset "utf-8";
+@import url(../assets/style/variable.css);
+
+/*----- title -----*/
+.title_wrapper {
+  padding: 0 2%;
+  text-align: center;
+  padding-top: 210px;
+}
+.title_wrapper .title_wrapper_ani {
+  width: 500px;
+  height: 400px;
+  background: url(./images/ani2.png) no-repeat;
+  animation: about_ani 5s steps(12, start) infinite;
+  margin: 180px auto;
+}
+@keyframes about_ani {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -4800px 0;
+  }
+}
+.title_wrapper .deco {
+  padding-top: 21px;
+}
+.title_wrapper h4 {
+  padding: 78.5px 0 162px 0;
+  font-family: var(--ko-font);
+  font-size: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+
+/*----- what -----*/
+.what_wrapper {
+  height: 1077px;
+  background-color: #f0f0f0;
+}
+.what_wrapper .what_wrapper-txt {
+  width: 56%;
+  padding-left: 118px;
+}
+.what_wrapper .what_wrapper-txt .title2 {
+  padding-top: 238px;
+  justify-content: flex-start;
+  text-align: left;
+}
+.what_wrapper .what_wrapper-txt .title2 span {
+  padding-left: 80px;
+}
+.what_wrapper .what_wrapper-txt h6 {
+  width: 712px;
+  font-family: var(--ko-font);
+  font-size: 30px;
+  line-height: 50px;
+  padding-top: 62px;
+}
+.what_wrapper .what_wrapper-txt h5 {
+  font-family: var(--en-font);
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: -0.64px;
+  padding-top: 44px;
+}
+.what_wrapper .what_wrapper_img {
+  width: 682px;
+  height: 850px;
+  background: url(./images/what_img.png) no-repeat 50% / cover;
+  border: 30px solid var(--color-pink);
+  border-left: none;
+  border-top: none;
+  margin-top: 95px;
+  transform: translate(0, 0);
+}
+
+/*----- museum -----*/
+.museum_wrapper {
+  position: relative;
+  height: 1152px;
+}
+.museum_wrapper .museum_wrapper-img {
+  width: 960px;
+  height: 840px;
+  padding-bottom: 92px;
+}
+.museum_wrapper .museum_wrapper-img .museum_wrapper-img1 {
+  width: 475px;
+  height: 464px;
+  background: url(./images/museum1.jpg) no-repeat 50% / cover;
+  position: absolute;
+  top: 220px;
+  left: 485px;
+  transition: 0.3s;
+}
+.museum_wrapper .museum_wrapper-img .museum_wrapper-img1:hover {
+  scale: 1.2;
+}
+.museum_wrapper .museum_wrapper-img .museum_wrapper-img2 {
+  width: 460px;
+  height: 577px;
+  background: url(./images/museum2.png) no-repeat 50% / cover;
+  position: absolute;
+  top: 483px;
+  left: 244px;
+  transition: 0.3s;
+}
+.museum_wrapper .museum_wrapper-img .museum_wrapper-img2:hover {
+  scale: 1.2;
+}
+.museum_wrapper .museum_wrapper_txt .title2 {
+  padding: 295px 0 130px 77px;
+}
+.museum_wrapper .museum_wrapper_txt .title2 span {
+  padding-left: 100px;
+}
+.museum_wrapper .museum_wrapper_txt h6 {
+  width: 736px;
+  font-family: var(--ko-font);
+  font-size: 30px;
+  line-height: 50px;
+  padding-left: 77px;
+}
+
+/*----- process ------*/
+.process_wrapper {
+  width: 1630px;
+  height: 592px;
+  background-color: var(--color-pink);
+  margin: 129px auto;
+  position: relative;
+}
+.process_wrapper .process_wrapper_img {
+  width: 258px;
+  height: 258px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: -129px;
+  background: var(--color-pink) url(./images/process_img.png) no-repeat 50% 20px /
+    32%;
+}
+.process_wrapper .process_wrapper_img p {
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 109px;
+  transform: translate(-50%);
+  text-align: center;
+  font-family: var(--ko-font);
+  font-size: 16px;
+  font-weight: bold;
+}
+.process_wrapper .process_wrapper_circle {
+  position: absolute;
+  top: 125px;
+  left: 50%;
+  transform: translate(-50%);
+  padding-bottom: 74.8px;
+  height: 297.2px;
+}
+.process_wrapper .process_wrapper_circle .process_wrapper_circle2 {
+  width: 297.2px;
+  height: 297.2px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  background: #ffbfaf;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.process_wrapper .process_wrapper_circle .process_wrapper_circle2 p {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  border: 2px dashed #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  color: #000;
+  font-family: var(--en-font);
+  line-height: 50px;
+  font-weight: bold;
+}
+.process_wrapper > p {
+  width: 1565px;
+  margin: 0 auto;
+  position: absolute;
+  top: 497px;
+  left: 32.5px;
+  font-family: var(--ko-font);
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/*----- processimg -----*/
+.processimg-wrapper {
+}
+.processimg-wrapper .processimg-wrapper_img {
+  width: 1379px;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding-bottom: 300px;
+}
+.processimg-wrapper .processimg-wrapper_img .processimg_img {
+  width: 300px;
+  height: 300px;
+  border: 1.5px solid #ffad99;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+.processimg_img {
+  transition: 0.3s;
+}
+.processimg_img:hover {
+  scale: 1.05;
+}
+.processimg-wrapper .processimg-wrapper_img .processimg_img:nth-child(1) {
+  background: url(./images/about1.png) no-repeat 50% / 270px 270px;
+}
+.processimg-wrapper .processimg-wrapper_img .processimg_img:nth-child(2) {
+  background: url(./images/about02.png) no-repeat 50% / 270px 270px;
+}
+.processimg-wrapper .processimg-wrapper_img .processimg_img:nth-child(3) {
+  background: url(./images/about03.png) no-repeat 50% / 270px 270px;
+}
+/* 죄송..;; */
+.processimg-wrapper
+  .processimg-wrapper_img:nth-child(2)
+  .processimg_img:nth-child(1) {
+  background: url(./images/about04.png) no-repeat 50% / 270px 270px;
+}
+.processimg-wrapper
+  .processimg-wrapper_img:nth-child(2)
+  .processimg_img:nth-child(2) {
+  background: url(./images/about05.png) no-repeat 50% / 270px 270px;
+}
+.processimg-wrapper
+  .processimg-wrapper_img
+  .processimg_img
+  .precess_wrapper_txt {
+  padding-top: 346px;
+  text-align: center;
+}
+.processimg-wrapper
+  .processimg-wrapper_img
+  .processimg_img
+  .precess_wrapper_txt
+  h6 {
+  font-family: var(--en-font);
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 19px;
+}
+.processimg-wrapper
+  .processimg-wrapper_img
+  .processimg_img
+  .precess_wrapper_txt
+  p {
+  width: 403px;
+  font-family: var(--ko-font);
+  font-size: 20.1px;
+  line-height: 135%;
+}
+

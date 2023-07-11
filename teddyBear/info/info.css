@@ -1,0 +1,245 @@
+@charset "utf-8";
+
+/* 변수 */
+@import url(../assets/style/variable.css);
+
+/*----- main -----*/
+
+/*--- title ---*/
+.info_wrapper {
+  margin: 8rem 0;
+}
+/*- title-img -*/
+.info_wrapper .info_wrapper_img {
+  width: 1000px;
+  height: 400px;
+  background: url(./images/title_img.gif) no-repeat;
+  margin: 10rem auto;
+}
+
+/*--- swiper ---*/
+.mySwiper {
+  height: 100vh;
+  margin: 10rem 0;
+  overflow: hidden;
+}
+.mySwiper .swiper-wrapper {
+  width: 400%;
+}
+.mySwiper .swiper-wrapper .swiper-slide {
+  background-color: var(--color-gray);
+  width: 100%;
+  flex-grow: 0;
+  justify-content: center;
+  gap: 242px;
+}
+
+/*- swiper-txt -*/
+.mySwiper .swiper-wrapper .swiper-slide .swiper_txt {
+  flex-direction: column;
+  justify-content: center;
+}
+.mySwiper .swiper-wrapper .swiper-slide .swiper_txt .sm {
+  font-family: var(--ko-font);
+  font-size: var(--size-font20);
+  letter-spacing: -1px;
+}
+.mySwiper .swiper-wrapper .swiper-slide .swiper_txt .title2 {
+  text-align: left;
+  margin: 3rem 0 5rem 0;
+}
+.mySwiper .swiper-wrapper .swiper-slide .swiper_txt address {
+  font-family: var(--ko-font);
+  font-size: var(--size-font22);
+  font-style: normal;
+  letter-spacing: -1px;
+  margin-bottom: 1.1rem;
+}
+.mini1 {
+  font-family: var(--ko-font);
+  font-size: var(--size-font22);
+  margin: 3rem 0 1.1rem 9px;
+  position: relative;
+}
+.mini1::before {
+  content: '';
+  display: block;
+  width: 5px;
+  height: 30px;
+  background-color: var(--color-pink);
+  position: absolute;
+  top: -4px;
+  left: -9px;
+}
+.mini2 {
+  font-family: var(--ko-font);
+  font-size: var(--size-font22);
+}
+/*- swiper-img -*/
+.mySwiper .swiper-wrapper .swiper_img1 {
+  width: 620px;
+  height: 786px;
+  background: var(--color-pink) url(./images/myswiper1.png) no-repeat 100% / 96%
+    94%;
+  margin: 107px 0;
+}
+.mySwiper .swiper-wrapper .swiper_img2 {
+  width: 620px;
+  height: 786px;
+  background: var(--color-pink) url(./images/myswiper2.png) no-repeat 100% / 96%
+    94%;
+  margin: 107px 0;
+}
+.mySwiper .swiper-wrapper .swiper_img3 {
+  width: 620px;
+  height: 786px;
+  background: var(--color-pink) url(./images/myswiper3.png) no-repeat 100% / 96%
+    94%;
+  margin: 107px 0;
+}
+.mySwiper .swiper-wrapper .swiper_img4 {
+  width: 620px;
+  height: 786px;
+  background: var(--color-pink) url(./images/myswiper4.png) no-repeat 100% / 96%
+    94%;
+  margin: 107px 0;
+}
+
+/*--- 추가 옵션 ---*/
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--color-pink);
+}
+
+/*--- china Museum ---*/
+.china_wrapper {
+  padding: 0 2%;
+}
+.china_wrapper .china_wrapper_inner {
+  flex-direction: row;
+  justify-content: space-between;
+}
+.china_wrapper .china_wrapper_inner .wrapper_inner_chengdu {
+  flex-direction: column;
+}
+/*- china Museum-img -*/
+.china_wrapper .china_wrapper_inner .wrapper_inner_chengdu .inner_chengdu_img1 {
+  width: 1207px;
+  height: 482px;
+  background: url(./images/china1.png) no-repeat 100% / cover;
+}
+.china_wrapper .china_wrapper_inner .wrapper_inner_chengdu .inner_chengdu_img2 {
+  width: 580px;
+  height: 482px;
+  background: url(./images/china2.png) no-repeat 100% / cover;
+}
+.china_wrapper .inner_chengdu_img3 {
+  width: 1827px;
+  height: 400px;
+  background: url(./images/china3.png) no-repeat 100% / cover;
+  margin: 8rem 0;
+}
+
+/*--- charge ---*/
+.charge_wrapper {
+  width: 1827px;
+  height: 642px;
+  background-color: var(--color-pink);
+  margin: 16rem auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.charge_wrapper .charge_wrapper_title {
+  font-family: var(--ko-font);
+  font-size: var(--size-font90);
+}
+.charge_wrapper svg {
+  position: absolute;
+  top: 62px;
+  right: 52px;
+}
+.charge_wrapper svg path {
+  transition: 1s;
+}
+.charge_wrapper svg:nth-of-type(2) {
+  position: absolute;
+  top: 439px;
+  left: 165px;
+}
+.charge_wrapper svg:nth-of-type(3) {
+  position: absolute;
+  top: 466px;
+  left: 91px;
+}
+.charge_wrapper svg:nth-of-type(4) {
+  position: absolute;
+  top: 399px;
+  right: 145px;
+}
+.charge_wrapper .charge_wrapper_title svg {
+  position: absolute;
+}
+.charge_wrapper .charge_wrapper_title svg:first-child {
+  left: 683px;
+  top: 69px;
+}
+.charge_wrapper .charge_wrapper_txt1 li:nth-child(1) svg {
+  top: 345px;
+  left: 265px;
+}
+.charge_wrapper .charge_wrapper_txt1 li:nth-child(2) svg {
+  top: 345px;
+  left: 595px;
+}
+.charge_wrapper .charge_wrapper_txt1 li:nth-child(3) svg {
+  top: 345px;
+  left: 930px;
+}
+.charge_wrapper .charge_wrapper_txt1 li:nth-child(4) svg {
+  top: 345px;
+  left: 1260px;
+}
+
+.charge_wrapper .charge_wrapper_txt1 {
+  font-family: var(--ko-font);
+  font-size: var(--size-font30);
+  font-weight: bold;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  width: 62%;
+  text-align: center;
+  justify-content: center;
+}
+.charge_wrapper .charge_wrapper_txt1 li {
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.charge_wrapper .charge_wrapper_txt2 {
+  flex-direction: column;
+  list-style: disc;
+  font-family: var(--ko-font);
+  font-size: var(--size-font22);
+}
+.charge_wrapper .charge_wrapper_txt2 li {
+  padding: 2% 0;
+}
+
+footer .site .flex li p {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+footer .site .flex li p a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
