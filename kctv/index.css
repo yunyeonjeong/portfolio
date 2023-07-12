@@ -14,7 +14,6 @@ header {
   color: var(--color2);
   z-index: 9999;
 }
-
 header .header-wrapper {
   justify-content: space-between;
   align-items: center;
@@ -51,6 +50,7 @@ header .header-wrapper .header-nav li a:hover {
 
 /***** contents *****/
 /*** swiper ***/
+/*** swiper-button ***/
 .swiper-button-next,
 .swiper-button-prev {
   color: var(--point-color);
@@ -77,60 +77,92 @@ header .header-wrapper .header-nav li a:hover {
 .mySwiper .swiper-wrapper .swiper-slide {
   width: 100%;
 }
-.mySwiper .swiper-wrapper .swiper-slide .swiper_txtBox {
+.mySwiper .swiper-wrapper .swiper-slide .swiper_Box {
   position: relative;
   height: 84vh;
   width: 200%;
   margin: 10vw auto;
-  background: url(./images/main-01.png) no-repeat 26% / 30%,
-    url(./images/main-bg-01.png) no-repeat 0% 25% / 45%,
+  background: url(./images/main-bg-01.png) no-repeat 0% 25% / 45%,
     url(./images/main-bg-02.png) no-repeat 10% -42% / 45%,
     url(./images/main-bg-03.png) no-repeat 10% 101% / 45%;
 }
-.mySwiper .swiper-wrapper .swiper-slide .swiper_txtBox .swiper_title {
+/*** swiper-text ***/
+.mySwiper .swiper-wrapper .swiper-slide .swiper_Box .swiper_textBox {
+  flex-direction: column;
+  position: absolute;
+  bottom: 50%;
+  left: 8%;
+  align-items: center;
+}
+.mySwiper
+  .swiper-wrapper
+  .swiper-slide
+  .swiper_Box
+  .swiper_textBox
+  .swiper_title {
   font-size: var(--font-size48);
   font-weight: 500;
-  position: absolute;
-  bottom: 60%;
-  left: 8%;
 }
-.mySwiper .swiper-wrapper .swiper-slide .swiper_txtBox .swiper_text {
+.mySwiper
+  .swiper-wrapper
+  .swiper-slide
+  .swiper_Box
+  .swiper_textBox
+  .swiper_text {
   font-size: var(--font-size18);
   font-weight: 300;
-  position: absolute;
-  bottom: 47%;
-  left: 7.6%;
 }
-.mySwiper .swiper-wrapper .swiper-slide .swiper_txtBox .bold {
+.mySwiper .swiper-wrapper .swiper-slide .swiper_Box .swiper_textBox .bold {
   font-weight: bold;
 }
-
-.mySwiper .swiper-wrapper .swiper-slide .swiper_txtBox .swiper-btn {
+.mySwiper
+  .swiper-wrapper
+  .swiper-slide
+  .swiper_Box
+  .swiper_textBox
+  .swiper-btn {
   font-size: var(--font-size18);
   font-weight: 400;
-  position: absolute;
-  bottom: 39%;
-  left: 12%;
   background-color: var(--color3);
   border-radius: 30px;
   color: var(--color1);
   width: 130px;
   height: 40px;
   line-height: 40px;
+  margin-top: 1vw;
 }
-
-.mySwiper .swiper-wrapper .swiper-slide .swiper_txtBox .swiper-btn:hover {
+.mySwiper
+  .swiper-wrapper
+  .swiper-slide
+  .swiper_Box
+  .swiper_textBox
+  .swiper-btn:hover {
   background-color: var(--point-color);
   transition: 0.3s linear;
 }
+/*** swiper-img ***/
+.mySwiper .swiper-wrapper .swiper-slide .swiper_Box .swiper_img1 {
+  width: 100vw;
+  height: 84vh;
+  background: url(./images/main-01.png) no-repeat 80% / 50%;
+}
+.mySwiper .swiper-wrapper .swiper-slide .swiper_Box .swiper_img2 {
+  width: 100vw;
+  height: 84vh;
+  background: url(./images/main-02.png) no-repeat 80% / 40%;
+}
 
-.main-box1 .main-wrapper {
+/***** miniBox *****/
+.miniBox {
+  position: relative;
+  width: 100%;
+  height: 26vh;
+  z-index: 99;
+}
+.miniBox .miniBox-text {
   background-color: var(--point-color);
-  transform: translate(24%, 430%);
-  width: 70%;
-  height: 220px;
-  justify-content: space-evenly;
-  align-items: center;
+  width: 44vw;
+  transform: translate(50%, 0%);
   border-radius: 0.5rem;
   color: #fff;
 }
@@ -146,13 +178,6 @@ header .header-wrapper .header-nav li a:hover {
   font-weight: 700;
   font-size: var(--font-size22);
 }
-
-.bin-box {
-  background-color: #fff;
-  height: 360px;
-  z-index: 999;
-}
-
 /***** main-box2 *****/
 
 .main-box2 {
