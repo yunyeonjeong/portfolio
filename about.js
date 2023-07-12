@@ -59,10 +59,3 @@ $(window).on('scroll', () => {
     tBox[3].style.opacity = '1';
   }
 });
-
-//깜빡임
-setInterval(function () {
-  $('.b-p').fadeIn(100, function () {
-    $('.b-p').fadeOut(500);
-  });
-}, 3000);
