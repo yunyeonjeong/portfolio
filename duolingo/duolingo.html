@@ -3,343 +3,158 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>DuoLingo</title>
 
-    <!-- og -->
-    <meta property="og:title" content="duolingo">
-    <meta property="og:description" content="세계 최고의 언어 학습 방법">
-    <meta property="og:image" content="https://yunyeonjeong.github.io/portfolio/duolingo/og/og.png">
-    <meta property="og:url" content="https://yunyeonjeong.github.io/portfolio/duolingo/duolingo">
     <!-- favicon -->
     <link rel="shortcut icon" href="./favicon/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-    <!-- reset -->
+
+    <!--reset-->
     <link rel="stylesheet" href="../common/style/reset.css">
-    <!-- font -->
+    <!--font-->
+    <link rel="stylesheet" href="../common/style/font.css">
     <link rel="stylesheet" href="../common/style/pretendardvariable-dynamic-subset.css">
-    <!-- mobile -->
-    <link rel="stylesheet" href="./index.css">
-    <!-- table -->
-    <link rel="stylesheet" href="./table.css" media="(width >=769px)">
-    <!-- pc -->
-    <link rel="stylesheet" href="./pc.css" media="(width >=1900px)">
+
+    <!--common style-->
+    <link rel="stylesheet" href="../common/style/common.css">
+    <!--style-->
+    <link rel="stylesheet" href="./duolingo.css">
 </head>
 
 <body>
-    <!-- header -->
-    <div class="header-fix flex">
-        <ul class="header-fix-box flex">
-            <li><a href="https://design.duolingo.com/" target="_blank">공지사항</a></li>
-            <li><a href="https://www.duolingo.com/contact" target="_blank" class="ask-btn">고객센터</a> </li>
-            <li><a href="#">English</a></li>
-        </ul>
-    </div>
+    <!---- header ---->
     <header>
-        <div class="header-wrapper flex">
-            <h1>
-                <a href="./duolingo.html"><img src="./images/logo.png" alt="듀오링고 검정색 로고"></a>
-            </h1>
-            <nav class="header-nav flex">
-                <menu class="nav-box flex">
-                    <li><a href="https://www.duolingo.com/info" target="_blank">듀오링고 소개</a></li>
-                    <li><a href="https://status.duolingo.com/" target="_blank">듀오링고 앱</a></li>
-                    <li><a href="https://www.duolingo.com/efficacy" target="_blank">사용자후기</a></li>
-                </menu>
-                <a href="https://www.duolingo.com/learn" class="green-btn" target="_blank"><span>시작하기</span></a>
-                <a href="https://www.duolingo.com/?isLoggingIn=true" class="white-btn" target="_blank"><span>계정이
-                        있습니다.</span></a>
-            </nav>
-            <!-- hamburger -->
-            <a href="#" class="hamburger"><span>모바일메뉴</span></a>
+        <div class="h-box flex">
+            <div class="h-logo">
+                <a href="#"><img src="../images/logo.png" alt="header logo"></a>
+            </div>
+            <div class="h-menu">
+                <a href="#box5-a" class="c-g">PROJECT</a>
+                <a href="./about.html" class="g-g">ABOUT</a>
+            </div>
         </div>
     </header>
 
-    <!-- contents -->
-    <!-- main -->
-    <article class="main flex">
-        <div class="m-txt flex">
-            <span>세계 최고의 언어 학습 방법</span>
-            <h3>재미 있고 효과적인 언어 학습<br>지금, 시작하세요!</h3>
-            <div class="m-btn">
-                <a href="https://www.duolingo.com/learn" class="green-btn" target="_blank">시작하기</a>
-            </div>
-        </div>
-        <div class="m-box flex">
-            <div class="m-img flex">
-                <img src="./images/phone1.png" alt="스마트폰에 듀오링고 리그대전 화면">
-                <img src="./images/phone2.png" alt="스마트폰에 듀오링고 퀘스트 화면">
-                <img src="./images/phone3.png" alt="스마트폰에 듀오링고 시작화면">
-                <img src="./images/phone4.png" alt="스마트폰에 듀오링고 복습화면">
-                <img src="./images/phone5.png" alt="스마트폰에 듀오링고 말하기연습 화면">
-            </div>
+    <!---- title ---->
+    <article class="title">
+        <h2 class="title-wrapper">DUORINGO</h2>
+        <div class="title-img"></div>
+        <div class="intro flex">
+            <p class="intro-text">듀오링고 사용자가 디바이스의 제약없이 손쉽게 정보를 확인할 수 있는 반응형 웹사이트 구축</p>
+            <ul class="intro-list1">
+                <li>DATE</li>
+                <li>TOOL</li>
+                <li>TAGS</li>
+            </ul>
+            <ul class="intro-list2">
+                <li>2023.06.08 ~ 2023.06.15</li>
+                <li>Figma VScode Photoshop</li>
+                <li>PC TABLET MOBILE</li>
+            </ul>
         </div>
     </article>
 
-    <!-- section1 -->
-    <section class="effect flex">
-        <div class="e-inner">
-            <div class="e-txt">
-                <strong>World Class</strong>
-                <h4>누구나 사용할 수 있는<br>세계 최고의 학습 방법 개발</h4>
+    <!---- main---->
+    <main>
+        <!-- style -->
+        <section class="style">
+            <h3 class="wt-title">Style Guide</h3>
+            <div class="box">
+                <h4 class="sub-title">keyword</h4>
+                <p class="sub-text">#남녀노소 #친숙함 #손쉬운</p>
             </div>
-            <div class="e-txt1">
-                <h5>duolingo식 학습법</h5>
-                <span>지루한 교과서가 아닌 게임처럼 만들었습니다!</span><br>
-                <span>재미있게 학습하며 지속적인 학습 동기를 유지할 수 있습니다.</span>
+            <div class="box">
+                <h4 class="sub-title">Concept</h4>
+                <p class="sub-text">기존 듀오링고의 캐릭터와 포인트컬러를 활용해 반응형 웹사이트 구축</p>
             </div>
-            <div class="e-txt2">
-                <h5>어떤 효과를 얻나요?</h5>
-                <span>학습 과정의 효과에 대한 연구에 지속적으로
-                    투자하고 연구하고 있습니다.</span><br>
-                <span>연구보고서를 확인하여
-                    duolingo의 효과적인 공부법에 대해 알아보세요!</span>
-                <p>*duoling는 미국 및 국제 표준에 기반한 커리큘럼을 갖추고 있습니다.</p>
+            <div class="box1">
+                <h4 class="sub-title">Font</h4>
+                <h5 class="ass-title1">Pretendard</h5>
+                <div class="box-wrapper flex">
+                    <ul class="box-list1">
+                        <li>Regular</li>
+                        <li class="medium">Medium</li>
+                        <li class="bold">Bold</li>
+                    </ul>
+                    <ul class="box-list2">
+                        <li class="bold">제목 Bold 48px</li>
+                        <li class="medium">부제목 Medium 20px</li>
+                        <li>기본 Regular 16px</li>
+                    </ul>
+                </div>
             </div>
-            <div class="e-btn flex">
-                <a href="https://duolingo-papers.s3.amazonaws.com/reports/Plonsky_etal_whitepaper_language_learning_grit_motivation_2023.pdf"
-                    class="white-btn" target="_blank">전체보고서 보기</a>
+            <div class="box">
+                <h4 class="sub-title">Color</h4>
+                <div class="box-wrapper flex">
+                    <div class="box-inner1">
+                        <h5 class="ass-title2">Main</h5>
+                        <p class="color color1">#58CC02</p>
+                    </div>
+                    <div class="box-inner2">
+                        <h5 class="ass-title2">Point</h5>
+                        <p class="color color2">#2323A5</p>
+                    </div>
+                </div>
+                <div class="box-wrapper">
+                    <h5 class="ass-title2">Achromatic</h5>
+                    <div class="box-inner3 flex">
+                        <p class="color color3">#FFFFF</p>
+                        <p class="color color4">#F0F0F0</p>
+                        <p class="color color5">#242424</p>
+                        <p class="color color6">#F0F0F0</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="e-box flex">
-            <div class="e-img">
-                <img src="./images/m.svg" alt="듀오링고의 마스코트 초록색 부엉이">
-            </div>
-            <div class="e-btn">
-                <a href="https://duolingo-papers.s3.amazonaws.com/reports/Plonsky_etal_whitepaper_language_learning_grit_motivation_2023.pdf"
-                    class="white-btn" target="_blank">전체보고서 보기</a>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- banner1 -->
-    <div class="banner1">노트북을 보며 환호하는 아이들</div>
+        <!-- publishing -->
+        <section class="publishing">
+            <h3 class="wt-title">Publishing</h3>
+            <div class="box-inner flex">
+                <p class="sub-text">Breakpoints<span>Mobile기준: 414px 이하</span>PC:1400px이상 Tablet:769px 이상</p>
+                <p class="sub-text space1">Media Query를 이용한 반응형 제작<span>@media="(width >=px)”</span></p>
+            </div>
+            <div class="box-inner flex">
+                <p class="sub-text">학습 가능 언어목록은 국기로<span>Animation을 활용해 움직임 효과 적용</span></p>
+                <p class="sub-text space2">PC 에서의 사용자 접근성을 높이기 위한<span>mouse hover 적용</span></p>
+            </div>
+            <div class="box-inner flex">
+                <p class="sub-text">grid, flex를 활용한 레이아웃 정렬</p>
+                <p class="sub-text space3">Mobile, Tablet Menu 버튼 스크립트</p>
+            </div>
+        </section>
 
-    <!-- section2 -->
-    <div class="study flex">
-        <div class="s-bg flex">
-            <img src="./images/con-tr.png" alt="배경" class="tr">
-            <img src="./images/con-bl.png" alt="배경" class="br">
-        </div>
-        <div class="s-box">
-            <h4>duolingo는 지속적인 연구를 통해<br>체계적인 공부법을 제시합니다.</h4>
-            <span>최고의 AI 및 언어 과학을 적용하여, 학습자에게 적합한<br>수준과 페이스로 학습할 수 있도록 맞춤 레슨을 제공합니다.</span>
-        </div>
-        <div class="s-case flex">
-            <div class="s-inner flex">
-                <div class="s-img">
-                    <img src="./images/1.png" alt="단발머리여자와 노트북이 함께 있는 그림">
-                </div>
-                <div class="s-t-box flex">
-                    <div class="s-txt">
-                        <a href="#">리스닝</a>
-                    </div>
-                    <div class="s-txt">
-                        <a href="#">듣기 훈련</a>
-                    </div>
-                </div>
+        <!--problem & solution-->
+        <section class="problem">
+            <h3 class="wt-title">Problem & Solution</h3>
+            <div class="box">
+                <h4 class="sub-title bg1">듀오링고? 그게 뭔데?</h4>
+                <p class="sub-text">첫 섹션에 핵심 화면 목업을 레이아웃 하여 언어 학습 앱임을 강조</p>
             </div>
-            <div class="s-inner flex">
-                <div class="s-img">
-                    <img src="./images/2.png" alt="서 있는 아저씨 그림" class="h-img">
-                </div>
-                <div class="s-t-box flex">
-                    <div class="s-txt">
-                        <a href="#">스피킹</a>
-                    </div>
-                    <div class="s-txt">
-                        <a href="#">말하기 훈련</a>
-                    </div>
-                </div>
+            <div class="box">
+                <h4 class="sub-title bg2">무한 div에 온걸 환영해</h4>
+                <p class="sub-text">리서치섹션에 배열이 틀어진다.<span>요소에 div를 감싸고 감싸 flex를 적용하여 한 눈에 보기 쉽게 완성</span></p>
             </div>
-            <div class="s-inner flex">
-                <div class="s-img">
-                    <img src="./images/4.png" alt="정면을 바라보고 있는 아기 그림">
-                </div>
-                <div class="s-t-box flex">
-                    <div class="s-txt">
-                        <a href="#">단 어</a>
-                    </div>
-                    <div class="s-txt">
-                        <a href="#">파닉스</a>
-                    </div>
-                </div>
+            <div class="box">
+                <h4 class="sub-title bg3">캐릭터가 그래서 몇갠데? </h4>
+                <p class="sub-text">디바이스 별 반응형 레이아웃 맞추기가 어려워 Mobile 3개 Tablet, PC 4개 구성 하였다가<span>html div 구조를 변경하여 전체가
+                        보일수있게 flex로 반응형 레이아웃 구성</span></p>
             </div>
-            <div class="s-inner flex">
-                <div class="s-img">
-                    <img src="./images/3.png" alt="밥먹었냐고 물어보는 여자 그림">
-                </div>
-                <div class="s-t-box flex">
-                    <div class="s-txt">
-                        <a href="#">리 딩</a>
-                    </div>
-                    <div class="s-txt">
-                        <a href="#">읽기 훈련</a>
-                    </div>
-                </div>
+            <div class="box">
+                <h4 class="sub-title bg4">글자가 많은데? 잘 읽힐까?</h4>
+                <p class="sub-text">이미지에 힘을 빼고 폰트에 힘을 줌, 폰트 강약 조절, 반응형 디바이스에 맞게 폰트사이즈 조절</p>
             </div>
-        </div>
-        <div class="s-box1">
-            <h4>부담없이 언제든지<br>취소하세요.</h4>
-            <span>슈퍼 듀오링고를 2주 동안 무료로 체험하고 지속해 보세요.<br>무료교육을 지원하고 실력향상에 큰 도움이 됩니다.</span>
-        </div>
-    </div>
-
-    <!-- banner2 -->
-    <div class="banner2 flex">
-        <div class="b-img">
-            <img src="./images/b2.svg" alt="휴대폰 앞에 서있는 근육질 남자 그림">
-        </div>
-        <div class="b-box flex">
-            <h4>스토어 1위 앱 duoling<br>지금 다운 받으세요</h4>
-            <div class="b-store flex">
-                <a href="https://apps.apple.com/kr/app/%EB%93%80%EC%98%A4%EB%A7%81%EA%B3%A0-duolingo/id570060128"
-                    target="_blank"><img src="./images/apple.svg" alt="애플 앱스토어 바로가기"></a>
-                <a href="https://play.google.com/store/apps/details?id=com.duolingo&hl=ko&gl=US&pli=1"
-                    target="_blank"><img src="./images/google.svg" alt="구글 앱스토어 바로가기"></a>
+            <div class="box">
+                <h4 class="sub-title bg5">애니메이션 img가 잘려요</h4>
+                <p class="sub-text">국기img를 감싸고 있는 박스 부모에게 width값을 넘치게 주고<span>최상위 부모에게 overflow: hidden;을 부여하여 해결</span>
+                </p>
             </div>
-        </div>
-    </div>
-
-    <!-- section3 -->
-    <div class="research flex">
-        <div class="r-inner flex">
-            <div class="r-text1 flex">
-                <span>Research</span>
-                <!-- <div class="r-btn-box flex">
-                    <a href="#"><img src="./images/left.svg" alt="왼쪽버튼"></a>
-                    <a href="#"><img src="./images/right.svg" alt="오른쪽버튼"></a>
-                </div>-->
-            </div>
-            <div class="r-text2">
-                <h4>학습법의 효과를 증명하기 위해,<br>독립연구를 지원합니다.</h4>
-                <span>*duoling English Test 결과</span>
-            </div>
-            <div class="r-text3 flex">
-                <span>기간</span>
-                <strong>2주간 그룹별테스트</strong>
-                <span>대상</span>
-                <strong>앱 설치 사용자</strong>
-            </div>
-            <div class="r-box flex">
-                <div class="r-use flex">
-                    <span>duolingo <br class="r-br">사용 전</span>
-                    <div class="void"></div>
-                    <span>duolingo <br class="r-br">사용 후</span>
-                </div>
-                <div class="r-count flex">
-                    <span class="ba">300</span>
-                    <span class="ga">평균 단어 수<br>(개)</span>
-                    <span class="st">700</span>
-                </div>
-                <div class="r-lang flex">
-                    <span class="ba">80%</span>
-                    <span class="ga">어휘력</span>
-                    <span class="st">120%</span>
-                </div>
-                <div class="r-result flex">
-                    <span>평균 단어 400개 증가,<br class="r-br">평균 어휘력 40% 증가</span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- section4 -->
-    <div class="flag flex">
-        <div class="flag-text flex">
-            <span>duoling는 100개 이상의 언어과정을 지원 합니다.</span>
-            <h4>duolingo에서 학습 가능한<br>언어목록 입니다.</h4>
-        </div>
-        <div class="flag-inner flex">
-            <div class="flag-wrap flex">
-                <div class="flag-box flex">
-                    <div class="flag-img flex">
-                        <img src="./images/flag/1.png" alt="flag">
-                        <img src="./images/flag/2.bmp" alt="flag">
-                        <img src="./images/flag/3.jpg" alt="flag">
-                        <img src="./images/flag/4.jpg" alt="flag">
-                        <img src="./images/flag/5.jpg" alt="flag">
-                        <img src="./images/flag/6.jpg" alt="flag">
-                        <img src="./images/flag/7.jpg" alt="flag">
-                        <img src="./images/flag/8.gif" alt="flag">
-                        <img src="./images/flag/9.gif" alt="flag">
-                        <img src="./images/flag/10.gif" alt="flag">
-                    </div>
-                </div>
-            </div>
-            <div class="flag-wrap flex">
-                <div class="flag-box flex">
-                    <div class="flag-img flex">
-                        <img src="./images/flag/11.jpg" alt="flag">
-                        <img src="./images/flag/12.jpg" alt="flag">
-                        <img src="./images/flag/13.jpg" alt="flag">
-                        <img src="./images/flag/14.jpg" alt="flag">
-                        <img src="./images/flag/15.jpg" alt="flag">
-                        <img src="./images/flag/16.gif" alt="flag">
-                        <img src="./images/flag/17.gif" alt="flag">
-                        <img src="./images/flag/18.gif" alt="flag">
-                        <img src="./images/flag/19.gif" alt="flag">
-                        <img src="./images/flag/20.gif" alt="flag">
-                    </div>
-                </div>
-            </div>
-            <div class="flag-wrap flex">
-                <div class="flag-box flex">
-                    <div class="flag-img flex">
-                        <img src="./images/flag/21.gif" alt="flag">
-                        <img src="./images/flag/22.gif" alt="flag">
-                        <img src="./images/flag/23.gif" alt="flag">
-                        <img src="./images/flag/24.gif" alt="flag">
-                        <img src="./images/flag/25.gif" alt="flag">
-                        <img src="./images/flag/26.gif" alt="flag">
-                        <img src="./images/flag/27.jpg" alt="flag">
-                        <img src="./images/flag/28.jpg" alt="flag">
-                        <img src="./images/flag/29.jpg" alt="flag">
-                        <img src="./images/flag/30.jpg" alt="flag">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- section5 -->
-    <div class="content flex">
-        <h4>세계 최고의 교육 앱으로<br>언어 학습 목표를 빠르게 달성하세요</h4>
-        <a href="https://www.duolingo.com/learn" class="green-btn" target="_blank"><span>시작하기</span></a>
-    </div>
-
-    <!-- footer -->
-    <footer class="f-box flex">
-        <h2>
-            <img src="./images/logo.png" alt="듀오링고 회색 로고" class="f-logo">
-        </h2>
-        <div class="f-inner">
-            <ul class="f-txt flex">
-                <li><a href="https://ko.duolingo.com/terms" target="_blank">이용약관</a></li>
-                <li><a href="https://ko.duolingo.com/privacy" class="f-line" target="_blank">개인정보처리방침</a></li>
-                <li><a href="https://ko.duolingo.com/guidelines" target="_blank">도움말 및 지원 </a></li>
-            </ul>
-            <ul class="f-sns flex">
-                <li><a href="https://twitter.com/duolingo" target="_blank"><img src="./images/twitter.svg"
-                            alt="트위터"></a></li>
-                <li><a href="https://www.instagram.com/duolingo/" target="_blank">
-                        <img src="./images/instagram.svg" alt="인스타그램"></a>
-                </li>
-                <li><a href="https://www.facebook.com/duolingo" target="_blank">
-                        <img src="./images/facebook-f.svg" alt="페이스북"></a></li>
-                <li><a href="https://www.youtube.com/user/duolingo" target="_blank">
-                        <img src="./images/youtube.svg" alt="유튜브"></a></li>
-            </ul>
-        </div>
-        <a href="#" class="green-btn">포트폴리오 바로가기</a>
-    </footer>
-
-    <!-- up-btn -->
-    <a href="#" class="upTo">위로</a>
-
+        </section>
+        <a href="https://yunyeonjeong.github.io/portfolio/duolingo">View Site</a>
+    </main>
 </body>
 
 </html>

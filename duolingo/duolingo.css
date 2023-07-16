@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+/* 변수 선언 */
+@import url(../common/style/variable.css);
+
+body {
+  background-color: #000;
+  font-family: "NotoSansKR", -apple-system, BlinkMacSystemFont, "Malgun Gothic",
+    "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+  color: #fff;
+}
+
+span {
+  display: block;
+}
+
+/***** title *****/
+main {
+  width: 40%;
+  margin: 0 auto;
+}
+.title {
+  width: 100%;
+}
+.title .title-wrapper {
+  font-size: var(--font-size164);
+  color: var(--point-color);
+  font-family: var(--main-font);
+  padding: 3rem;
+}
+.title .title-img {
+  width: 114.75rem;
+  height: 44rem;
+  border: 5px solid #fff;
+  margin-left: 2rem;
+}
+.title .intro {
+  font-size: var(--font-size22);
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 6.25rem auto;
+}
+.title .intro .intro-list1 {
+  color: var(--gray-color);
+}
+.title .intro .intro-list1 li,
+.title .intro .intro-list2 li {
+  margin-bottom: 1rem;
+}
+.title .intro .intro-list2 {
+  margin-left: -13rem;
+}
+
+/***** style *****/
+.style {
+  width: 100%;
+}
+/*** wt-title ***/
+h3.wt-title {
+  font-family: var(--main-font);
+  font-size: var(--font-size100);
+  margin-top: 6.25rem;
+}
+/*** sub-title ***/
+h4.sub-title {
+  width: 8.75rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  background-color: var(--gray-color);
+  font-size: var(--font-size28);
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5rem;
+}
+/*** sub-text ***/
+p.sub-text {
+  font-size: var(--font-size22);
+  margin-top: 2rem;
+}
+/*** font ***/
+.style .box1 {
+  font-family: "Pretendard Variable", -apple-system, BlinkMacSystemFont,
+    "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+}
+.style .box1 .ass-title1 {
+  font-size: var(--font-size26);
+  margin: 2rem 0;
+}
+.style .box1 .box-wrapper ul {
+  font-size: var(--font-size22);
+  margin-right: 6rem;
+}
+.style .box1 .box-wrapper ul li {
+  margin-bottom: 1rem;
+}
+.style .box1 .box-wrapper ul .bold {
+  font-weight: 700;
+}
+.style .box1 .box-wrapper ul .medium {
+  font-weight: 500;
+}
+/*** color ***/
+.style .box-wrapper {
+  margin-top: 2rem;
+}
+.style .box-wrapper .box-inner2 {
+  margin-left: 4rem;
+}
+.style .box-wrapper .ass-title2 {
+  font-size: var(--font-size26);
+}
+.color {
+  width: 6.25rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin-top: 2rem;
+  font-size: var(--font-size16);
+  text-align: center;
+  margin-right: 1rem;
+}
+.color1 {
+  background-color: #58cc02;
+}
+.color2 {
+  background-color: #2323a5;
+}
+.color3 {
+  background-color: #fff;
+  color: #000;
+}
+.color4 {
+  background-color: #f0f0f0;
+  color: #000;
+}
+.color5 {
+  background-color: #242424;
+}
+.color6 {
+  background-color: #171717;
+}
+
+/***** publishing *****/
+.publishing {
+  width: 100%;
+}
+.publishing .box-inner {
+  align-items: center;
+}
+.space1 {
+  margin-left: 6rem;
+}
+.space2 {
+  margin-left: 5.4rem;
+}
+.space3 {
+  margin-left: 7.8rem;
+}
+
+/***** problem *****/
+.problem {
+  width: 100%;
+}
+.box h4.sub-title .bg1 {
+  width: 14.375rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
+}

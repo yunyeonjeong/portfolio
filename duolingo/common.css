@@ -50,10 +50,6 @@
   }
 }
 
-/*.reverse {
-  animation: flag-reverse 15s linear infinite;
-}*/
-
 .flex {
   display: flex;
 }

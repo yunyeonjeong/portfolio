@@ -28,6 +28,7 @@ header .header-wrapper .hamburger {
   align-items: center;
   justify-content: flex-end;
   padding: 0 48px;
+  transition: 1s ease;
 }
 .header-fix .header-fix-box li a {
   font-size: var(--font-size16);
@@ -35,7 +36,7 @@ header .header-wrapper .hamburger {
   color: #000;
 }
 .header-fix .header-fix-box li .ask-btn::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 1px;
   height: 11px;
@@ -43,7 +44,7 @@ header .header-wrapper .hamburger {
   background-color: #000;
 }
 .header-fix .header-fix-box li .ask-btn::after {
-  content: '';
+  content: "";
   display: inline-block;
   width: 1px;
   height: 11px;
