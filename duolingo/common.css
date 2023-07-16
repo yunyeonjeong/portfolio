@@ -77,23 +77,12 @@ body {
   transform: rotate(-90deg);
 }
 
-.upTo:hover {
-  opacity: 1;
-  bottom: 22px;
-}
-
 .green-btn {
   display: block;
   background-color: var(--point-color1);
   font-weight: normal;
   color: #fff;
   text-align: center;
-}
-
-.green-btn:hover {
-  background-color: #fff;
-  color: var(--point-color1);
-  border: 1px solid var(--point-color1);
 }
 
 .white-btn {
@@ -103,12 +92,6 @@ body {
   text-align: center;
   border-radius: 20px;
   transition: 0.3s ease, right 0.5s ease 0.9s, opacity 0.5s ease 0.9s;
-}
-
-.white-btn:hover {
-  color: #fff;
-  background-color: var(--point-color1);
-  border: none;
 }
 
 h4 {

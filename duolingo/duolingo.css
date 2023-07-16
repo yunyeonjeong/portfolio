@@ -16,7 +16,7 @@ span {
 
 /***** title *****/
 main {
-  width: 40%;
+  width: 44%;
   margin: 0 auto;
 }
 .title {
@@ -49,6 +49,22 @@ main {
 }
 .title .intro .intro-list2 {
   margin-left: -13rem;
+}
+.line::before {
+  display: inline-block;
+  content: "";
+  height: 1rem;
+  width: 0.1rem;
+  background-color: #fff;
+  margin: 0 1rem;
+}
+.line::after {
+  display: inline-block;
+  content: "";
+  height: 1rem;
+  width: 0.1rem;
+  background-color: #fff;
+  margin: 0 1rem;
 }
 
 /***** style *****/
@@ -160,8 +176,54 @@ p.sub-text {
 .problem {
   width: 100%;
 }
-.box h4.sub-title .bg1 {
-  width: 14.375rem;
-  height: 3.125rem;
-  line-height: 3.125rem;
+h6.sub-title {
+  background-color: var(--gray-color);
+  font-size: var(--font-size28);
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5rem;
+}
+.bg1 {
+  width: 16rem;
+  height: 3.8rem;
+  line-height: 3.8rem;
+}
+.bg2 {
+  width: 17rem;
+  height: 3.8rem;
+  line-height: 3.8rem;
+}
+.bg3 {
+  width: 18rem;
+  height: 3.8rem;
+  line-height: 3.8rem;
+}
+.bg4 {
+  width: 19.2rem;
+  height: 3.8rem;
+  line-height: 3.8rem;
+}
+.bg5 {
+  width: 18.4rem;
+  height: 3.8rem;
+  line-height: 3.8rem;
+}
+
+/***** view-site btn ****/
+.url {
+  display: block;
+  width: 18.75rem;
+  height: 6.25rem;
+  line-height: 6.25rem;
+  border: 5px solid #fff;
+  font-size: var(--font-size80);
+  background-color: #696969;
+  font-weight: 700;
+  font-family: var(--main-font);
+  text-align: center;
+  margin: 5rem auto;
+  transition: 0.3s ease-in-out;
+}
+.url:hover {
+  opacity: 0.5;
 }

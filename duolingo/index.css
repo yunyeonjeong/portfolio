@@ -3,9 +3,6 @@
 /* 변수 선언 */
 @import url(./variable.css);
 
-/* common */
-@import url(./common.css);
-
 /* 스크롤바 */
 ::-webkit-scrollbar {
   width: 4px;
@@ -17,7 +14,7 @@
 }
 
 /***** header *****/
-.header-fix {
+div.header-fix {
   display: none;
 }
 header {
@@ -51,21 +48,22 @@ header .header-wrapper .hamburger {
 }
 header .menu-wrapper {
   width: 100%;
-  height: 3.75rem;
-  padding: 0 4%;
+  height: 4rem;
+  padding: 1.8rem 4%;
   font-size: var(--font-size16);
-  border-top: 0.1px solid var(--gray-color3);
-  align-items: center;
-  justify-content: space-between;
+  border-top: 1px solid var(--gray-color3);
 }
 header .menu-wrapper .menu-wrapper-list li {
-  margin-right: 1rem;
+  margin-right: 3.8rem;
 }
-header .menu-wrapper .white-btn {
+/* header .menu-wrapper .white-btn {
   font-size: var(--font-size13);
   width: 110px;
   height: 30px;
   line-height: 30px;
+} */
+header .menu-wrapper {
+  display: none;
 }
 
 /***** contents *****/
@@ -110,7 +108,6 @@ header .menu-wrapper .white-btn {
   height: 40px;
   line-height: 40px;
   border-radius: 24px;
-  border: 1px solid transparent;
   font-size: var(--font-size16);
   font-weight: 500;
   animation: opacity1 0.5s 3s ease-in-out forwards;
@@ -384,10 +381,6 @@ header .menu-wrapper .white-btn {
   display: block;
   transition: all 0.2s linear;
 }
-.banner2 .b-box .b-store a:hover {
-  transform: translateY(-10px);
-  opacity: 0.5;
-}
 
 /***** section3 *****/
 /*** research ***/
@@ -601,7 +594,7 @@ header .menu-wrapper .white-btn {
   white-space: nowrap;
   background: none;
   overflow: hidden;
-  animation: flag 40s linear infinite;
+  animation: flag 30s linear infinite;
 }
 .flag .flag-inner .flag-wrap .flag-box .flag-imgBox .flag-img {
   align-items: center;
@@ -609,7 +602,8 @@ header .menu-wrapper .white-btn {
 }
 .flag .flag-inner .flag-wrap .flag-box .flag-imgBox .flag-img img {
   margin-right: 1.688rem;
-  height: 3.625rem;
+  width: 6.25rem;
+  height: 3.8rem;
 }
 .flag2 {
   animation-delay: -20s;
@@ -698,10 +692,6 @@ header .menu-wrapper .white-btn {
 .f-box .f-inner .f-sns li a {
   display: block;
   transition: all 0.2s linear;
-}
-.f-box .f-inner .f-sns li a:hover {
-  transform: translateY(-10px);
-  opacity: 0.5;
 }
 .f-box .f-inner .f-sns img {
   width: 20px;
