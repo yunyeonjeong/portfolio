@@ -1,9 +1,9 @@
 // menu
 $(document).ready(function () {
-  $(".header-wrapper a").on("click", (e) => {
+  $('.hamburger').on('click', (e) => {
     e.preventDefault();
-    $(".menu-wrapper").slideToggle();
-    $(".menu-wrapper").toggleClass("hide");
+    $('.menu-wrapper').slideToggle();
+    $('.menu-wrapper').toggleClass('hide');
   });
 });
 
@@ -12,10 +12,10 @@ const movingImg = (evt) => {
   let x = evt.clientX;
   let y = evt.clientY;
 
-  $(".e-img").css({
+  $('.e-img').css({
     transform: `translate(${x / 60}px, ${y / 30}px)`,
   });
 
   requestAnimationFrame(movingImg);
 };
-$(".effect").on("mousemove", movingImg);
+$('.effect').on('mousemove', movingImg);

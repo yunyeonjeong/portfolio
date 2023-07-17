@@ -314,22 +314,25 @@ header .menu-wrapper {
   text-align: right;
 }
 /*** img ***/
-.s-case {
+.study .s-case {
   width: 100%;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
 }
-.s-case .s-inner {
+.study .s-case .s-inner {
   flex-direction: column;
   align-items: center;
   margin-bottom: 100px;
   transition: 1s linear;
   transition-delay: 0.6s;
 }
-.s-case .s-inner .s-img {
+.study .s-case .s-inner .s-img {
   margin-bottom: 1.875rem;
   justify-content: center;
+}
+.study .s-case .s-inner .s-img img {
+  height: 200px;
 }
 .s-t-box .s-txt {
   width: 110px;
@@ -570,50 +573,49 @@ header .menu-wrapper {
   justify-content: center;
   align-items: center;
 }
-.flag .flag-inner .flag-wrap {
+
+.viewBox {
   width: 100%;
-  flex-direction: column;
-  margin-bottom: 8.875rem;
-  transition: 1.1s cubic-bezier(0.65, 0, 0.35, 1);
-  transition-delay: 1s;
-  opacity: 1;
-}
-.flag .flag-inner .flag-wrap .flag-box {
-  position: relative;
-  width: 220%;
-  height: 6.25rem;
-  background: none;
+  height: 80px;
   overflow: hidden;
-  justify-content: center;
 }
-.flag-imgBox {
-  position: absolute;
-  align-items: center;
+.slideBox {
+  width: 200%;
   height: 100%;
-  white-space: nowrap;
-  background: none;
-  overflow: hidden;
-  animation: flag 30s linear infinite;
+  display: flex;
+  animation: flow 10s linear infinite;
 }
-.flag .flag-inner .flag-wrap .flag-box .flag-imgBox .flag-img {
-  align-items: center;
-  margin-bottom: 3rem;
-}
-.flag .flag-inner .flag-wrap .flag-box .flag-imgBox .flag-img img {
-  margin-right: 1.688rem;
-  width: 6.25rem;
-  height: 3.8rem;
-}
-.flag2 {
-  animation-delay: -20s;
-}
-.reverse {
-  animation: flag-reverse 40s linear infinite;
-}
-.flag-imgBox2 .reverse {
-  animation-delay: -20s;
+.slideBox1 {
+  width: 200%;
+  height: 100%;
+  display: flex;
+  animation: flow-reverse 10s linear infinite;
 }
 
+.leftBox,
+.rightBox {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.leftBox1,
+.rightBox1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
+.slideItem {
+  width: 200px;
+  margin-right: 20px;
+}
+.slideItem img {
+  height: 72px;
+}
 /***** section5 *****/
 /*** content ***/
 .content {
@@ -641,6 +643,7 @@ header .menu-wrapper {
   border-radius: 24px;
   font-size: var(--font-size14);
   border: 2px solid transparent;
+  color: #fff;
 }
 
 /***** footer  *****/

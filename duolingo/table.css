@@ -100,13 +100,13 @@ header .header-wrapper h1 {
   flex-wrap: wrap;
   justify-content: center;
 }
-.s-case .s-inner {
+.study .s-case .s-inner {
   margin: 100px 40px;
 }
-.s-case .s-inner .s-img {
-  width: 100%;
+.study .s-case .s-inner .s-img img {
+  height: 280px;
 }
-.s-case .s-inner .s-t-box .s-txt {
+.study .s-case .s-inner .s-t-box .s-txt {
   font-size: var(--font-size16);
 }
 
@@ -165,14 +165,6 @@ header .header-wrapper h1 {
   font-size: var(--font-size50);
   margin-bottom: 104px;
   line-height: 1.4;
-}
-.flag .flag-inner .flag-wrap .flag-box {
-  height: 8rem;
-}
-.flag .flag-inner .flag-wrap .flag-box .flag-imgBox .flag-img img {
-  margin-right: 2rem;
-  width: 9rem;
-  height: 5.8rem;
 }
 
 /***** section5 *****/

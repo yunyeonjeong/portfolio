@@ -32,6 +32,9 @@ div.header-fix {
   font-weight: normal;
   color: #000;
 }
+.header-fix .header-fix-box li a:hover {
+  color: var(--point-color1);
+}
 .header-fix .header-fix-box li .ask-btn::before {
   content: '';
   display: inline-block;
@@ -73,6 +76,9 @@ header .header-wrapper .header-nav .nav-box li a {
   color: var(--text-color);
   transition: 0.25s ease;
   margin-right: 80px;
+}
+header .header-wrapper .header-nav .nav-box li a:hover {
+  color: var(--point-color1);
 }
 header .header-wrapper .header-nav .green-btn {
   width: 120px;
@@ -177,10 +183,8 @@ header .header-wrapper .header-nav .white-btn {
   padding-right: 20%;
 }
 /*** img ***/
-.s-case {
-}
-.s-case .s-inner .s-img img {
-  margin: 0 20px;
+.study .s-case .s-inner .s-img img {
+  height: 280px;
 }
 /***** banner2 *****/
 .banner2 {
