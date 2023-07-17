@@ -30,28 +30,40 @@ main {
 }
 .title .title-img {
   width: 96%;
-  height: 44rem;
-  outline: 5px solid var(--gray-color);
-  margin-left: 2rem;
-  background: url(./images/title-img.png) no-repeat center center / 100% 100%;
+  height: 754px;
+  outline: 5px solid #fff;
+  background: url(./images/title-img.png) no-repeat 50% 50% / cover;
+  padding: 0 4%;
+  margin: 0 auto;
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.title .title-img img {
+  width: 1836px;
+  height: 754px;
 }
 .title .intro {
-  font-size: var(--font-size20);
+  font-size: var(--font-size22);
   align-items: center;
   justify-content: space-evenly;
   margin: 6.25rem auto;
   min-width: 1400px;
   max-width: 1920px;
 }
+.title .intro .intro-text {
+  width: 38vw;
+  font-size: var(--font-size26);
+}
 .title .intro .intro-list1 {
-  color: var(--gray-color);
+  color: #696969;
+  font-weight: 700;
 }
 .title .intro .intro-list1 li,
 .title .intro .intro-list2 li {
   margin-bottom: 1rem;
 }
 .title .intro .intro-list2 {
-  margin-left: -8.8rem;
+  margin-left: -200px;
 }
 .line::before {
   display: inline-block;
@@ -93,7 +105,7 @@ h4.sub-title {
   margin-top: 5rem;
 }
 /*** sub-text ***/
-p.sub-text {
+.sub-text {
   font-size: var(--font-size22);
   margin-top: 2rem;
 }
@@ -165,16 +177,16 @@ p.sub-text {
   max-width: 1920px;
 }
 .publishing .box-inner {
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: disc;
 }
-.space1 {
-  margin-left: 6rem;
+.accent {
+  background-color: var(--gray-color);
+  width: 2.2rem;
 }
-.space2 {
-  margin-left: 5.4rem;
-}
-.space3 {
-  margin-left: 7.8rem;
+.blank {
+  margin: 10px 0;
 }
 
 /***** problem *****/
@@ -184,33 +196,33 @@ p.sub-text {
 }
 h6.sub-title {
   background-color: var(--gray-color);
-  font-size: var(--font-size28);
+  font-size: var(--font-size22);
   font-weight: 700;
   text-align: center;
   margin-top: 5rem;
 }
 .bg1 {
-  width: 18rem;
+  width: 16rem;
   height: 3.8rem;
   line-height: 3.8rem;
 }
 .bg2 {
-  width: 20rem;
+  width: 18rem;
   height: 3.8rem;
   line-height: 3.8rem;
 }
 .bg3 {
-  width: 20rem;
+  width: 18rem;
   height: 3.8rem;
   line-height: 3.8rem;
 }
 .bg4 {
-  width: 22rem;
+  width: 19rem;
   height: 3.8rem;
   line-height: 3.8rem;
 }
 .bg5 {
-  width: 21rem;
+  width: 19rem;
   height: 3.8rem;
   line-height: 3.8rem;
 }
