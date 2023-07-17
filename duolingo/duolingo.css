@@ -5,8 +5,8 @@
 
 body {
   background-color: #000;
-  font-family: "NotoSansKR", -apple-system, BlinkMacSystemFont, "Malgun Gothic",
-    "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+  font-family: 'NotoSansKR', -apple-system, BlinkMacSystemFont, 'Malgun Gothic',
+    '맑은 고딕', helvetica, 'Apple SD Gothic Neo', sans-serif;
   color: #fff;
 }
 
@@ -16,7 +16,7 @@ span {
 
 /***** title *****/
 main {
-  width: 44%;
+  width: 67%;
   margin: 0 auto;
 }
 .title {
@@ -26,19 +26,22 @@ main {
   font-size: var(--font-size164);
   color: var(--point-color);
   font-family: var(--main-font);
-  padding: 3rem;
+  padding: 2rem;
 }
 .title .title-img {
-  width: 114.75rem;
+  width: 96%;
   height: 44rem;
-  border: 5px solid #fff;
+  outline: 5px solid var(--gray-color);
   margin-left: 2rem;
+  background: url(./images/title-img.png) no-repeat center center / 100% 100%;
 }
 .title .intro {
-  font-size: var(--font-size22);
+  font-size: var(--font-size20);
   align-items: center;
   justify-content: space-evenly;
   margin: 6.25rem auto;
+  min-width: 1400px;
+  max-width: 1920px;
 }
 .title .intro .intro-list1 {
   color: var(--gray-color);
@@ -48,11 +51,11 @@ main {
   margin-bottom: 1rem;
 }
 .title .intro .intro-list2 {
-  margin-left: -13rem;
+  margin-left: -8.8rem;
 }
 .line::before {
   display: inline-block;
-  content: "";
+  content: '';
   height: 1rem;
   width: 0.1rem;
   background-color: #fff;
@@ -60,7 +63,7 @@ main {
 }
 .line::after {
   display: inline-block;
-  content: "";
+  content: '';
   height: 1rem;
   width: 0.1rem;
   background-color: #fff;
@@ -69,7 +72,8 @@ main {
 
 /***** style *****/
 .style {
-  width: 100%;
+  min-width: 1400px;
+  max-width: 1920px;
 }
 /*** wt-title ***/
 h3.wt-title {
@@ -95,8 +99,8 @@ p.sub-text {
 }
 /*** font ***/
 .style .box1 {
-  font-family: "Pretendard Variable", -apple-system, BlinkMacSystemFont,
-    "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+  font-family: 'Pretendard Variable', -apple-system, BlinkMacSystemFont,
+    'Malgun Gothic', '맑은 고딕', helvetica, 'Apple SD Gothic Neo', sans-serif;
 }
 .style .box1 .ass-title1 {
   font-size: var(--font-size26);
@@ -157,7 +161,8 @@ p.sub-text {
 
 /***** publishing *****/
 .publishing {
-  width: 100%;
+  min-width: 1400px;
+  max-width: 1920px;
 }
 .publishing .box-inner {
   align-items: center;
@@ -174,7 +179,8 @@ p.sub-text {
 
 /***** problem *****/
 .problem {
-  width: 100%;
+  min-width: 1400px;
+  max-width: 1920px;
 }
 h6.sub-title {
   background-color: var(--gray-color);
@@ -184,27 +190,27 @@ h6.sub-title {
   margin-top: 5rem;
 }
 .bg1 {
-  width: 16rem;
-  height: 3.8rem;
-  line-height: 3.8rem;
-}
-.bg2 {
-  width: 17rem;
-  height: 3.8rem;
-  line-height: 3.8rem;
-}
-.bg3 {
   width: 18rem;
   height: 3.8rem;
   line-height: 3.8rem;
 }
+.bg2 {
+  width: 20rem;
+  height: 3.8rem;
+  line-height: 3.8rem;
+}
+.bg3 {
+  width: 20rem;
+  height: 3.8rem;
+  line-height: 3.8rem;
+}
 .bg4 {
-  width: 19.2rem;
+  width: 22rem;
   height: 3.8rem;
   line-height: 3.8rem;
 }
 .bg5 {
-  width: 18.4rem;
+  width: 21rem;
   height: 3.8rem;
   line-height: 3.8rem;
 }
@@ -214,14 +220,14 @@ h6.sub-title {
   display: block;
   width: 18.75rem;
   height: 6.25rem;
-  line-height: 6.25rem;
+  line-height: 5.25rem;
   border: 5px solid #fff;
   font-size: var(--font-size80);
   background-color: #696969;
   font-weight: 700;
   font-family: var(--main-font);
   text-align: center;
-  margin: 5rem auto;
+  margin: 8rem auto;
   transition: 0.3s ease-in-out;
 }
 .url:hover {
