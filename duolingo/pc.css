@@ -33,7 +33,7 @@ div.header-fix {
   color: #000;
 }
 .header-fix .header-fix-box li .ask-btn::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 1px;
   height: 11px;
@@ -41,7 +41,7 @@ div.header-fix {
   background-color: #000;
 }
 .header-fix .header-fix-box li .ask-btn::after {
-  content: "";
+  content: '';
   display: inline-block;
   width: 1px;
   height: 11px;
@@ -178,10 +178,8 @@ header .header-wrapper .header-nav .white-btn {
 }
 /*** img ***/
 .s-case {
-  padding-left: 10%;
 }
 .s-case .s-inner .s-img img {
-  height: 250px;
   margin: 0 20px;
 }
 /***** banner2 *****/

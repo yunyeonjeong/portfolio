@@ -318,6 +318,7 @@ header .menu-wrapper {
   width: 100%;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
 }
 .s-case .s-inner {
   flex-direction: column;
@@ -328,14 +329,13 @@ header .menu-wrapper {
 }
 .s-case .s-inner .s-img {
   margin-bottom: 1.875rem;
-}
-.s-case .s-inner .s-img img {
+  justify-content: center;
 }
 .s-t-box .s-txt {
   width: 110px;
   height: 30px;
   line-height: 30px;
-  font-size: var(--font-size13);
+  font-size: var(--font-size14);
   border-radius: 16px;
   background-color: var(--text-color);
   font-weight: normal;

@@ -106,6 +106,9 @@ header .header-wrapper h1 {
 .s-case .s-inner .s-img {
   width: 100%;
 }
+.s-case .s-inner .s-t-box .s-txt {
+  font-size: var(--font-size16);
+}
 
 /***** banner2 *****/
 .banner2 .b-img img {

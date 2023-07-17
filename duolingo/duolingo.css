@@ -44,7 +44,7 @@ main {
 }
 .title .intro {
   font-size: var(--font-size22);
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-evenly;
   margin: 6.25rem auto;
   min-width: 1400px;
@@ -53,6 +53,7 @@ main {
 .title .intro .intro-text {
   width: 38vw;
   font-size: var(--font-size26);
+  padding-top: 20px;
 }
 .title .intro .intro-list1 {
   color: #696969;
