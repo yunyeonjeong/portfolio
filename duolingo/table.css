@@ -3,9 +3,6 @@
 /* 변수 선언 */
 @import url(./variable.css);
 
-/* common */
-@import url(./common.css);
-
 /* 스크롤바 */
 ::-webkit-scrollbar {
   width: 4px;
@@ -31,9 +28,6 @@ header .header-wrapper h1 {
 
 .green-btn {
   font-size: var(--font-size16);
-}
-.header-fix {
-  display: none;
 }
 
 /***** contents *****/
@@ -169,15 +163,13 @@ header .header-wrapper h1 {
   margin-bottom: 104px;
   line-height: 1.4;
 }
-.flag .flag-inner {
-  margin-bottom: 142px;
+.flag .flag-inner .flag-wrap .flag-box {
+  height: 8rem;
 }
-.flag .flag-inner .flag-wrap {
-  height: 130px;
-}
-.flag .flag-inner .flag-wrap .flag-box .flag-img img {
-  margin-right: 60px;
-  height: 126px;
+.flag .flag-inner .flag-wrap .flag-box .flag-imgBox .flag-img img {
+  margin-right: 2rem;
+  width: 9rem;
+  height: 5.8rem;
 }
 
 /***** section5 *****/

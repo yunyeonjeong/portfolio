@@ -54,7 +54,7 @@ header .h-box {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 24px 32px;
+  padding: 1.5rem 2rem;
   position: static;
   height: 140px;
 }

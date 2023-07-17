@@ -3,9 +3,6 @@
 /* 변수 선언 */
 @import url(./variable.css);
 
-/* common */
-@import url(./common.css);
-
 /* 스크롤바 */
 ::-webkit-scrollbar {
   width: 8px;
@@ -20,7 +17,7 @@
 header .header-wrapper .hamburger {
   display: none;
 }
-.header-fix {
+div.header-fix {
   display: flex;
   border-bottom: 0.1px solid var(--gray-color3);
   width: 100%;
@@ -28,6 +25,7 @@ header .header-wrapper .hamburger {
   align-items: center;
   justify-content: flex-end;
   padding: 0 48px;
+  transition: 1s ease;
 }
 .header-fix .header-fix-box li a {
   font-size: var(--font-size16);
@@ -35,7 +33,7 @@ header .header-wrapper .hamburger {
   color: #000;
 }
 .header-fix .header-fix-box li .ask-btn::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 1px;
   height: 11px;
@@ -43,7 +41,7 @@ header .header-wrapper .hamburger {
   background-color: #000;
 }
 .header-fix .header-fix-box li .ask-btn::after {
-  content: '';
+  content: "";
   display: inline-block;
   width: 1px;
   height: 11px;
@@ -202,6 +200,10 @@ header .header-wrapper .header-nav .white-btn {
   width: 220px;
   margin-left: 40px;
 }
+.banner2 .b-box .b-store a:hover {
+  transform: translateY(-10px);
+  opacity: 0.5;
+}
 /***** section3 *****/
 .research .r-inner {
   width: 1228px;
@@ -253,6 +255,15 @@ header .header-wrapper .header-nav .white-btn {
 }
 
 /***** section4 *****/
+/*** flag-slide ***/
+.flag .flag-inner .flag-wrap .flag-box {
+  height: 10rem;
+}
+.flag .flag-inner .flag-wrap .flag-box .flag-imgBox .flag-img img {
+  margin-right: 3rem;
+  width: 11rem;
+  height: 7rem;
+}
 /***** section5 *****/
 
 /***** footer  *****/
@@ -286,6 +297,10 @@ header .header-wrapper .header-nav .white-btn {
   height: 30px;
   margin-right: 40px;
 }
+.f-box .f-inner .f-sns li a:hover {
+  transform: translateY(-10px);
+  opacity: 0.5;
+}
 /*** f-btn ***/
 .f-box .green-btn {
   width: 280px;
@@ -295,4 +310,21 @@ header .header-wrapper .header-nav .white-btn {
   border-radius: 28px;
   margin: 0;
   transform: translateX(-40%);
+}
+
+.upTo:hover {
+  opacity: 1;
+  bottom: 22px;
+}
+
+.green-btn:hover {
+  background-color: #fff;
+  color: var(--point-color1);
+  border: 1px solid var(--point-color1);
+}
+
+.white-btn:hover {
+  color: #fff;
+  background-color: var(--point-color1);
+  border: none;
 }
