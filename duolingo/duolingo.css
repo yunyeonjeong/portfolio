@@ -5,8 +5,8 @@
 
 body {
   background-color: #000;
-  font-family: 'NotoSansKR', -apple-system, BlinkMacSystemFont, 'Malgun Gothic',
-    '맑은 고딕', helvetica, 'Apple SD Gothic Neo', sans-serif;
+  font-family: "NotoSansKR", -apple-system, BlinkMacSystemFont, "Malgun Gothic",
+    "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
   color: #fff;
 }
 
@@ -15,10 +15,6 @@ span {
 }
 
 /***** title *****/
-main {
-  width: 67%;
-  margin: 100px auto 0;
-}
 .title {
   width: 100%;
 }
@@ -67,7 +63,7 @@ main {
 }
 .line::before {
   display: inline-block;
-  content: '';
+  content: "";
   height: 1rem;
   width: 0.1rem;
   background-color: #fff;
@@ -75,7 +71,7 @@ main {
 }
 .line::after {
   display: inline-block;
-  content: '';
+  content: "";
   height: 1rem;
   width: 0.1rem;
   background-color: #fff;
@@ -83,6 +79,10 @@ main {
 }
 
 /***** style *****/
+main {
+  width: 67%;
+  margin: 100px auto 0;
+}
 .style {
   min-width: 1400px;
   max-width: 1920px;
@@ -111,8 +111,8 @@ h4.sub-title {
 }
 /*** font ***/
 .style .box1 {
-  font-family: 'Pretendard Variable', -apple-system, BlinkMacSystemFont,
-    'Malgun Gothic', '맑은 고딕', helvetica, 'Apple SD Gothic Neo', sans-serif;
+  font-family: "Pretendard Variable", -apple-system, BlinkMacSystemFont,
+    "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
 }
 .style .box1 .ass-title1 {
   font-size: var(--font-size26);

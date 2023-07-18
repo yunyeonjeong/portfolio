@@ -1,1 +1,204 @@
 @charset "utf-8";
+
+/* 변수 선언 */
+@import url(../common/style/variable.css);
+
+body {
+  background-color: #000;
+  font-family: "NotoSansKR", -apple-system, BlinkMacSystemFont, "Malgun Gothic",
+    "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+  color: #fff;
+  line-height: 2;
+}
+
+span {
+  display: block;
+}
+/***** title *****/
+.title {
+  width: 100%;
+}
+.title .title-wrapper {
+  font-size: var(--font-size120);
+  color: var(--point-color);
+  font-family: var(--ko-font);
+  padding: 2rem;
+}
+.title .title-img {
+  width: 96%;
+  height: 754px;
+  outline: 5px solid #fff;
+  background: url(./images/main-title.png) no-repeat 50% 50% / cover;
+  padding: 0 4%;
+  margin: 0 auto;
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.title .title-img img {
+  width: 1836px;
+  height: 754px;
+}
+.title .intro {
+  font-size: var(--font-size22);
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin: 6.25rem auto;
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.title .intro .intro-text {
+  width: 38vw;
+  font-size: var(--font-size26);
+}
+.title .intro .intro-list1 {
+  color: #696969;
+  font-weight: 700;
+}
+.title .intro .intro-list2 {
+  margin-left: -200px;
+}
+.line::before {
+  display: inline-block;
+  content: "";
+  height: 1rem;
+  width: 0.1rem;
+  background-color: #fff;
+  margin: 0 1rem;
+}
+
+/***** main-common *****/
+main {
+  width: 67%;
+  margin: 100px auto 0;
+}
+/*** wt-title ***/
+h3.wt-title {
+  font-family: var(--ko-font);
+  font-size: var(--font-size80);
+  margin-top: 6.25rem;
+}
+/*** sub-title ***/
+h4.sub-title {
+  width: 8.75rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  background-color: var(--gray-color);
+  font-size: var(--font-size24);
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5rem;
+}
+/*** sub-text ***/
+.sub-text {
+  font-size: var(--font-size22);
+  margin-top: 2rem;
+}
+
+/***** 프로젝트 소개 *****/
+.intro {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.intro .box2 .sub-title {
+  width: 12rem;
+}
+
+/***** 진행 과정 *****/
+.course {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.course .course-text {
+  list-style: decimal;
+  margin-left: 25px;
+}
+
+/***** 데스크 리서치 *****/
+.research {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.research .box1,
+.research .box3 {
+  margin-right: 180px;
+}
+.research .box1 {
+  padding-right: 50px;
+}
+.research .research-wrapper .box2 .sub-title,
+.research .research-wrapper .box3 .sub-title {
+  width: 11rem;
+}
+.research .research-wrapper .box4 .sub-text {
+  list-style: disc;
+  margin-left: 25px;
+}
+
+/***** 기존 어플 문제점 *****/
+.problem {
+  min-width: 1400px;
+  max-width: 1920px;
+  position: relative;
+  overflow: hidden;
+  height: 1000px;
+}
+.problem .problem-img {
+  width: 294px;
+  height: 620px;
+  background: url(./images/problem-img.png) no-repeat;
+  position: absolute;
+  top: 300px;
+  left: 330px;
+}
+.problem .box1 .sub-title {
+  width: 12rem;
+  background-color: #1788e4;
+}
+.problem .box2 .sub-title {
+  background-color: #1788e4;
+}
+.problem .box3 .sub-title {
+  width: 12rem;
+  background-color: #1788e4;
+}
+.problem .box1 {
+  position: absolute;
+  top: 470px;
+}
+.problem .box2 {
+  position: absolute;
+  top: 280px;
+  left: 700px;
+}
+.problem .box3 {
+  position: absolute;
+  top: 600px;
+  left: 700px;
+}
+
+/***** UX 비전 *****/
+.uxv {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.uxv .sub-text {
+  font-size: var(--font-size24);
+}
+.uxv .uxv-text {
+  justify-content: space-between;
+}
+.uxv .uxv-text .asIs,
+.uxv .uxv-text .toBe {
+  flex-direction: column;
+}
+.uxv .uxv-text .asIs li,
+.uxv .uxv-text .toBe li {
+  margin-bottom: 30px;
+}
+.uxv .uxv-text .arrow {
+  font-family: var(--main-font);
+  font-size: var(--font-size80);
+  color: var(--point-color);
+  margin-left: -440px;
+  margin-top: 100px;
+}
