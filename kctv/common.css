@@ -28,6 +28,10 @@ body {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 span {
   display: block;
 }
