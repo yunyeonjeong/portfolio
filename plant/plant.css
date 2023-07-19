@@ -382,6 +382,9 @@ h4.sub-title {
   list-style: disc;
   margin-left: 30px;
 }
+.rating .box3 .space {
+  margin-bottom: 100px;
+}
 
 /***** 개인 리뷰 *****/
 .review {
@@ -399,10 +402,10 @@ h4.sub-title {
   height: 6.25rem;
   line-height: 6.25rem;
   border: 5px solid #fff;
-  font-size: var(--font-size80);
+  font-size: var(--font-size48);
   background-color: #696969;
   font-weight: 700;
-  font-family: var(--main-font);
+  font-family: var(--ko-font);
   text-align: center;
   margin: 8rem auto;
   transition: 0.3s ease-in-out;
