@@ -68,8 +68,8 @@ span {
 
 /***** main-common *****/
 main {
-  width: 67%;
-  margin: 100px auto 0;
+  width: 70%;
+  margin: 100px auto 200px;
 }
 /*** wt-title ***/
 h3.wt-title {
@@ -184,8 +184,9 @@ h4.sub-title {
 .uxv .sub-text {
   font-size: var(--font-size24);
 }
-.uxv .uxv-text {
-  justify-content: space-between;
+.uxv .uxv-text .sub-text {
+  font-size: var(--font-size22);
+  margin-top: 80px;
 }
 .uxv .uxv-text .asIs,
 .uxv .uxv-text .toBe {
@@ -199,6 +200,195 @@ h4.sub-title {
   font-family: var(--main-font);
   font-size: var(--font-size80);
   color: var(--point-color);
-  margin-left: -440px;
+  margin: 110px 180px 0 180px;
+}
+.uxv .uxv-text .asIs .gray {
+  color: #696969;
+}
+.uxv .uxv-text .asIs .space {
+  padding-bottom: 48px;
+}
+.uxv .uxv-text .toBe .blue {
+  color: #1788e4;
+}
+.gray-bg {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.uxv .uxv-text .toBe .sub-text .bg1 {
+  width: 200px;
+  height: 30px;
+}
+.uxv .uxv-text .toBe .sub-text .bg2 {
+  width: 480px;
+  height: 100px;
+}
+.uxv .uxv-text .toBe .sub-text .bg3 {
+  width: 410px;
+  height: 30px;
+}
+
+/***** 정보구조도 *****/
+.structure {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.structure .sub-text {
+  font-size: var(--font-size24);
+}
+.structure .structure-img {
+  width: 994px;
+  height: 340px;
+  background: url(./images/structure-img.png) no-repeat;
+  margin: 100px 0 140px 0;
+}
+
+/***** 스타일 가이드 *****/
+.style {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.style .logo-img {
+  width: 518px;
+  height: 144px;
+  background: url(./images/logo-img.png) no-repeat;
+  margin: 60px 0 80px 0;
+}
+.style .characterBox {
+  align-items: center;
+}
+.style .characterBox .character-img {
+  width: 74px;
+  height: 111px;
+  background: url(./images/character.png) no-repeat;
+  margin-top: 30px;
+  margin-right: 80px;
+}
+.style .box3 .colorBox {
+  margin-right: 100px;
+}
+.style .box3 .box-wrapper .ass-title2 {
+  font-size: var(--font-size26);
+}
+.color {
+  width: 6.25rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-size: var(--font-size16);
+  text-align: center;
+  margin-right: 2rem;
+}
+.color1 {
+  background-color: #03c75a;
+}
+.color2 {
+  background-color: #0782e8;
+}
+.color3 {
+  background-color: #fff;
+  color: #000;
+}
+.color4 {
+  background-color: #dad9d9;
+  color: #000;
+}
+.color5 {
+  background-color: #000;
+  border: 1px solid #fff;
+}
+.ass-title2 {
+  margin: 30px 0;
+}
+.fontBox li .medium {
+  font-weight: 500;
+}
+.fontBox .sub-text1 {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Malgun Gothic",
+    "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+  font-size: var(--font-size22);
+  margin-top: 2rem;
+}
+
+/***** 프로토 타입 *****/
+.proto {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.proto .proto-img {
   margin-top: 100px;
+}
+.proto .proto-img figure {
+  margin-right: 40px;
+}
+.proto .proto-img figure figcaption {
+  width: 60%;
+  height: 44px;
+  background-color: #1788e4;
+  font-size: var(--font-size24);
+  font-weight: 700;
+  text-align: center;
+  margin: 30px auto 0;
+}
+
+/***** 담당 업무 *****/
+.work {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.work .work-box {
+  margin-left: 30px;
+}
+.work .work-box .sub-text {
+  list-style: disc;
+  padding-right: 100px;
+}
+.work .work-box .sub-text li {
+  margin-bottom: 28px;
+}
+
+/***** 프로젝트 결과 *****/
+.result {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.result .sub-text {
+  list-style: disc;
+  margin-left: 30px;
+}
+.result .sub-text li {
+  margin-bottom: 28px;
+}
+
+/***** 개인 평가 *****/
+.rating {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.rating .box1 .sub-text {
+  list-style: disc;
+  margin-left: 30px;
+}
+.rating .box1 .sub-text li {
+  margin-bottom: 28px;
+}
+.rating .box2 .sub-text {
+  list-style: disc;
+  margin-left: 30px;
+  padding-right: 100px;
+}
+.rating .box2 .sub-text li {
+  margin-bottom: 28px;
+}
+.rating .box3 .sub-text {
+  list-style: disc;
+  margin-left: 30px;
+}
+
+/***** 개인 리뷰 *****/
+.review {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.review .sub-text {
+  width: 72%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
