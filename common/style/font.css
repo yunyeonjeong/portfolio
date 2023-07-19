@@ -21,7 +21,7 @@
   font-display: swap;
 }
 
-/* NotoSansKR */
+/* Noto Sans Korean */
 @font-face {
   font-family: "NotoSansKR";
   src: url(../fonts/NotoSansKR-Black.woff2) format("woff2");
