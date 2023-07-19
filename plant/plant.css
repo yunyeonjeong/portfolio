@@ -75,7 +75,7 @@ main {
 h3.wt-title {
   font-family: var(--ko-font);
   font-size: var(--font-size80);
-  margin-top: 6.25rem;
+  margin-top: 12.5rem;
 }
 /*** sub-title ***/
 h4.sub-title {
@@ -140,14 +140,14 @@ h4.sub-title {
   max-width: 1920px;
   position: relative;
   overflow: hidden;
-  height: 1000px;
+  height: 1100px;
 }
 .problem .problem-img {
   width: 294px;
   height: 620px;
   background: url(./images/problem-img.png) no-repeat;
   position: absolute;
-  top: 300px;
+  top: 400px;
   left: 330px;
 }
 .problem .box1 .sub-title {
@@ -163,16 +163,16 @@ h4.sub-title {
 }
 .problem .box1 {
   position: absolute;
-  top: 470px;
+  top: 500px;
 }
 .problem .box2 {
   position: absolute;
-  top: 280px;
+  top: 360px;
   left: 700px;
 }
 .problem .box3 {
   position: absolute;
-  top: 600px;
+  top: 700px;
   left: 700px;
 }
 
@@ -391,4 +391,22 @@ h4.sub-title {
 .review .sub-text {
   width: 72%;
   background-color: rgba(255, 255, 255, 0.1);
+}
+/***** view-project btn ****/
+.url {
+  display: block;
+  width: 28rem;
+  height: 6.25rem;
+  line-height: 6.25rem;
+  border: 5px solid #fff;
+  font-size: var(--font-size80);
+  background-color: #696969;
+  font-weight: 700;
+  font-family: var(--main-font);
+  text-align: center;
+  margin: 8rem auto;
+  transition: 0.3s ease-in-out;
+}
+.url:hover {
+  opacity: 0.5;
 }
