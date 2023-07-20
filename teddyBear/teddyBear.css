@@ -237,6 +237,10 @@ h4.sub-title {
   font-family: var(--ko-font);
   font-size: var(--font-size30);
   margin-top: 40px;
+  transition: 0.3s ease-in-out;
+}
+.publishing .view:hover {
+  opacity: 0.5;
 }
 .publishing .view-box {
   margin: 0 auto;
@@ -253,6 +257,10 @@ h4.sub-title {
   text-decoration: underline;
   font-family: var(--ko-font);
   color: var(--point-color);
+  transition: 0.3s ease-in-out;
+}
+.publishing .view-box .view1:hover {
+  opacity: 0.5;
 }
 
 /***** 프로젝트 결과 *****/
