@@ -1,0 +1,323 @@
+@charset "utf-8";
+
+/* 변수 선언 */
+@import url(../common/style/variable.css);
+
+body {
+  background-color: #000;
+  font-family: 'NotoSansKR', -apple-system, BlinkMacSystemFont, 'Malgun Gothic',
+    '맑은 고딕', helvetica, 'Apple SD Gothic Neo', sans-serif;
+  color: #fff;
+  line-height: 2;
+}
+
+span {
+  display: block;
+}
+
+/***** title *****/
+.title {
+  width: 100%;
+}
+.title .title-wrapper {
+  font-size: var(--font-size120);
+  color: var(--point-color);
+  font-family: var(--ko-font);
+  padding: 2rem;
+}
+.title .title-img {
+  width: 96%;
+  height: 754px;
+  outline: 5px solid #fff;
+  background: url(./images/main-title.png) no-repeat 50% 50% / cover;
+  padding: 0 4%;
+  margin: 0 auto;
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.title .title-img img {
+  width: 1836px;
+  height: 754px;
+}
+.title .intro {
+  font-size: var(--font-size22);
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin: 6.25rem auto;
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.title .intro .intro-text {
+  width: 38vw;
+  font-size: var(--font-size26);
+  margin-left: 50px;
+}
+.title .intro .intro-list1 {
+  color: #696969;
+  font-weight: 700;
+}
+.title .intro .intro-list2 {
+  margin-left: -200px;
+}
+.line::before {
+  display: inline-block;
+  content: '';
+  height: 1rem;
+  width: 0.1rem;
+  background-color: #fff;
+  margin: 0 1rem;
+}
+
+/***** main-common *****/
+main {
+  width: 70%;
+  margin: 100px auto 200px;
+}
+/*** wt-title ***/
+h3.wt-title {
+  font-family: var(--ko-font);
+  font-size: var(--font-size80);
+  margin-top: 12.5rem;
+}
+/*** sub-title ***/
+h4.sub-title {
+  width: 8.75rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  background-color: var(--gray-color);
+  font-size: var(--font-size24);
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5rem;
+}
+/*** sub-text ***/
+.sub-text {
+  font-size: var(--font-size22);
+  margin-top: 2rem;
+}
+
+/***** 프로젝트 소개 *****/
+.intro {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.intro .box2 .sub-title {
+  width: 12rem;
+}
+
+/***** 진행 과정 *****/
+.course {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.course .course-text {
+  list-style: decimal;
+  margin-left: 34px;
+}
+
+/***** 담당 업무 *****/
+.work {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.work .work-box {
+  margin-left: 30px;
+}
+.work .work-box .sub-text {
+  list-style: disc;
+  padding-right: 200px;
+}
+.work .work-box .sub-text li {
+  margin-bottom: 28px;
+}
+
+/***** 스타일 가이드 *****/
+.style {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+/*** 키워드 ***/
+.style .box1 {
+  margin-right: 280px;
+}
+/*** 폰트 ***/
+.style .box3 .font-inner {
+  font-family: 'Helvetica-95-Black', 'NotoSansKR';
+  font-size: var(--font-size22);
+  margin: 2rem 100px 0 0;
+}
+.style .box3 .box-list {
+  flex-direction: column;
+  margin-top: 48px;
+}
+.ass-box {
+  margin-right: 100px;
+}
+.style .box3 .font-inner1 {
+  font-family: 'Gyeonggi', 'NotoSansKR';
+  font-size: var(--font-size22);
+  margin: 2rem 100px 0 0;
+}
+.style .box3 .font-inner1 .box-list {
+  margin-top: 40px;
+}
+.bold {
+  font-weight: bold;
+}
+/*** 컬러 ***/
+.color {
+  width: 6.25rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-size: var(--font-size16);
+  text-align: center;
+  margin-right: 2rem;
+  color: #000;
+}
+.color1 {
+  background-color: #ffad99;
+  margin-top: 30px;
+}
+.color2 {
+  background-color: #74deff;
+}
+.color3 {
+  background-color: #ffcd4b;
+}
+.color4 {
+  background-color: #fee8c3;
+}
+.color5 {
+  background-color: #ff9bf5;
+}
+.color6 {
+  background-color: #fff;
+}
+.color7 {
+  background-color: #f0f0f0;
+}
+.color8 {
+  background-color: #000;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.style .color-box1 {
+  margin-right: 40px;
+}
+.style .box4 .box-wrapper .box-inner {
+  margin-top: 30px;
+}
+
+/***** 퍼블리싱 *****/
+.publishing {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.publishing .publishing-box .box-inner {
+  flex-direction: column;
+  margin-top: 80px;
+  list-style: disc;
+  margin-left: 30px;
+}
+.publishing .publishing-box .box-wrapper {
+  flex-direction: column;
+  margin-left: 200px;
+}
+.publishing .publishing-box .box-wrapper .box-inner li {
+  margin-bottom: 20px;
+}
+.publishing .view {
+  display: block;
+  width: 34rem;
+  height: 3rem;
+  line-height: 3rem;
+  background: #ffad99;
+  color: #000;
+  text-align: center;
+  font-family: var(--ko-font);
+  font-size: var(--font-size30);
+  margin-top: 40px;
+}
+.publishing .view-box {
+  margin: 0 auto;
+}
+.publishing .view-box .arrow {
+  font-size: var(--font-size40);
+  color: var(--point-color);
+  font-family: var(--main-font);
+  text-align: center;
+}
+.publishing .view-box .view1 {
+  display: block;
+  font-size: var(--font-size28);
+  text-decoration: underline;
+  font-family: var(--ko-font);
+  color: var(--point-color);
+}
+
+/***** 프로젝트 결과 *****/
+.result {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.result .sub-text {
+  list-style: disc;
+  margin-left: 30px;
+}
+.result .sub-text li {
+  margin-bottom: 28px;
+}
+
+/***** 개인 평가 *****/
+.rating {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.rating .box1 .sub-text {
+  list-style: disc;
+  margin-left: 30px;
+}
+.rating .box1 .sub-text li {
+  margin-bottom: 28px;
+}
+.rating .box2 .sub-text {
+  list-style: disc;
+  margin-left: 30px;
+  padding-right: 100px;
+}
+.rating .box2 .sub-text li {
+  margin-bottom: 28px;
+}
+.rating .box3 .sub-text {
+  list-style: disc;
+  margin-left: 30px;
+}
+
+/***** 개인 리뷰 *****/
+.review {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.review .sub-text {
+  width: 66%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/***** view-project btn ****/
+.url {
+  display: block;
+  width: 18.75rem;
+  height: 6.25rem;
+  line-height: 5.25rem;
+  border: 5px solid #fff;
+  font-size: var(--font-size80);
+  background-color: #696969;
+  font-weight: 700;
+  font-family: var(--main-font);
+  text-align: center;
+  margin: 8rem auto;
+  transition: 0.3s ease-in-out;
+}
+.url:hover {
+  opacity: 0.5;
+}

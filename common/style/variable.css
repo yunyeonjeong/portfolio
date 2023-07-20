@@ -1,9 +1,9 @@
 @charset "utf-8";
 
 :root {
-  --main-font: "PP NeueBit", sans-serif;
-  --en-font: "astra 100", sans-serif;
-  --ko-font: "둥근모꼴", sans-serif;
+  --main-font: 'PP NeueBit', sans-serif;
+  --en-font: 'astra 100', sans-serif;
+  --ko-font: '둥근모꼴', sans-serif;
 
   --point-color: #4ced00;
   --gray-color: #404040;
@@ -15,7 +15,9 @@
   --font-size100: 6.25rem;
   --font-size80: 5rem;
   --font-size48: 3rem;
+  --font-size40: 2.5rem;
   --font-size32: 2rem;
+  --font-size30: 1.875rem;
   --font-size28: 1.75rem;
   --font-size26: 1.625rem;
   --font-size24: 1.5rem;
