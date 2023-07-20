@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+body {
+  background-color: #f0f0f0;
+  color: #2a2a2a;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 400;
+}
