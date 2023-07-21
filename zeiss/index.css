@@ -4,6 +4,36 @@ body {
   background-color: #f0f0f0;
   color: #2a2a2a;
   line-height: 1;
+  font-family: 'lato', -apple-system, BlinkMacSystemFont, 'Malgun Gothic',
+    '맑은 고딕', helvetica, 'Apple SD Gothic Neo', sans-serif;
   font-size: 14px;
   font-weight: 400;
+}
+
+.flex {
+  display: flex;
+}
+
+span {
+  display: block;
+}
+
+/***** nav *****/
+.nav {
+  width: 100%;
+}
+.nav .nav-wrapper {
+  padding: 1% 2%;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .nav-wrapper .n-logo .n-svg {
+  width: 40px;
+  height: 40px;
+}
+nav .nav-wrapper .menu {
+  font-weight: 300;
+}
+nav .nav-wrapper .menu li {
+  margin-left: 70px;
 }
