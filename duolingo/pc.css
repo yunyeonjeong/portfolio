@@ -258,13 +258,12 @@ header .header-wrapper .header-nav .white-btn {
 
 /***** section4 *****/
 /*** flag-slide ***/
-.flag .flag-inner .flag-wrap .flag-box {
-  height: 10rem;
+.slideItem img {
+  height: 120px;
 }
-.flag .flag-inner .flag-wrap .flag-box .flag-imgBox .flag-img img {
-  margin-right: 3rem;
-  width: 11rem;
-  height: 7rem;
+
+.viewBox {
+  height: 130px;
 }
 /***** section5 *****/
 

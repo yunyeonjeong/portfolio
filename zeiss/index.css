@@ -12,8 +12,8 @@ body {
   background-color: #f0f0f0;
   color: #2a2a2a;
   line-height: 1;
-  font-family: "lato", -apple-system, BlinkMacSystemFont, "Malgun Gothic",
-    "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+  font-family: 'lato', -apple-system, BlinkMacSystemFont, 'Malgun Gothic',
+    '맑은 고딕', helvetica, 'Apple SD Gothic Neo', sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
@@ -72,7 +72,7 @@ span {
   position: relative;
 }
 .nav .nav-wrapper .menu li a::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -2px;
   left: 0;
@@ -106,6 +106,16 @@ span {
 .header .h-title .h-wrapper .h-line {
   display: inline-block;
 }
+.animate-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.animate-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 /***** content *****/
 /***** lens *****/
@@ -125,6 +135,13 @@ span {
 .lens .lens-wrapper .lens-box .lens-inner .lens-img {
   width: 434px;
   height: 578px;
+  position: relative;
+  overflow: hidden;
+  transition: border-radius 1s ease, transform 1s ease;
+}
+.lens .lens-wrapper .lens-box .lens-inner:hover .lens-img {
+  border-radius: 50%;
+  transform: scale(1.1);
 }
 .lens .lens-wrapper .lens-box .lens-inner .lens-num {
   width: 40px;
@@ -217,14 +234,47 @@ h4.title {
   font-size: 0.875rem;
   text-align: center;
   line-height: 24px;
+  position: relative;
+}
+.btn-text {
+  display: block;
+  width: 160px;
+  height: 24px;
+  border-radius: 30px;
+  background: #2a2a2a;
+  color: #f0f0f0;
+  font-size: 0.875rem;
+  text-align: center;
+  line-height: 24px;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.btn-style:hover .btn-text {
+  opacity: 1;
 }
 
 /***** video *****/
-.video .mp4 {
-  width: 10%;
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.video-container .mp4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
   max-width: 100%;
   height: auto;
-  transition: width 0.5s;
+  object-fit: cover;
+  transition: width 0.8s, height 0.8s;
 }
 
 /***** featured *****/
@@ -254,6 +304,7 @@ h4.title {
   height: 78vh;
   overflow: hidden;
   padding: 0 2%;
+  position: relative;
 }
 .swiper .swiper-wrapper {
   width: 800%;
@@ -299,6 +350,13 @@ h4.title {
 .footer {
   padding: 0 2%;
   width: 100%;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  display: none;
+}
+.footer-show {
+  display: block;
 }
 .footer .f-text {
   font-size: 1.25rem;
@@ -339,7 +397,7 @@ h4.title {
   position: relative;
 }
 .footer .f-wrapper2 .f-sns a::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -2px;
   left: 0;

@@ -117,18 +117,19 @@ main .m-wrapper .m-inner:hover {
   background-blend-mode: normal;
 }
 .m-2 {
-}
-.m-3 {
   background: url(./images/m2.png) no-repeat center / cover;
 }
-.m-4 {
+.m-3 {
   background: url(./images/m3.png) no-repeat center / cover;
 }
-.m-5 {
+.m-4 {
   background: url(./images/m4.png) no-repeat center / cover;
 }
-.m-6 {
+.m-5 {
   background: url(./images/m5.png) no-repeat center / cover;
+}
+.m-6 {
+  background: url(./images/m6.png) no-repeat center / cover;
 }
 /***** footer *****/
 footer {
