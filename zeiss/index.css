@@ -12,8 +12,8 @@ body {
   background-color: #f0f0f0;
   color: #2a2a2a;
   line-height: 1;
-  font-family: 'lato', -apple-system, BlinkMacSystemFont, 'Malgun Gothic',
-    '맑은 고딕', helvetica, 'Apple SD Gothic Neo', sans-serif;
+  font-family: "lato", -apple-system, BlinkMacSystemFont, "Malgun Gothic",
+    "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
@@ -47,6 +47,20 @@ span {
   width: 40px;
   height: 40px;
 }
+.nav .nav-wrapper .n-txt {
+  position: absolute;
+  top: 30px;
+  left: 82px;
+  letter-spacing: -0.1rem;
+  font-weight: 300;
+}
+.nav .nav-wrapper .menu-btn {
+  font-weight: 300;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 32px;
+  right: 60px;
+}
 .nav .nav-wrapper .menu {
   font-weight: 300;
 }
@@ -58,7 +72,7 @@ span {
   position: relative;
 }
 .nav .nav-wrapper .menu li a::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -2px;
   left: 0;
@@ -206,6 +220,12 @@ h4.title {
 }
 
 /***** video *****/
+.video .mp4 {
+  width: 10%;
+  max-width: 100%;
+  height: auto;
+  transition: width 0.5s;
+}
 
 /***** featured *****/
 .featured {
@@ -246,9 +266,9 @@ h4.title {
   height: 12px;
   color: rgba(255, 255, 255, 0.1);
 }
-.swiper-pagination-bullet-active {
+/* .swiper-pagination .swiper-pagination-bullet-active {
   color: #f0f0f0;
-}
+} */
 /*** swiper-img ***/
 .swiper-img1 {
   background: url(./images/swiper-img1.png) no-repeat center / contain;
@@ -319,7 +339,7 @@ h4.title {
   position: relative;
 }
 .footer .f-wrapper2 .f-sns a::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -2px;
   left: 0;
