@@ -12,8 +12,8 @@ body {
   background-color: #f0f0f0;
   color: #2a2a2a;
   line-height: 1;
-  font-family: 'lato', -apple-system, BlinkMacSystemFont, 'Malgun Gothic',
-    '맑은 고딕', helvetica, 'Apple SD Gothic Neo', sans-serif;
+  font-family: "lato", -apple-system, BlinkMacSystemFont, "Malgun Gothic",
+    "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
@@ -60,6 +60,8 @@ span {
   position: absolute;
   top: 32px;
   right: 60px;
+  cursor: pointer;
+  display: none;
 }
 .nav .nav-wrapper .menu {
   font-weight: 300;
@@ -72,7 +74,7 @@ span {
   position: relative;
 }
 .nav .nav-wrapper .menu li a::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -2px;
   left: 0;
@@ -108,10 +110,9 @@ span {
 }
 .animate-up {
   opacity: 0;
-  transform: translateY(20px);
+  transform: translateY(80px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 }
-
 .animate-up.show {
   opacity: 1;
   transform: translateY(0);
@@ -127,21 +128,29 @@ span {
 .lens .lens-wrapper {
   margin-top: 160px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 1.2vw;
+  gap: 2vw;
 }
 .lens .lens-wrapper .lens-box {
   position: relative;
 }
-.lens .lens-wrapper .lens-box .lens-inner .lens-img {
-  width: 434px;
-  height: 578px;
-  position: relative;
+.lens .lens-wrapper .lens-box .lens-inner {
+  width: 400px;
+  height: 500px;
   overflow: hidden;
-  transition: border-radius 1s ease, transform 1s ease;
+  background-color: #fff;
+  transition: border-radius 1s linear;
+}
+.lens .lens-wrapper .lens-box .lens-inner .lens-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1s linear;
+}
+.lens .lens-wrapper .lens-box .lens-inner:hover {
+  border-radius: 10%;
 }
 .lens .lens-wrapper .lens-box .lens-inner:hover .lens-img {
-  border-radius: 50%;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 .lens .lens-wrapper .lens-box .lens-inner .lens-num {
   width: 40px;
@@ -149,17 +158,17 @@ span {
   transform: rotate(-90deg);
   font-weight: 300;
   position: absolute;
-  top: 4px;
-  right: -24px;
+  top: 5px;
+  right: -9px;
 }
 .lens .lens-wrapper .lens-box .lens-line {
-  width: 434px;
+  width: 400px;
   height: 1px;
   background-color: #2a2a2a;
-  margin: 20px 0;
+  margin: 30px 0 20px;
 }
 .lens .lens-wrapper .lens-box .lens-text1 {
-  width: 434px;
+  width: 400px;
   font-size: 0.9rem;
   letter-spacing: 0.04rem;
   justify-content: space-between;
@@ -170,34 +179,34 @@ span {
   margin-top: 10px;
 }
 .img1 {
-  background: url(./images/Planar.png) no-repeat center / cover;
+  background: url(./images/Planar.png) no-repeat center / 130%;
 }
 .img2 {
-  background: url(./images/Sonnar.png) no-repeat center / cover;
+  background: url(./images/Sonnar.png) no-repeat center / 130%;
 }
 .img3 {
-  background: url(./images/Distagon2.8-25.png) no-repeat center / cover;
+  background: url(./images/Distagon2.8-25.png) no-repeat center / 130%;
 }
 .img4 {
-  background: url(./images/Distagon1.4-35.png) no-repeat center / cover;
+  background: url(./images/Distagon1.4-35.png) no-repeat center / 130%;
 }
 .img5 {
-  background: url(./images/Biogon2.8-21.png) no-repeat center / cover;
+  background: url(./images/Biogon2.8-21.png) no-repeat center / 130%;
 }
 .img6 {
-  background: url(./images/Biogon2.8-25.png) no-repeat center / cover;
+  background: url(./images/Biogon2.8-25.png) no-repeat center / 130%;
 }
 .img7 {
-  background: url(./images/Biogon2.8-28.png) no-repeat center / cover;
+  background: url(./images/Biogon2.8-28.png) no-repeat center / 130%;
 }
 .img8 {
-  background: url(./images/Biogon2.8-35.png) no-repeat center / cover;
+  background: url(./images/Biogon2.8-35.png) no-repeat center / 130%;
 }
 
 /***** about *****/
 .about {
   width: 100%;
-  margin: 180px auto;
+  margin: 180px auto 120px;
   padding: 0 2%;
 }
 h4.title {
@@ -208,21 +217,24 @@ h4.title {
   margin-top: 80px;
 }
 .about .about-wrapper .about-text {
-  font-size: 1.5rem;
-  letter-spacing: -0.02rem;
-  width: 180%;
-  margin-right: 200px;
-  line-height: 1.1;
+  font-family: "SpoqaHanSansNeo", -apple-system, BlinkMacSystemFont,
+    "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+  font-size: 1.6rem;
+  width: 50%;
+  line-height: 1.4;
+  font-weight: 300;
 }
 .about .about-wrapper .about-inner {
   flex-direction: column;
 }
 .about .about-wrapper .about-inner .about-text {
-  font-size: 1rem;
-  letter-spacing: 0.04rem;
+  font-family: "SpoqaHanSansNeo", -apple-system, BlinkMacSystemFont,
+    "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+  font-size: 1.1rem;
   font-weight: 300;
-  width: 74%;
-  margin-bottom: 80px;
+  width: 100%;
+  margin-bottom: 60px;
+  line-height: 1.6;
 }
 .btn-style {
   display: block;
@@ -251,11 +263,12 @@ h4.title {
   left: 100%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.1s ease;
 }
 
 .btn-style:hover .btn-text {
   opacity: 1;
+  transition: 0.8s ease;
 }
 
 /***** video *****/
@@ -270,7 +283,7 @@ h4.title {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 30%;
+  width: 40%;
   max-width: 100%;
   height: auto;
   object-fit: cover;
@@ -284,18 +297,30 @@ h4.title {
   padding: 0 2%;
 }
 .featured .featured-wrapper {
-  margin-top: 80px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 4.6vw;
+  margin-top: 100px;
+}
+.featured .featured-wrapper .featured-inner {
+  margin-right: 30px;
 }
 .featured .featured-wrapper .featured-inner .inner-title {
   font-size: 2.8rem;
 }
 .featured .featured-wrapper .featured-inner .inner-text {
+  font-family: "SpoqaHanSansNeo", -apple-system, BlinkMacSystemFont,
+    "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
   margin: 30px 0;
   font-size: 1.1rem;
-  width: 80%;
   font-weight: 300;
-  line-height: 1.3;
-  letter-spacing: 0.06rem;
+  line-height: 1.5;
+}
+.featured .featured-wrapper .featured-inner .inner-text span {
+  margin: 20px 0;
+}
+
+.f-space {
+  margin-top: 57px;
 }
 
 /***** swiper *****/
@@ -312,14 +337,29 @@ h4.title {
 .swiper .swiper-wrapper .swiper-slide {
   width: 100%;
 }
-.swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  color: rgba(255, 255, 255, 0.1);
+.swiper .swiper-wrapper .swiper-slide .swiper-text {
+  width: 430px;
+  height: 40px;
+  font-size: 1.2rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  bottom: 6%;
+  right: -11%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 700;
 }
-/* .swiper-pagination .swiper-pagination-bullet-active {
+.autoplay-progress {
+  position: absolute;
+  top: 10%;
+  right: 3%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  font-size: 2rem;
   color: #f0f0f0;
-} */
+}
 /*** swiper-img ***/
 .swiper-img1 {
   background: url(./images/swiper-img1.png) no-repeat center / contain;
@@ -382,6 +422,10 @@ h4.title {
   margin-top: 18px;
   line-height: 1.2;
 }
+.f-ko {
+  font-family: "SpoqaHanSansNeo", -apple-system, BlinkMacSystemFont,
+    "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+}
 .footer .f-wrapper2 {
   font-size: 1rem;
   margin: 160px 0 30px;
@@ -397,7 +441,7 @@ h4.title {
   position: relative;
 }
 .footer .f-wrapper2 .f-sns a::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -2px;
   left: 0;

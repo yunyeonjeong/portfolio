@@ -1,21 +1,21 @@
 /* index font */
 @font-face {
-  font-family: 'astra 100';
-  src: url(../fonts/astra-100.woff2) format('woff2');
+  font-family: "astra 100";
+  src: url(../fonts/astra-100.woff2) format("woff2");
   font-weight: 700;
   font-style: Regular;
   font-display: swap;
 }
 @font-face {
-  font-family: '둥근모꼴';
-  src: url(../fonts/DungGeunMo.woff2) format('woff2');
+  font-family: "둥근모꼴";
+  src: url(../fonts/DungGeunMo.woff2) format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'PP NeueBit';
-  src: url(../fonts/PPNeueBit-Bold.woff2) format('woff2');
+  font-family: "PP NeueBit";
+  src: url(../fonts/PPNeueBit-Bold.woff2) format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -23,93 +23,109 @@
 
 /* Noto Sans Korean */
 @font-face {
-  font-family: 'NotoSansKR';
-  src: url(../fonts/NotoSansKR-Black.woff2) format('woff2');
+  font-family: "NotoSansKR";
+  src: url(../fonts/NotoSansKR-Black.woff2) format("woff2");
   font-weight: 900;
   font-style: Black;
   font-display: swap;
 }
 @font-face {
-  font-family: 'NotoSansKR';
-  src: url(../fonts/NotoSansKR-Bold.woff2) format('woff2');
+  font-family: "NotoSansKR";
+  src: url(../fonts/NotoSansKR-Bold.woff2) format("woff2");
   font-weight: 700;
   font-style: Bold;
   font-display: swap;
 }
 @font-face {
-  font-family: 'NotoSansKR';
-  src: url(../fonts/NotoSansKR-Medium.woff2) format('woff2');
+  font-family: "NotoSansKR";
+  src: url(../fonts/NotoSansKR-Medium.woff2) format("woff2");
   font-weight: 500;
   font-style: Medium;
   font-display: swap;
 }
 @font-face {
-  font-family: 'NotoSansKR';
-  src: url(../fonts/NotoSansKR-Regular.woff2) format('woff2');
+  font-family: "NotoSansKR";
+  src: url(../fonts/NotoSansKR-Regular.woff2) format("woff2");
   font-weight: 400;
   font-style: Regular;
   font-display: swap;
 }
 @font-face {
-  font-family: 'NotoSansKR';
-  src: url(../fonts/NotoSansKR-Light.woff2) format('woff2');
+  font-family: "NotoSansKR";
+  src: url(../fonts/NotoSansKR-Light.woff2) format("woff2");
   font-weight: 300;
   font-style: Light;
   font-display: swap;
 }
 @font-face {
-  font-family: 'NotoSansKR';
-  src: url(../fonts/NotoSansKR-Thin.woff2) format('woff2');
+  font-family: "NotoSansKR";
+  src: url(../fonts/NotoSansKR-Thin.woff2) format("woff2");
   font-weight: 100;
   font-style: Thin;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Montserrat';
-  src: url(../fonts/Montserrat-Medium.woff2) format('woff2');
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-Medium.woff2) format("woff2");
   font-weight: 500;
   font-style: Medium;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Montserrat';
-  src: url(../fonts/Montserrat-Bold.woff2) format('woff2');
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-Bold.woff2) format("woff2");
   font-weight: 700;
   font-style: Bold;
   font-display: swap;
 }
 @font-face {
-  font-family: 'lato';
-  src: url(../fonts/Lato-Thin.woff2) format('woff2');
+  font-family: "lato";
+  src: url(../fonts/Lato-Thin.woff2) format("woff2");
   font-weight: 100;
   font-style: Thin;
   font-display: swap;
 }
 @font-face {
-  font-family: 'lato';
-  src: url(../fonts/Lato-Light.woff2) format('woff2');
+  font-family: "lato";
+  src: url(../fonts/Lato-Light.woff2) format("woff2");
   font-weight: 300;
   font-style: Light;
   font-display: swap;
 }
 @font-face {
-  font-family: 'lato';
-  src: url(../fonts/Lato-Regular.woff2) format('woff2');
+  font-family: "lato";
+  src: url(../fonts/Lato-Regular.woff2) format("woff2");
   font-weight: 400;
   font-style: Regular;
   font-display: swap;
 }
 @font-face {
-  font-family: 'lato';
-  src: url(../fonts/Lato-Bold.woff2) format('woff2');
+  font-family: "lato";
+  src: url(../fonts/Lato-Bold.woff2) format("woff2");
   font-weight: 700;
   font-style: Bold;
   font-display: swap;
 }
 @font-face {
-  font-family: 'lato';
-  src: url(../fonts/Lato-Black.woff2) format('woff2');
+  font-family: "lato";
+  src: url(../fonts/Lato-Black.woff2) format("woff2");
   font-weight: 900;
   font-style: Black;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SpoqaHanSansNeo";
+  src: url(../fonts/SpoqaHanSansNeo-Thin.woff2) format("woff2");
+  font-weight: 100;
+  font-style: Thin;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SpoqaHanSansNeo";
+  src: url(../fonts/SpoqaHanSansNeo-Regular.woff2) format("woff2");
+  font-weight: 300;
+  font-style: Regular;
   font-display: swap;
 }
