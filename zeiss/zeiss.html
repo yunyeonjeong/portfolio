@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>zeiss</title>
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="./favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+
+    <!--reset-->
+    <link rel="stylesheet" href="../common/style/reset.css">
+    <!--font-->
+    <link rel="stylesheet" href="../common/style/font.css">
+    <link rel="stylesheet" href="../common/style/pretendardvariable-dynamic-subset.css">
+
+    <!--common style-->
+    <link rel="stylesheet" href="../common/style/common.css">
+    <!--style-->
+    <link rel="stylesheet" href="./zeiss.css">
+</head>
+
+<body>
+    <!---- header ---->
+    <header>
+        <div class="h-box flex">
+            <div class="h-logo">
+                <a href="#"><img src="../images/logo.png" alt="header logo"></a>
+            </div>
+            <div class="h-menu">
+                <a href="#box5-a" class="c-g">PROJECT</a>
+                <a href="./about.html" class="g-g">ABOUT</a>
+            </div>
+        </div>
+    </header>
+
+    <!---- title ---->
+    <article class="title">
+        <h2 class="title-wrapper">ZEISS</h2>
+        <div class="title-img"></div>
+        <div class="intro flex">
+            <p class="intro-text">ZEISS KOREA 렌즈 제품군 페이지 리디자인</p>
+            <ul class="intro-list1">
+                <li>DATE</li>
+                <li>TOOL</li>
+                <li>TAGS</li>
+            </ul>
+            <ul class="intro-list2">
+                <li>2023.07.20&nbsp;&nbsp;~&nbsp;&nbsp;2023.07.26</li>
+                <li>Figma VScode</li>
+                <li>PC</li>
+            </ul>
+        </div>
+    </article>
+
+    <!---- main---->
+    <main>
+        <!-- style -->
+        <section class="style">
+            <h3 class="wt-title">Style Guide</h3>
+            <div class="box">
+                <h4 class="sub-title">keyword</h4>
+                <p class="sub-text">#친숙함&nbsp;&nbsp;&nbsp;#손쉬운</p>
+            </div>
+            <div class="box">
+                <h4 class="sub-title">Concept</h4>
+                <p class="sub-text">ZEISS KOREA 렌즈 제품군 페이지 메인 화면에 한 눈에 보이도록 리디자인</p>
+            </div>
+            <div class="box1">
+                <h4 class="sub-title">Font</h4>
+                <h5 class="ass-title1">LATO</h5>
+                <div class="box-wrapper flex">
+                    <ul class="box-list1">
+                        <li class="light">Light</li>
+                        <li class="regular">Regular</li>
+                    </ul>
+                    <ul class="box-list2">
+                        <li class="Regular">제목 Regular 128px</li>
+                        <li class="Regular">부제목 Regular 92px</li>
+                        <li class="light">기본 Light 16px </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box">
+                <h4 class="sub-title">Color</h4>
+                <div class="box-wrapper flex">
+                    <div class="box-inner1">
+                        <h5 class="ass-title2">Main</h5>
+                        <p class="color color1">#141E8C</p>
+                    </div>
+                </div>
+                <div class="box-wrapper">
+                    <h5 class="ass-title2">Achromatic</h5>
+                    <div class="box-inner3 flex">
+                        <p class="color color2">#F0F0F0</p>
+                        <p class="color color3">#2A2A2A</p>
+                        <p class="color color4">#000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- publishing -->
+        <section class="publishing">
+            <h3 class="wt-title">Publishing</h3>
+            <ul class="box-inner flex">
+                <li class="sub-text">PC: 1400px이상</li>
+                <li class="sub-text">각 렌즈로 찍은 사진 스와이퍼 스크립트로<span>한 눈에 보기 쉽게 적용</span></li>
+                <li class="sub-text">video 섹션 스크롤이 내려갈 수록 커지는<span>스크립트 적용</span></li>
+                <li class="sub-text">사용자 접근성을 높이기 위한<span>mouse hover 적용</span></li>
+                <li class="sub-text">grid, flex를 활용한 레이아웃 정렬</li>
+                <li class="sub-text">스크롤시 font가 있는 섹션에 opacity,<span>transform: translateY 값을 주어 강조 되도록 함</span></li>
+            </ul>
+        </section>
+
+        <!--problem & solution-->
+        <section class="problem">
+            <h3 class="wt-title">Problem & Solution</h3>
+            <div class="box">
+                <h6 class="sub-title bg1">렌즈 이미지가 너무 가까이 있는거 아니에요?</h6>
+                <p class="sub-text">이미지 크기도 큰데 img:hover{ transform: scale(1.1); }를 적용하니<span>hover시 화면에 너무 가득차서 좁아 보이는
+                        문제점 발생</span>
+                    <span>img-size 조절, img를 감싸고 있는 div에 width: 400px;, height: 500px;, overflow: hidden; 추가</span>img에
+                    width: 100%;, height: 100%;, object-fit: cover; 적용 후 해결
+                </p>
+            </div>
+            <div class="box">
+                <h6 class="sub-title bg2">hover는 자연스럽게</h6>
+                <p class="sub-text">global버튼 hover시 opacity값과 hover시 스타일 값 때문에 부자연스러움
+                    <span>global버튼,hover의 스타일 값을 width: 140px로 동일하게 맞추고</span>transition: opacity 0.1s;을 주어 자연스럽게 변경되도록
+                    함
+                </p>
+            </div>
+            <div class="box">
+                <h6 class="sub-title bg3">항상 개발자도구를 활용하자</h6>
+                <p class="sub-text">swiper의 autoplay-progress가 보이지 않음
+                    <span>개발자 도구로 확인해보니 위치값이 없음</span>
+                    position: absolute; top: 10%; right: 3%;, z-index: 999;을
+                    적용하여 나타냄
+                </p>
+            </div>
+        </section>
+        <a href="https://yunyeonjeong.github.io/portfolio/zeiss" target="_blank" class="url">View Site</a>
+    </main>
+</body>
+
+</html>

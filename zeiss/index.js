@@ -112,7 +112,7 @@ $(document).ready(function () {
   });
 });
 
-// 스크롤 시 .footer를 보여주는 함수
+//footer
 function showFooterOnScroll() {
   const footer = document.querySelector(".footer");
   const swiper = document.querySelector(".swiper");
@@ -126,8 +126,6 @@ function showFooterOnScroll() {
   }
 }
 
-// 페이지 로딩 시, 스크롤 이벤트 리스너 등록
 window.addEventListener("scroll", showFooterOnScroll);
 
-// 페이지 로딩 시 한 번 실행하여 초기 상태를 설정
 showFooterOnScroll();
