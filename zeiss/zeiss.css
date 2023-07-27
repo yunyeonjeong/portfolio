@@ -5,8 +5,8 @@
 
 body {
   background-color: #000;
-  font-family: "NotoSansKR", -apple-system, BlinkMacSystemFont, "Malgun Gothic",
-    "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+  font-family: 'NotoSansKR', -apple-system, BlinkMacSystemFont, 'Malgun Gothic',
+    '맑은 고딕', helvetica, 'Apple SD Gothic Neo', sans-serif;
   color: #fff;
   line-height: 2;
 }
@@ -64,17 +64,102 @@ span {
 }
 .line::before {
   display: inline-block;
-  content: "";
+  content: '';
   height: 1rem;
   width: 0.1rem;
   background-color: #fff;
   margin: 0 1rem;
 }
-.line::after {
-  display: inline-block;
-  content: "";
-  height: 1rem;
-  width: 0.1rem;
+
+/***** style *****/
+main {
+  width: 67%;
+  margin: 100px auto 0;
+}
+.style {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+/*** wt-title ***/
+h3.wt-title {
+  font-family: var(--main-font);
+  font-size: var(--font-size100);
+  margin-top: 6.25rem;
+}
+/*** sub-title ***/
+h4.sub-title {
+  width: 8.75rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  background-color: var(--gray-color);
+  font-size: var(--font-size28);
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5rem;
+}
+/*** sub-text ***/
+.sub-text {
+  font-size: var(--font-size22);
+  margin-top: 2rem;
+}
+/*** font ***/
+.style .box1 {
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Malgun Gothic',
+    '맑은 고딕', helvetica, 'Apple SD Gothic Neo', sans-serif;
+}
+.style .box1 .ass-title1 {
+  font-size: var(--font-size26);
+  margin: 2rem 0;
+}
+.style .box1 .box-wrapper ul {
+  font-size: var(--font-size22);
+  margin-right: 6rem;
+}
+.style .box1 .box-wrapper ul li {
+  margin-bottom: 1rem;
+}
+.style .box1 .box-wrapper ul .bold {
+  font-weight: 700;
+}
+.style .box1 .box-wrapper ul .medium {
+  font-weight: 500;
+}
+/*** color ***/
+.style .box-wrapper {
+  margin-top: 2rem;
+}
+.style .box-wrapper .box-inner2 {
+  margin-left: 4rem;
+}
+.style .box-wrapper .ass-title2 {
+  font-size: var(--font-size26);
+}
+.color {
+  width: 6.25rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin-top: 2rem;
+  font-size: var(--font-size16);
+  text-align: center;
+  margin-right: 1rem;
+}
+.color1 {
+  background-color: #58cc02;
+}
+.color2 {
+  background-color: #2323a5;
+}
+.color3 {
   background-color: #fff;
-  margin: 0 1rem;
+  color: #000;
+}
+.color4 {
+  background-color: #f0f0f0;
+  color: #000;
+}
+.color5 {
+  background-color: #242424;
+}
+.color6 {
+  background-color: #171717;
 }
