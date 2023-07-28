@@ -28,6 +28,11 @@ header .header-wrapper .header-wrapper_logo {
   width: 8.875rem;
   height: 100%;
 }
+header .header-wrapper .header-wrapper_logo a {
+  width: 8.875rem;
+  height: 100%;
+  display: block;
+}
 /*** header-menu ***/
 header .header-wrapper .header-nav {
   width: 74%;

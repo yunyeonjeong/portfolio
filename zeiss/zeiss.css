@@ -5,8 +5,8 @@
 
 body {
   background-color: #000;
-  font-family: "NotoSansKR", -apple-system, BlinkMacSystemFont, "Malgun Gothic",
-    "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+  font-family: 'NotoSansKR', -apple-system, BlinkMacSystemFont, 'Malgun Gothic',
+    '맑은 고딕', helvetica, 'Apple SD Gothic Neo', sans-serif;
   color: #fff;
   line-height: 2;
 }
@@ -48,7 +48,7 @@ span {
   max-width: 1920px;
 }
 .title .intro .intro-text {
-  width: 28vw;
+  width: 33vw;
   font-size: var(--font-size26);
 }
 .title .intro .intro-list1 {
@@ -64,7 +64,7 @@ span {
 }
 .line::before {
   display: inline-block;
-  content: "";
+  content: '';
   height: 1rem;
   width: 0.1rem;
   background-color: #fff;
@@ -103,29 +103,27 @@ h4.sub-title {
   margin-top: 2rem;
 }
 /*** font ***/
-.style .box1 .font-inner {
-  font-family: "Helvetica-95-Black", "NotoSansKR";
+.style .font-inner {
+  font-family: 'Lato', 'NotoSansKR';
   font-size: var(--font-size22);
   margin: 2rem 100px 0 0;
 }
-.style .box1 .box-list {
-  flex-direction: column;
+.style .font-inner1 {
+  font-family: 'SpoqaHanSansNeo', 'NotoSansKR';
+  font-size: var(--font-size22);
+  margin: 2rem 100px 0 0;
+}
+.style .box-list {
   margin-top: 48px;
 }
 .ass-box {
   margin-right: 100px;
 }
-.style .box1 .font-inner1 {
-  font-family: "Gyeonggi", "NotoSansKR";
-  font-size: var(--font-size22);
-  margin: 2rem 100px 0 0;
+.light,
+.regular {
+  font-weight: 300;
 }
-.style .box1 .font-inner1 .box-list {
-  margin-top: 40px;
-}
-.bold {
-  font-weight: bold;
-}
+
 /*** color ***/
 .style .box-wrapper {
   margin-top: 2rem;
