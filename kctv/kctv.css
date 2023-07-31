@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+/* 변수 선언 */
+@import url(../common/style/variable.css);
+
+body {
+  background-color: #000;
+  font-family: 'NotoSansKR', -apple-system, BlinkMacSystemFont, 'Malgun Gothic',
+    '맑은 고딕', helvetica, 'Apple SD Gothic Neo', sans-serif;
+  color: #fff;
+  line-height: 2;
+}
+
+span {
+  display: block;
+}
+
+/***** title *****/
+.title {
+  width: 100%;
+}
+.title .title-wrapper {
+  font-size: var(--font-size164);
+  color: var(--point-color);
+  font-family: var(--main-font);
+  padding: 2rem;
+}
+.title .title-img {
+  width: 96%;
+  height: 754px;
+  outline: 5px solid #fff;
+  background: url(./images/title-img.png) no-repeat 50% 50% / cover;
+  padding: 0 4%;
+  margin: 0 auto;
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.title .title-img img {
+  width: 1836px;
+  height: 754px;
+}
+.title .intro {
+  font-size: var(--font-size22);
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin: 6.25rem auto;
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.title .intro .intro-text {
+  width: 33vw;
+  font-size: var(--font-size26);
+}
+.title .intro .intro-list1 {
+  color: #696969;
+  font-weight: 700;
+}
+.title .intro .intro-list1 li,
+.title .intro .intro-list2 li {
+  margin-bottom: 1rem;
+}
+.title .intro .intro-list2 {
+  margin-left: -280px;
+}
+.line::before {
+  display: inline-block;
+  content: '';
+  height: 1rem;
+  width: 0.1rem;
+  background-color: #fff;
+  margin: 0 1rem;
+}
+
+/***** style *****/
+main {
+  width: 67%;
+  margin: 100px auto 0;
+}
+.style {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+/*** wt-title ***/
+h3.wt-title {
+  font-family: var(--main-font);
+  font-size: var(--font-size100);
+  margin-top: 6.25rem;
+}
+/*** sub-title ***/
+h4.sub-title {
+  width: 8.75rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  background-color: var(--gray-color);
+  font-size: var(--font-size28);
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5rem;
+}
+/*** sub-text ***/
+.sub-text {
+  font-size: var(--font-size22);
+  margin-top: 2rem;
+}
+/*** font ***/
+.style .font-inner {
+  font-size: var(--font-size22);
+  margin: 2rem 100px 0 0;
+}
+.style .font-inner1 {
+  font-size: var(--font-size22);
+  margin-top: 80px;
+}
+.style .box-list {
+  margin-top: 48px;
+}
+.ass-box {
+  margin-right: 100px;
+}
+.light,
+.regular {
+  font-weight: 300;
+}
+
+/*** color ***/
+.style .box-wrapper {
+  margin-top: 2rem;
+}
+.style .box-wrapper .box-inner2 {
+  margin-left: 4rem;
+}
+.style .box-wrapper .ass-title2 {
+  font-size: var(--font-size26);
+}
+.color {
+  width: 6.25rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin-top: 2rem;
+  font-size: var(--font-size16);
+  text-align: center;
+  margin-right: 1rem;
+}
+.color1 {
+  background-color: #18c4ff;
+}
+.color2 {
+  background-color: #fff;
+  color: #000;
+}
+.color3 {
+  background-color: #e8f9ff;
+  color: #000;
+}
+.color4 {
+  background-color: #212529;
+  border: 1px solid #fff;
+}
+.color5 {
+  background-color: #282828;
+  border: 1px solid #fff;
+}
+.color6 {
+  background-color: #333;
+  border: 1px solid #fff;
+}
+.color7 {
+  background-color: #000;
+  border: 1px solid #fff;
+}
+
+/***** publishing *****/
+.publishing {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+.publishing .box-wrapper {
+  margin-left: 30px;
+}
+.publishing .box-wrapper .box-inner {
+  list-style: disc;
+  margin-right: 200px;
+}
+.space {
+  margin-bottom: 58px;
+}
+
+/***** problem *****/
+.problem {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+h6.sub-title {
+  background-color: var(--gray-color);
+  font-size: var(--font-size22);
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5rem;
+}
+.bg1 {
+  width: 14rem;
+  height: 3.8rem;
+  line-height: 3.8rem;
+}
+.bg2 {
+  width: 22rem;
+  height: 3.8rem;
+  line-height: 3.8rem;
+}
+
+/***** view-site btn ****/
+.url {
+  display: block;
+  width: 300px;
+  height: 100px;
+  line-height: 80px;
+  border: 5px solid #fff;
+  font-size: var(--font-size80);
+  background-color: #696969;
+  font-weight: 700;
+  font-family: var(--main-font);
+  text-align: center;
+  margin: 8rem auto;
+  transition: 0.3s ease-in-out;
+}
+.url:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>KCTV 광주방송</title>
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="./favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+
+    <!--reset-->
+    <link rel="stylesheet" href="../common/style/reset.css">
+    <!--font-->
+    <link rel="stylesheet" href="../common/style/font.css">
+
+    <!--common style-->
+    <link rel="stylesheet" href="../common/style/common.css">
+    <!--style-->
+    <link rel="stylesheet" href="./kctv.css">
+</head>
+
+<body>
+    <!---- header ---->
+    <header>
+        <div class="h-box flex">
+            <div class="h-logo">
+                <a href="#"><img src="../images/logo.png" alt="header logo"></a>
+            </div>
+            <div class="h-menu">
+                <a href="#box5-a" class="c-g">PROJECT</a>
+                <a href="./about.html" class="g-g">ABOUT</a>
+            </div>
+        </div>
+    </header>
+
+    <!---- title ---->
+    <article class="title">
+        <h2 class="title-wrapper">KCTV</h2>
+        <div class="title-img"></div>
+        <div class="intro flex">
+            <p class="intro-text">KCTV 광주방송 메인페이지 리디자인</p>
+            <ul class="intro-list1">
+                <li>DATE</li>
+                <li>TOOL</li>
+                <li>TAGS</li>
+            </ul>
+            <ul class="intro-list2">
+                <li>2023.05.08&nbsp;&nbsp;~&nbsp;&nbsp;2023.05.19</li>
+                <li>Figma<a class="line"></a>VScode</li>
+                <li>PC</li>
+            </ul>
+        </div>
+    </article>
+
+    <!---- main---->
+    <main>
+        <!-- style -->
+        <section class="style">
+            <h3 class="wt-title">Style Guide</h3>
+            <div class="box">
+                <h4 class="sub-title">keyword</h4>
+                <p class="sub-text">#친숙함&nbsp;&nbsp;&nbsp;#다양함</p>
+            </div>
+            <div class="box">
+                <h4 class="sub-title">Concept</h4>
+                <p class="sub-text">KCTV 광주방송 하늘색 포인트 컬러 활용하여 메인페이지 리디자인</p>
+            </div>
+            <div class="box2">
+                <h4 class="sub-title">Font</h4>
+                <div class="font-wrapper flex">
+                    <div class="font-inner flex">
+                        <div class="ass-box">
+                            <h5 class="ass-title">Noto Sans KR</h5>
+                            <h5 class="ass-title light">Light</h5>
+                            <h5 class="ass-title">Regular</h5>
+                        </div>
+                        <ul class="box-list">
+                            <li class="light">기본 Light 18px </li>
+                            <li>기본 Regular 18px</li>
+                        </ul>
+                    </div>
+                    <div class="font-inner1 flex">
+                        <div class="ass-box">
+                            <h5 class="ass-title Medium">Medium</h5>
+                            <h5 class="ass-title Bold">Bold</h5>
+                        </div>
+                        <ul class="box-list1">
+                            <li class="Medium">부제목 Medium 38px</li>
+                            <li class="Bold">제목 Bold 48px</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <h4 class="sub-title">Color</h4>
+                <div class="box-wrapper flex">
+                    <div class="box-inner1">
+                        <h5 class="ass-title2">Main</h5>
+                        <p class="color color1">#141E8C</p>
+                    </div>
+                </div>
+                <div class="box-wrapper">
+                    <h5 class="ass-title2">Achromatic</h5>
+                    <div class="box-inner3 flex">
+                        <p class="color color2">#FFF</p>
+                        <p class="color color3">#E8F9FF</p>
+                        <p class="color color4">#212529</p>
+                    </div>
+                    <div class="box-inner3 flex">
+                        <p class="color color5">#282828</p>
+                        <p class="color color6">#333</p>
+                        <p class="color color7">#000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- publishing -->
+        <section class="publishing">
+            <h3 class="wt-title">Publishing</h3>
+            <div class="box-wrapper flex">
+                <ul class="box-inner">
+                    <li class="sub-text space">PC: 1400px이상</li>
+                    <li class="sub-text space">KCTV 광주방송의 소개페이지 메인에<span>스와이퍼 스크립트 적용</span> </li>
+                    <li class="sub-text space">Best 특강 섹션 미리보기 링크를 클릭했을 때<span>해당 동영상을 보여주는 스크립트 적용</span></li>
+                </ul>
+                <ul class="box-inner">
+                    <li class="sub-text">KCTV 광주방송의 위치 카카오맵<span>스크립트 적용</span> </li>
+                    <li class="sub-text">사용자 접근성을 높이기 위한<span>mouse hover 적용</span></li>
+                    <li class="sub-text">자주하는 질문 클릭시 상세보기 나오게<span>slideToggle 스크립트 적용</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--problem & solution-->
+        <section class="problem">
+            <h3 class="wt-title">Problem & Solution</h3>
+            <div class="box">
+                <h6 class="sub-title bg1">카카오맵 어디갔나요?</h6>
+                <p class="sub-text">
+                </p>
+            </div>
+            <div class="box">
+                <h6 class="sub-title bg2">Icon의 스타일은 비슷하게 유지 하기</h6>
+                <p class="sub-text">
+                </p>
+            </div>
+        </section>
+        <a href="https://yunyeonjeong.github.io/portfolio/zeiss" target="_blank" class="url">View Site</a>
+    </main>
+</body>
+
+</html>

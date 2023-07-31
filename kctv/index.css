@@ -343,6 +343,13 @@ header .header-wrapper .header-nav li a:hover {
 .main-box3 .vod-list li {
   margin: 20px;
 }
+.main-box3 .vod-list li a {
+  display: block;
+  transition: 0.3s linear;
+}
+.main-box3 .vod-list li a:hover {
+  transform: translateY(-5%);
+}
 .main-box3 .vod-list img {
   height: 100%;
 }
@@ -351,6 +358,7 @@ header .header-wrapper .header-nav li a:hover {
   font-size: var(--font-size18);
   font-weight: 400;
 }
+
 /***** main-box4 *****/
 .main-box4 {
   width: 100%;
@@ -375,8 +383,8 @@ header .header-wrapper .header-nav li a:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .main-box4 .question-box li::after {
-  content: "\e5cf";
-  font-family: "Material Symbols Outlined";
+  content: '\e5cf';
+  font-family: 'Material Symbols Outlined';
   position: absolute;
   top: 50px;
   right: 40px;
@@ -489,7 +497,7 @@ footer h1 {
   width: 180px;
   height: 100%;
 }
-.btn {
+.btn1 {
   display: block;
   font-size: var(--font-size20);
   color: var(--color1);
@@ -498,10 +506,26 @@ footer h1 {
   height: 3rem;
   line-height: 3rem;
   border-radius: 30px;
-  margin-right: 120px;
+  margin-right: -220px;
   transition: 0.3s linear;
 }
-.btn:hover {
+.btn1:hover {
+  color: var(--point-color);
+  background-color: var(--color1);
+}
+.btn2 {
+  display: block;
+  font-size: var(--font-size20);
+  color: var(--color1);
+  background-color: var(--point-color);
+  width: 13rem;
+  height: 3rem;
+  line-height: 3rem;
+  border-radius: 30px;
+  margin-right: 100px;
+  transition: 0.3s linear;
+}
+.btn2:hover {
   color: var(--point-color);
   background-color: var(--color1);
 }

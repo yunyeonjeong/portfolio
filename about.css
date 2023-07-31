@@ -150,17 +150,25 @@ section .box2 {
 section .box2 .space6 {
   position: absolute;
   left: 10%;
-  bottom: 110%;
+  bottom: 400%;
 }
 section .box2 .space6 img {
-  width: 12vw;
+  width: 4vw;
 }
 section .box2 .space7 {
+  position: absolute;
+  left: 10%;
+  bottom: 110%;
+}
+section .box2 .space7 img {
+  width: 12vw;
+}
+section .box2 .space8 {
   position: absolute;
   right: 10%;
   bottom: 150%;
 }
-section .box2 .space7 img {
+section .box2 .space8 img {
   width: 6vw;
 }
 section .box3 {

@@ -55,7 +55,7 @@ section .title .box5 {
   left: 0%;
   right: 0%;
   text-align: center;
-  animation: down 2s linear 0s infinite;
+  animation: down 1s linear 0s infinite;
 }
 section .title .box5 strong {
   font-size: var(--font-size114);
@@ -154,9 +154,11 @@ footer .f-3 {
   justify-content: flex-end;
 }
 footer .f-3 .f-g {
+  display: inline-block;
   color: var(--point-color);
   margin-right: 8vw;
-  animation: right 4s linear 0s infinite;
+  animation: right-left 4s linear 0s infinite;
+  transition: top 0.2s ease;
 }
 /*** fourth line ***/
 footer .f-4 {

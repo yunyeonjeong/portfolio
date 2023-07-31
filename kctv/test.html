@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>test</title>
+    <link rel="stylesheet" href="../common/style/reset.css">
+    <style>
+        /* CSS 스타일은 여기에 추가합니다 */
+        .main-box3 {
+            background-color: var(--color6);
+            padding: 120px 0;
+        }
+
+        .main-box3 h3 {
+            font-size: var(--font-size48);
+            font-weight: 700;
+            color: var(--color3);
+            margin-bottom: 10px;
+        }
+
+        .main-box3 p {
+            font-size: var(--font-size20);
+            color: var(--color3);
+            margin-bottom: 60px;
+        }
+
+        .main-box3 .youtube {
+            aspect-ratio: 16 / 9;
+            width: 66%;
+        }
+
+        .main-box3 .vod-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            width: 68%;
+            margin: 0 auto;
+        }
+
+        .main-box3 .vod-list li {
+            width: calc(50% - 10px);
+            /* 두 개의 목록 항목을 한 줄에 나타내기 위해 너비 조절 */
+            margin: 0;
+            list-style: none;
+        }
+
+        .main-box3 .vod-list img {
+            width: 100%;
+            height: auto;
+        }
+
+        .main-box3 .vod-list figcaption {
+            color: var(--color3);
+            font-size: var(--font-size18);
+            font-weight: 400;
+            text-align: center;
+        }
+    </style>
+    <script src="../common/style/jquery-3.7.0.min.js"></script>
+</head>
+
+<body>
+    <article class="main-box3">
+        <h3>kctv광주방송의 best 특강</h3>
+        <p>kctv광주방송의 다양한 특강을 만나보세요!</p>
+        <iframe src="https://www.youtube.com/embed/c5lEC2KzI3U" title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen class="youtube"></iframe>
+        <ul class="vod-list flex">
+            <li>
+                <a href="https://www.youtube.com/watch?v=gI7yAFwXTsw&list=PLkESPol0SqLtfxTuDwRUlihc-VFkmyUPD&index=8"
+                    data-video-url="https://www.youtube.com/embed/gI7yAFwXTsw" target="_blank">
+                    <figure>
+                        <img src="./images/생활역학.png" alt="생활역학과 풍수의 경영">
+                        <figcaption>도지예&nbsp;/&nbsp;수진재 역학연구원장</figcaption>
+                    </figure>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=imTU4Je8b0o&list=PLkESPol0SqLtfxTuDwRUlihc-VFkmyUPD&index=7"
+                    data-video-url="https://www.youtube.com/embed/imTU4Je8b0o" target="_blank">
+                    <figure>
+                        <img src="./images/인공지능과이슈들.png" alt="인공지능과 이슈들">
+                        <figcaption>이준기&nbsp;/&nbsp;연세대 교수</figcaption>
+                    </figure>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=UmWI6NuxTok&list=PLkESPol0SqLtfxTuDwRUlihc-VFkmyUPD&index=6"
+                    data-video-url="https://www.youtube.com/embed/UmWI6NuxTok" target="_blank">
+                    <figure>
+                        <img src="./images/중년의건강관리.png" alt="중년의 건강관리">
+                        <figcaption>윤택림&nbsp;/&nbsp;전남의대 교수</figcaption>
+                    </figure>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=DuwyRRRVKQo&list=PLkESPol0SqLtfxTuDwRUlihc-VFkmyUPD&index=11"
+                    data-video-url="https://youtube.com/embed/DuwyRRRVKQo" target="_blank">
+                    <figure>
+                        <img src="./images/중소중견.png" alt="중소 중견의 가업승계 성공전략">
+                        <figcaption>조병선&nbsp;/&nbsp;중견기업연구원장</figcaption>
+                    </figure>
+                </a>
+            </li>
+        </ul>
+    </article>
+</body>
+<script>
+    // JavaScript
+    // 모든 <a> 엘리먼트에 클릭 이벤트 리스너를 추가합니다.
+    const videoLinks = document.querySelectorAll('.vod-list a');
+    videoLinks.forEach(link => {
+        link.addEventListener('click', handleVideoClick);
+    });
+
+    // 클릭 이벤트를 처리하는 함수를 작성합니다.
+    function handleVideoClick(event) {
+        event.preventDefault();
+        const videoUrl = event.currentTarget.getAttribute('data-video-url');
+        showVideo(videoUrl);
+    }
+
+    // 큰 화면의 iframe 엘리먼트를 가져오는 함수를 작성합니다.
+    function getBigScreenIframe() {
+        return document.querySelector('.youtube');
+    }
+
+    // 큰 화면의 동영상을 바꾸는 함수를 작성합니다.
+    function showVideo(videoUrl) {
+        const bigScreenIframe = getBigScreenIframe();
+        bigScreenIframe.src = videoUrl;
+    }
+</script>
+
+</html>
