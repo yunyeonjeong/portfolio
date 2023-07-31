@@ -149,11 +149,41 @@ section .box2 {
 }
 section .box2 .space6 {
   position: absolute;
-  left: 10%;
+  left: 50%;
   bottom: 400%;
 }
-section .box2 .space6 img {
-  width: 4vw;
+section .box2 .space6-1 {
+  position: absolute;
+  left: 15%;
+  bottom: 350%;
+}
+section .box2 .space6-2 {
+  position: absolute;
+  left: 20%;
+  bottom: 300%;
+}
+section .box2 .space6-3 {
+  position: absolute;
+  left: 40%;
+  bottom: 380%;
+}
+section .box2 .space6-4 {
+  position: absolute;
+  right: 15%;
+  bottom: 350%;
+}
+section .box2 .space6-5 {
+  position: absolute;
+  right: 10%;
+  bottom: 400%;
+}
+section .box2 .space6 img,
+section .box2 .space6-1 img,
+section .box2 .space6-2 img,
+section .box2 .space6-3 img,
+section .box2 .space6-4 img,
+section .box2 .space6-5 img {
+  width: 5vw;
 }
 section .box2 .space7 {
   position: absolute;
