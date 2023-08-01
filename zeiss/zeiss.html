@@ -18,10 +18,19 @@
     <link rel="stylesheet" href="../common/style/font.css">
     <link rel="stylesheet" href="../common/style/pretendardvariable-dynamic-subset.css">
 
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--common style-->
     <link rel="stylesheet" href="../common/style/common.css">
+    <!--common-detail style-->
+    <link rel="stylesheet" href="../common/style/common-detail.css">
     <!--style-->
     <link rel="stylesheet" href="./zeiss.css">
+
+    <!-- script-->
+    <script src="../common/style/jquery-3.7.0.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="./zeiss.js"></script>
 </head>
 
 <body>
@@ -32,8 +41,8 @@
                 <a href="#"><img src="../images/logo.png" alt="header logo"></a>
             </div>
             <div class="h-menu">
-                <a href="#box5-a" class="c-g">PROJECT</a>
-                <a href="./about.html" class="g-g">ABOUT</a>
+                <a href="../index.html#box5-a" class="c-g">PROJECT</a>
+                <a href="../about.html" class="g-g">ABOUT</a>
             </div>
         </div>
     </header>
@@ -60,7 +69,7 @@
     <!---- main---->
     <main>
         <!-- style -->
-        <section class="style">
+        <section class="style" data-aos="fade-up" data-aos-duration="1000">
             <h3 class="wt-title">Style Guide</h3>
             <div class="box">
                 <h4 class="sub-title">keyword</h4>
@@ -118,25 +127,27 @@
         </section>
 
         <!-- publishing -->
-        <section class="publishing">
+        <section class="publishing" data-aos="fade-up" data-aos-duration="1000">
             <h3 class="wt-title">Publishing</h3>
             <div class="box-wrapper flex">
                 <ul class="box-inner">
-                    <li class="sub-text space">PC: 1400px이상</li>
+                    <li class="sub-text space">PC: <strong class="accent">1400px이상</strong></li>
                     <li class="sub-text space">grid, flex를 활용한 레이아웃 정렬</li>
-                    <li class="sub-text space">사용자 접근성을 높이기 위한<span>mouse hover 적용</span></li>
+                    <li class="sub-text space">사용자 <strong class="accent">접근성</strong>을 높이기 위한<span>mouse hover
+                            적용</span></li>
                 </ul>
                 <ul class="box-inner">
                     <li class="sub-text">각 렌즈로 찍은 사진 스와이퍼 스크립트로<span>한 눈에 보기 쉽게 적용</span></li>
                     <li class="sub-text">video 섹션 스크롤이 내려갈 수록 커지는<span>스크립트 적용</span></li>
-                    <li class="sub-text">스크롤시 font가 있는 섹션에 opacity,<span>transform: translateY 값을 주어 강조 되도록 함</span>
+                    <li class="sub-text">스크롤시 font가 있는 섹션에 opacity,<span>transform: translateY 값을 주어 <strong
+                                class="accent">강조</strong> 되도록 함</span>
                     </li>
                 </ul>
             </div>
         </section>
 
         <!--problem & solution-->
-        <section class="problem">
+        <section class="problem" data-aos="fade-up" data-aos-duration="1000">
             <h3 class="wt-title">Problem & Solution</h3>
             <div class="box">
                 <h6 class="sub-title bg1">렌즈 이미지가 너무 가까이 있는거 아니에요?</h6>
@@ -149,14 +160,15 @@
             <div class="box">
                 <h6 class="sub-title bg2">hover는 자연스럽게</h6>
                 <p class="sub-text">global버튼 hover시 opacity값과 hover시 스타일 값 때문에 부자연스러움
-                    <span>global버튼,hover의 스타일 값을 width: 140px로 동일하게 맞추고</span>transition: opacity 0.1s;을 주어 자연스럽게 변경되도록
+                    <span>global버튼, hover의 스타일 값을 width: 140px로 동일하게 맞추고</span><strong class="accent">transition:
+                        opacity 0.1s;</strong>을 주어 자연스럽게 변경되도록
                     함
                 </p>
             </div>
             <div class="box">
                 <h6 class="sub-title bg3">항상 개발자도구를 활용하자</h6>
                 <p class="sub-text">swiper의 autoplay-progress가 보이지 않음
-                    <span>개발자 도구로 확인해보니 위치값이 없음</span>
+                    <span><strong class="accent">개발자 도구</strong>로 확인해보니 위치값이 없음</span>
                     position: absolute; top: 10%; right: 3%;, z-index: 999;을
                     적용하여 나타냄
                 </p>

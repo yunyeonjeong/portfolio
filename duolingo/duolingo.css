@@ -184,7 +184,6 @@ h4.sub-title {
 }
 .accent {
   background-color: var(--gray-color);
-  width: 2.2rem;
 }
 .blank {
   margin: 10px 0;
@@ -226,23 +225,4 @@ h6.sub-title {
   width: 19rem;
   height: 3.8rem;
   line-height: 3.8rem;
-}
-
-/***** view-site btn ****/
-.url {
-  display: block;
-  width: 18.75rem;
-  height: 6.25rem;
-  line-height: 5.25rem;
-  border: 5px solid #fff;
-  font-size: var(--font-size80);
-  background-color: #696969;
-  font-weight: 700;
-  font-family: var(--main-font);
-  text-align: center;
-  margin: 8rem auto;
-  transition: 0.3s ease-in-out;
-}
-.url:hover {
-  opacity: 0.5;
 }

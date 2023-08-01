@@ -17,10 +17,19 @@
     <!--font-->
     <link rel="stylesheet" href="../common/style/font.css">
 
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--common style-->
     <link rel="stylesheet" href="../common/style/common.css">
+    <!--common-detail style-->
+    <link rel="stylesheet" href="../common/style/common-detail.css">
     <!--style-->
     <link rel="stylesheet" href="./kctv.css">
+
+    <!-- script-->
+    <script src="../common/style/jquery-3.7.0.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="./kctv.js"></script>
 </head>
 
 <body>
@@ -31,8 +40,8 @@
                 <a href="#"><img src="../images/logo.png" alt="header logo"></a>
             </div>
             <div class="h-menu">
-                <a href="#box5-a" class="c-g">PROJECT</a>
-                <a href="./about.html" class="g-g">ABOUT</a>
+                <a href="../index.html#box5-a" class="c-g">PROJECT</a>
+                <a href="../about.html" class="g-g">ABOUT</a>
             </div>
         </div>
     </header>
@@ -59,7 +68,7 @@
     <!---- main---->
     <main>
         <!-- style -->
-        <section class="style">
+        <section class="style" data-aos="fade-up" data-aos-duration="1000">
             <h3 class="wt-title">Style Guide</h3>
             <div class="box">
                 <h4 class="sub-title">keyword</h4>
@@ -120,34 +129,40 @@
         </section>
 
         <!-- publishing -->
-        <section class="publishing">
+        <section class="publishing" data-aos="fade-up" data-aos-duration="1000">
             <h3 class="wt-title">Publishing</h3>
             <div class="box-wrapper flex">
                 <ul class="box-inner">
-                    <li class="sub-text space">PC: 1400px이상</li>
+                    <li class="sub-text space">PC: <strong class="accent">1400px</strong>이상</li>
                     <li class="sub-text space">KCTV 광주방송의 소개페이지 메인에<span>스와이퍼 스크립트 적용</span> </li>
                     <li class="sub-text space">Best 특강 섹션 미리보기 링크를 클릭했을 때<span>해당 동영상을 보여주는 스크립트 적용</span></li>
                 </ul>
                 <ul class="box-inner">
-                    <li class="sub-text">KCTV 광주방송의 위치 카카오맵<span>스크립트 적용</span> </li>
-                    <li class="sub-text">사용자 접근성을 높이기 위한<span>mouse hover 적용</span></li>
-                    <li class="sub-text">자주하는 질문 클릭시 상세보기 나오게<span>slideToggle 스크립트 적용</span>
+                    <li class="sub-text">KCTV 광주방송의 위치 <strong class="accent">카카오맵</strong><span>스크립트 적용</span> </li>
+                    <li class="sub-text">사용자 <strong class="accent">접근성</strong>을 높이기 위한<span>mouse hover 적용</span></li>
+                    <li class="sub-text">자주하는 질문 클릭시 상세보기 나오게<span><strong class="accent">slideToggle</strong> 스크립트
+                            적용</span>
                     </li>
                 </ul>
             </div>
         </section>
 
         <!--problem & solution-->
-        <section class="problem">
+        <section class="problem" data-aos="fade-up" data-aos-duration="1000">
             <h3 class="wt-title">Problem & Solution</h3>
             <div class="box">
                 <h6 class="sub-title bg1">카카오맵 어디갔나요?</h6>
                 <p class="sub-text">
+                    크롬 브라우저로 html파일을 읽어오는 것과<span>VScode라이브서버를 실행시켜 html파일을 읽는 것은 도메인 때문에 다르고</span> VScode라이브서버에서 테스트를
+                    하기 위해선
+                    <strong class="accent">"http://127.0.0.1:5500"</strong>로 등록을 해야 지도가 불러와지게 됨
                 </p>
             </div>
             <div class="box">
                 <h6 class="sub-title bg2">Icon의 스타일은 비슷하게 유지 하기</h6>
                 <p class="sub-text">
+                    아이콘이 총 11개 들어 가는 페이지 인데 아이콘 스타일이 다르니 지저분해 보임.<span>
+                        최대한 비슷한 두께에 비슷한 스타일로 적용함</span>
                 </p>
             </div>
         </section>
