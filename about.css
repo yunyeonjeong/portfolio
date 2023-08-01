@@ -10,7 +10,6 @@ body {
   font-family: var(--ko-font);
   color: #fff;
   text-align: center;
-  font-size: var(--font-size22);
   line-height: 40px;
   background: url(./images/bg.png);
   background-color: rgba(0, 0, 0, 0.1);
@@ -84,6 +83,10 @@ h6 {
   color: var(--point-color);
   font-size: var(--font-size32);
   margin: 2vw 0;
+}
+.detail,
+.t-box span {
+  font-size: var(--font-size22);
 }
 
 /*** text box ***/
@@ -177,12 +180,19 @@ section .box2 .space6-5 {
   right: 10%;
   bottom: 400%;
 }
+section .box2 .space6-6 {
+  position: absolute;
+  right: 8%;
+  bottom: 300%;
+}
+
 section .box2 .space6 img,
 section .box2 .space6-1 img,
 section .box2 .space6-2 img,
 section .box2 .space6-3 img,
 section .box2 .space6-4 img,
-section .box2 .space6-5 img {
+section .box2 .space6-5 img,
+section .box2 .space6-6 img {
   width: 5vw;
 }
 section .box2 .space7 {
@@ -190,15 +200,27 @@ section .box2 .space7 {
   left: 10%;
   bottom: 110%;
 }
-section .box2 .space7 img {
+section .box2 .space7-1 {
+  position: absolute;
+  right: 10%;
+  bottom: 200%;
+}
+section .box2 .space7 img,
+section .box2 .space7-1 img {
   width: 12vw;
 }
 section .box2 .space8 {
   position: absolute;
-  right: 10%;
+  right: 14%;
   bottom: 150%;
 }
-section .box2 .space8 img {
+section .box2 .space8-1 {
+  position: absolute;
+  left: 10%;
+  bottom: 150%;
+}
+section .box2 .space8 img,
+section .box2 .space8-1 img {
   width: 6vw;
 }
 section .box3 {
