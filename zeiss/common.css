@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: #f0f0f0;
+  color: #2a2a2a;
+  line-height: 1;
+  font-family: "lato", -apple-system, BlinkMacSystemFont, "Malgun Gothic",
+    "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+span {
+  display: block;
+}
