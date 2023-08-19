@@ -216,7 +216,7 @@ h4.title {
 }
 .btn-text {
   display: block;
-  width: 140px;
+  width: 240px;
   height: 24px;
   border-radius: 30px;
   background: #2a2a2a;
@@ -365,26 +365,25 @@ h4.title {
   display: block;
 }
 .footer .f-text {
-  font-size: 1.25rem;
+  font-size: 1rem;
   letter-spacing: -0.1rem;
 }
 .footer .f-wrapper1 .f-textBox1 .f-title {
-  font-size: 1.6rem;
-  margin: 30px 0;
+  font-size: 1rem;
+  margin: 20px 0;
 }
 .footer .f-wrapper1 .f-textBox2 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 80px;
-  margin: 30px 0 0 460px;
+  gap: 30px;
   letter-spacing: -0.08rem;
 }
 .footer .f-wrapper1 .f-textBox2 .sub-title {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #757575;
 }
 .footer .f-wrapper1 .f-textBox2 .sub-text {
-  font-size: 1.3rem;
+  font-size: 1rem;
   margin-top: 18px;
   line-height: 1.2;
 }
@@ -394,14 +393,12 @@ h4.title {
 }
 .footer .f-wrapper2 {
   font-size: 1rem;
-  margin: 160px 0 30px;
   justify-content: space-between;
 }
 .footer .f-wrapper2 .copy {
   letter-spacing: -0.1rem;
 }
 .footer .f-wrapper2 .f-sns a {
-  margin-left: 120px;
   letter-spacing: -0.09rem;
   display: block;
   position: relative;
