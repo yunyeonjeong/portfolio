@@ -29,3 +29,36 @@ body {
 span {
   display: block;
 }
+
+.btn-style {
+  display: block;
+  width: 100px;
+  height: 24px;
+  border-radius: 30px;
+  background: #2a2a2a;
+  color: #f0f0f0;
+  font-size: 0.7rem;
+  text-align: center;
+  line-height: 24px;
+  position: relative;
+}
+.btn-text {
+  display: block;
+  width: 138px;
+  height: 24px;
+  border-radius: 30px;
+  background: #2a2a2a;
+  color: #f0f0f0;
+  font-size: 0.7rem;
+  text-align: center;
+  line-height: 24px;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+.btn-style:hover .btn-text {
+  opacity: 1;
+}

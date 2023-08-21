@@ -23,6 +23,7 @@
   left: 58px;
   letter-spacing: -0.1rem;
   font-weight: 300;
+  display: none;
 }
 .nav .nav-wrapper .menu-btn {
   font-weight: 300;
@@ -202,38 +203,6 @@ h4.title {
   font-size: 0.9rem;
   margin-bottom: 20px;
 }
-.btn-style {
-  display: block;
-  width: 140px;
-  height: 24px;
-  border-radius: 30px;
-  background: #2a2a2a;
-  color: #f0f0f0;
-  font-size: 0.875rem;
-  text-align: center;
-  line-height: 24px;
-  position: relative;
-}
-.btn-text {
-  display: block;
-  width: 240px;
-  height: 24px;
-  border-radius: 30px;
-  background: #2a2a2a;
-  color: #f0f0f0;
-  font-size: 0.875rem;
-  text-align: center;
-  line-height: 24px;
-  position: absolute;
-  top: 50%;
-  left: 70%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  transition: opacity 0.1s;
-}
-.btn-style:hover .btn-text {
-  opacity: 1;
-}
 
 /***** video *****/
 .video-container {
@@ -259,6 +228,7 @@ h4.title {
   width: 100%;
   margin-top: 180px;
   padding: 0 2%;
+  z-index: 9999;
 }
 .featured .featured-wrapper {
   grid-template-columns: 1fr 1fr;
@@ -291,11 +261,12 @@ h4.title {
 
 /***** swiper *****/
 .swiper {
-  margin: 100px 0;
+  margin: 1px 0;
   height: 20vh;
   overflow: hidden;
   padding: 0 2%;
   position: relative;
+  z-index: 99;
 }
 .swiper .swiper-wrapper {
   width: 800%;
@@ -360,31 +331,36 @@ h4.title {
   bottom: 0;
   left: 0;
   display: none;
+  z-index: 9;
 }
 .footer-show {
   display: block;
 }
 .footer .f-text {
   font-size: 1rem;
-  letter-spacing: -0.1rem;
+  letter-spacing: -0.07rem;
+}
+.footer .f-wrapper1 {
+  flex-direction: column;
 }
 .footer .f-wrapper1 .f-textBox1 .f-title {
   font-size: 1rem;
   margin: 20px 0;
+  width: 60%;
 }
 .footer .f-wrapper1 .f-textBox2 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 30px;
-  letter-spacing: -0.08rem;
+  gap: 20px;
+  letter-spacing: -0.07rem;
+  margin: 38px 0;
+  font-size: 0.9rem;
 }
 .footer .f-wrapper1 .f-textBox2 .sub-title {
-  font-size: 1rem;
   color: #757575;
 }
 .footer .f-wrapper1 .f-textBox2 .sub-text {
-  font-size: 1rem;
-  margin-top: 18px;
+  margin-top: 10px;
   line-height: 1.2;
 }
 .f-ko {
@@ -392,16 +368,18 @@ h4.title {
     "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
 }
 .footer .f-wrapper2 {
-  font-size: 1rem;
   justify-content: space-between;
 }
 .footer .f-wrapper2 .copy {
   letter-spacing: -0.1rem;
+  font-size: 0.8rem;
 }
 .footer .f-wrapper2 .f-sns a {
-  letter-spacing: -0.09rem;
+  letter-spacing: -0.08rem;
   display: block;
   position: relative;
+  margin: 0 0 10px 20px;
+  font-size: 1rem;
 }
 .footer .f-wrapper2 .f-sns a::after {
   content: "";

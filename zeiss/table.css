@@ -1,1 +1,43 @@
 @charset "utf-8";
+
+/***** nav *****/
+.header .h-title {
+  font-size: 4rem;
+  letter-spacing: -0.3rem;
+}
+.header .h-small {
+  font-size: 1.2rem;
+  letter-spacing: -0.09rem;
+}
+
+/***** content *****/
+/***** lens *****/
+.lens .lens-wrapper {
+  grid-template-columns: 1fr 1fr;
+  gap: 8vw;
+}
+.lens .lens-wrapper .lens-box .lens-inner {
+  width: 300px;
+  height: 400px;
+}
+.lens .lens-wrapper .lens-box .lens-inner .lens-num {
+  right: -32px;
+}
+.lens .lens-wrapper .lens-box .lens-line {
+  width: 300px;
+}
+.lens .lens-wrapper .lens-box .lens-text1 {
+  width: 300px;
+}
+
+/***** about *****/
+h4.title {
+  font-size: 3.8rem;
+  letter-spacing: -0.3rem;
+}
+.about .about-wrapper .about-text {
+  font-size: 1.6rem;
+}
+.about .about-wrapper .about-inner .about-text {
+  font-size: 1.2rem;
+}
