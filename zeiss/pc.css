@@ -1,1 +1,67 @@
 @charset "utf-8";
+
+/***** nav *****/
+.nav .nav-wrapper .n-logo .n-svg {
+  width: inherit;
+  height: inherit;
+}
+.nav .nav-wrapper .menu li {
+  margin-left: 50px;
+}
+.nav .nav-wrapper .menu li a {
+  font-size: 1.2rem;
+}
+.nav .nav-wrapper .n-txt {
+  top: 36px;
+  left: 114px;
+  font-size: 1.2rem;
+}
+.nav .nav-wrapper .menu-btn {
+  top: 36px;
+  right: 28px;
+  font-size: 1.4rem;
+}
+
+/***** header *****/
+.header .h-title {
+  font-size: 8rem;
+  letter-spacing: -0.6rem;
+}
+.header .h-small {
+  font-size: 2rem;
+  letter-spacing: -0.2rem;
+}
+
+/***** content *****/
+/***** lens *****/
+.lens .lens-wrapper {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.01vw;
+}
+.lens .lens-wrapper .lens-box .lens-inner {
+  width: 400px;
+  height: 500px;
+}
+.lens .lens-wrapper .lens-box .lens-line {
+  width: 400px;
+}
+.lens .lens-wrapper .lens-box .lens-text1 {
+  width: 400px;
+}
+
+/***** about *****/
+h4.title {
+  font-size: 4.8rem;
+  letter-spacing: -0.4rem;
+}
+.about .about-wrapper {
+  width: 100%;
+  display: flex;
+}
+.about .about-wrapper .about-text {
+  font-size: 1.6rem;
+  margin: 40px 200px 0 0;
+}
+.about .about-wrapper .about-inner .about-text {
+  font-size: 1.4rem;
+}

@@ -33,7 +33,7 @@ $(document).ready(function () {
   $(window).scroll(function () {
     var roll = $(this).scrollTop() >= navH;
     if (roll) {
-      $(".menu-btn").show().css({ position: "fixed", top: "15px" });
+      $(".menu-btn").show().css({ position: "fixed" });
       $(".menu").hide();
     } else {
       $(".menu-btn").hide();

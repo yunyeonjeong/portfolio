@@ -1,6 +1,11 @@
 @charset "utf-8";
 
 /***** nav *****/
+.nav .nav-wrapper .menu li a {
+  font-size: 1rem;
+}
+
+/***** header *****/
 .header .h-title {
   font-size: 4rem;
   letter-spacing: -0.3rem;
@@ -58,8 +63,8 @@ h4.title {
 
 /***** swiper *****/
 .swiper {
-  height: 30vh;
   margin: 80px 0;
+  height: 30vh;
 }
 .swiper .swiper-wrapper .swiper-slide .swiper-text {
   width: 328px;
@@ -80,4 +85,7 @@ h4.title {
 }
 .footer .f-wrapper2 .copy {
   font-size: 1rem;
+}
+.footer .f-wrapper1 .f-textBox2 {
+  margin: 48px 0;
 }
