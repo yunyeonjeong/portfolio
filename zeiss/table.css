@@ -41,3 +41,43 @@ h4.title {
 .about .about-wrapper .about-inner .about-text {
   font-size: 1.2rem;
 }
+
+/***** featured *****/
+.featured .featured-wrapper .featured-inner .inner-title {
+  font-size: 2.4rem;
+}
+.featured .featured-wrapper .featured-inner .inner-text {
+  font-size: 1.2rem;
+}
+.f-space {
+  margin-top: 82px;
+}
+.f-space1 {
+  margin-top: 20px;
+}
+
+/***** swiper *****/
+.swiper {
+  height: 30vh;
+  margin: 80px 0;
+}
+.swiper .swiper-wrapper .swiper-slide .swiper-text {
+  width: 328px;
+  font-size: 1rem;
+  right: -20%;
+}
+.autoplay-progress {
+  font-size: 1.4rem;
+}
+
+/***** footer *****/
+.footer .f-wrapper1 .f-textBox1 .f-title {
+  width: 70%;
+  font-size: 1.2rem;
+}
+.footer .f-wrapper1 .f-textBox2 {
+  font-size: 1.2rem;
+}
+.footer .f-wrapper2 .copy {
+  font-size: 1rem;
+}

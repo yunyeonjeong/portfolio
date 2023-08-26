@@ -240,6 +240,7 @@ h4.title {
 }
 .featured .featured-wrapper .featured-inner .inner-title {
   font-size: 2rem;
+  letter-spacing: -0.1rem;
 }
 .featured .featured-wrapper .featured-inner .inner-text {
   font-family: "SpoqaHanSansNeo", -apple-system, BlinkMacSystemFont,
