@@ -65,3 +65,74 @@ h4.title {
 .about .about-wrapper .about-inner .about-text {
   font-size: 1.4rem;
 }
+
+/***** btn *****/
+a .btn-style {
+  font-size: 0.9rem;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+}
+a .btn-text {
+  font-size: 0.9rem;
+  width: 160px;
+  height: 30px;
+  line-height: 30px;
+}
+
+/***** featured *****/
+.featured .featured-wrapper {
+  margin-left: -48px;
+}
+.featured .featured-wrapper .featured-inner {
+  width: 88%;
+}
+.f-space {
+  margin-top: 0px;
+}
+.f-space1 {
+  margin-top: 0px;
+}
+.featured .featured-wrapper .featured-inner .inner-title {
+  font-size: 2.8rem;
+}
+.featured .featured-wrapper .featured-inner .inner-text {
+  font-size: 1.4rem;
+}
+
+/***** Swiper *****/
+.swiper {
+  margin: 100px 0;
+  height: 100vh;
+}
+.swiper .swiper-wrapper .swiper-slide .swiper-text {
+  width: 400px;
+  font-size: 1.4rem;
+  bottom: 18%;
+  right: -10%;
+}
+.autoplay-progress {
+  font-size: 2rem;
+  top: 20%;
+}
+
+/***** footer *****/
+.footer .f-text {
+  font-size: 1.2rem;
+}
+.footer .f-wrapper1 .f-textBox1 .f-title {
+  font-size: 1.4rem;
+}
+.footer .f-wrapper1 .f-textBox2 {
+  gap: 40px;
+  font-size: 1.4rem;
+}
+.footer .f-wrapper2 .copy {
+  font-size: 1.2rem;
+}
+.footer .f-wrapper2 .f-sns a {
+  font-size: 1.2rem;
+}
+.footer .f-wrapper1 .f-textBox2 .sub-text {
+  line-height: 1.6;
+}
