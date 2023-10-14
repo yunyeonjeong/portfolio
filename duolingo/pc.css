@@ -36,7 +36,7 @@ div.header-fix {
   color: var(--point-color1);
 }
 .header-fix .header-fix-box li .ask-btn::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 1px;
   height: 11px;
@@ -44,7 +44,7 @@ div.header-fix {
   background-color: #000;
 }
 .header-fix .header-fix-box li .ask-btn::after {
-  content: '';
+  content: "";
   display: inline-block;
   width: 1px;
   height: 11px;
@@ -304,12 +304,12 @@ header .header-wrapper .header-nav .white-btn {
 }
 /*** f-btn ***/
 .f-box .green-btn {
-  width: 280px;
-  height: 60px;
+  width: 230px;
+  height: 52px;
   font-size: var(--font-size20);
-  line-height: 60px;
+  line-height: 52px;
   border-radius: 28px;
-  margin: 0;
+  margin: 0 0 0 20px;
   transform: translateX(-40%);
 }
 

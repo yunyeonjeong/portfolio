@@ -5,8 +5,8 @@
 
 body {
   background-color: #000;
-  font-family: 'NotoSansKR', -apple-system, BlinkMacSystemFont, 'Malgun Gothic',
-    '맑은 고딕', helvetica, 'Apple SD Gothic Neo', sans-serif;
+  font-family: "NotoSansKR", -apple-system, BlinkMacSystemFont, "Malgun Gothic",
+    "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
   color: #fff;
   line-height: 2;
 }
@@ -64,7 +64,7 @@ span {
 }
 .line::before {
   display: inline-block;
-  content: '';
+  content: "";
   height: 1rem;
   width: 0.1rem;
   background-color: #fff;
@@ -120,6 +120,12 @@ h4.sub-title {
 .light,
 .regular {
   font-weight: 300;
+}
+.Medium {
+  font-weight: 500;
+}
+.Bold {
+  font-weight: 700;
 }
 
 /*** color ***/

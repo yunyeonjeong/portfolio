@@ -673,7 +673,7 @@ header .menu-wrapper {
   color: #000;
 }
 .f-box .f-inner .f-txt li .f-line::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 1px;
   height: 8px;
@@ -681,7 +681,7 @@ header .menu-wrapper {
   background-color: #000;
 }
 .f-box .f-inner .f-txt li .f-line::after {
-  content: '';
+  content: "";
   display: inline-block;
   width: 1px;
   height: 8px;
@@ -701,7 +701,7 @@ header .menu-wrapper {
   height: 20px;
   margin-right: 30px;
 }
-/*** f-btn ***/
+/*** f-btnbox ***/
 .f-box .green-btn {
   font-size: var(--font-size14);
   font-weight: 600;
@@ -709,5 +709,5 @@ header .menu-wrapper {
   width: 160px;
   height: 40px;
   line-height: 40px;
-  margin-top: 30px;
+  margin: 30px 30px 0 0;
 }

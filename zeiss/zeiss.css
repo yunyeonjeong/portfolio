@@ -5,8 +5,8 @@
 
 body {
   background-color: #000;
-  font-family: 'NotoSansKR', -apple-system, BlinkMacSystemFont, 'Malgun Gothic',
-    '맑은 고딕', helvetica, 'Apple SD Gothic Neo', sans-serif;
+  font-family: "NotoSansKR", -apple-system, BlinkMacSystemFont, "Malgun Gothic",
+    "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
   color: #fff;
   line-height: 2;
 }
@@ -60,11 +60,19 @@ span {
   margin-bottom: 1rem;
 }
 .title .intro .intro-list2 {
-  margin-left: -280px;
+  margin-left: -200px;
 }
 .line::before {
   display: inline-block;
-  content: '';
+  content: "";
+  height: 1rem;
+  width: 0.1rem;
+  background-color: #fff;
+  margin: 0 1rem;
+}
+.line::after {
+  display: inline-block;
+  content: "";
   height: 1rem;
   width: 0.1rem;
   background-color: #fff;
@@ -104,12 +112,12 @@ h4.sub-title {
 }
 /*** font ***/
 .style .font-inner {
-  font-family: 'Lato', 'NotoSansKR';
+  font-family: "Lato", "NotoSansKR";
   font-size: var(--font-size22);
   margin: 2rem 100px 0 0;
 }
 .style .font-inner1 {
-  font-family: 'SpoqaHanSansNeo', 'NotoSansKR';
+  font-family: "SpoqaHanSansNeo", "NotoSansKR";
   font-size: var(--font-size22);
   margin: 2rem 100px 0 0;
 }
