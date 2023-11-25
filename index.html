@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PORTFOLIO</title>
   <!-- og -->
   <meta property="og:title" content="윤연정의 PORTFOLIO 입니다.">
@@ -23,8 +24,16 @@
 
   <!-- aos css -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <!-- style css-->
+  <!-- index css-->
   <link rel="stylesheet" href="./index.css">
+  <!-- table css -->
+  <link rel="stylesheet" href="./table.css" media="(width >=769px)">
+  <!-- pc css -->
+  <link rel="stylesheet" href="./pc.css" media="(width >=1400px)">
+  <!-- variable css -->
+  <link rel="stylesheet" href="./common/style/variable.css">
+  <!-- common css-->
+  <link rel="stylesheet" href="./common/style/common.css">
 
   <!-- script -->
   <script src="./common/style/jquery-3.7.0.min.js"></script>
@@ -35,31 +44,36 @@
 </head>
 
 <body>
-  <!--header-->
+  <!----- header ----->
   <header>
     <div class="h-box flex">
-      <div class="h-logo">
-        <a href="#"><img src="./images/logo.png" alt="header logo"></a>
+      <!-- logo -->
+      <div class="logo">
+        <a href="#"><img src="./images/logo.png" alt="header의 왼쪽 상단에 위치하고 있는 흑백 증명사진 logo"></a>
       </div>
-      <div class="h-menu">
-        <a href="#box5-a" class="c-g">PROJECT</a>
-        <a href="./about.html" class="g-g">ABOUT</a>
-      </div>
+      <!-- nav -->
+      <nav class="menu">
+        <a href="#box5-a" class="project">PROJECT</a>
+        <a href="./about.html" class="about">ABOUT</a>
+      </nav>
     </div>
   </header>
 
-  <!-- title -->
+  <!----- title ----->
   <section>
     <div class="title flex animate-up">
+      <!--- first line --->
       <div class="box1">
         <h1 data-aos="fade-up" data-aos-duration="800">Hi, I am</h1>
       </div>
+      <!--- second line --->
       <div class="box2">
         <h1 data-aos="fade-up" data-aos-duration="1600">Yeon jeong Yun,</h1>
       </div>
+      <!--- third line --->
       <div class="box3 flex" data-aos="fade-up" data-aos-duration="800">
         <div class="sns grid">
-          <div class="s-box flex">
+          <div class="s-box ">
             <a href="https://github.com/yunyeonjeong/yun_homework" target="_blank">
               <img src="./images/note.png" alt="note">
             </a>
@@ -84,6 +98,7 @@
           <h1 data-aos="fade-up" data-aos-duration="2400">a tenacious</h1>
         </div>
       </div>
+      <!--- fourth line --->
       <div class="box4 flex" data-aos="fade-up" data-aos-duration="1600">
         <div class="t-box flex">
           <div class="text1">
@@ -101,8 +116,9 @@
             <li class="seconds"><span>00</span>seconds</li>
           </ul>
         </div>
-        <h1 data-aos="fade-up" data-aos-duration="800">publisher</h1>
+        <h1 class="text3" data-aos="fade-up" data-aos-duration="800">publisher</h1>
       </div>
+      <!--- arrow --->
       <div class="box5" id="box5-a">
         <strong>↓</strong>
       </div>
@@ -112,57 +128,57 @@
   <!----- main ----->
   <main>
     <div class="m-wrapper grid">
-      <!-- box1 -->
+      <!--- box1 --->
       <div class="m-inner m-1">
         <a href="" class="m-box">
           <div class="m-text">
             <h2 class="m-t">ing..</h2>
-            <h3 class="m-g"></h3>
+            <p class="m-g"></p>
           </div>
         </a>
       </div>
-      <!-- box2 -->
+      <!--- box2 --->
       <div class="m-inner m-2">
         <a href="https://yunyeonjeong.github.io/portfolio/zeiss/zeiss" class="m-box">
           <div class="m-text">
             <h2 class="m-t">ZEISS</h2>
-            <h3 class="m-g">RESPONSIVE WEB</h3>
+            <p class="m-g">RESPONSIVE WEB</p>
           </div>
         </a>
       </div>
-      <!-- box3 -->
+      <!--- box3 --->
       <div class="m-inner m-3">
         <a href="https://yunyeonjeong.github.io/portfolio/teddyBear/teddyBear" class="m-box">
           <div class="m-text">
             <h2 class="m-t">TEDDYBEAR</h2>
-            <h3 class="m-g">WEB, TEAM</h3>
+            <p class="m-g">WEB, TEAM</p>
           </div>
         </a>
       </div>
-      <!-- box4 -->
+      <!--- box4 --->
       <div class="m-inner m-4">
         <a href="https://yunyeonjeong.github.io/portfolio/duolingo/duolingo" class="m-box">
           <div class="m-text">
             <h2 class="m-t">DUOLINGO</h2>
-            <h3 class="m-g">RESPONSIVE WEB</h3>
+            <p class="m-g">RESPONSIVE WEB</p>
           </div>
         </a>
       </div>
-      <!-- box5 -->
+      <!--- box5 --->
       <div class="m-inner m-5">
         <a href="https://yunyeonjeong.github.io/portfolio/plant/plant" class="m-box">
           <div class="m-text">
             <h2 class="m-t m-k">식물도감</h2>
-            <h3 class="m-g">UI/UX,TEAM</h3>
+            <p class="m-g">UI/UX,TEAM</p>
           </div>
         </a>
       </div>
-      <!-- box6 -->
+      <!--- box6 --->
       <div class="m-inner m-6">
         <a href="https://yunyeonjeong.github.io/portfolio/kctv/kctv" class="m-box">
           <div class="m-text">
             <h2 class="m-t">KCTV</h2>
-            <h3 class="m-g">REDESIGN, WEB</h3>
+            <p class="m-g">REDESIGN, WEB</p>
           </div>
         </a>
       </div>
@@ -173,9 +189,9 @@
   <footer>
     <div class="f-box">
       <div class="f-1 flex">
-        <h1 data-aos="fade-up" data-aos-duration="800">Let's build</h1>
-        <div class="sns grid" data-aos="fade-up" data-aos-duration="800">
-          <div class="s-box flex">
+        <h1 class="f-line" data-aos="fade-up" data-aos-duration="800">Let's build</h1>
+        <div class="sns grid">
+          <div class="s-box ">
             <a href="https://github.com/yunyeonjeong/yun_homework" target="_blank">
               <img src="./images/note.png" alt="note">
             </a>
@@ -198,15 +214,13 @@
         </div>
       </div>
       <div class="f-2">
-        <h1 data-aos="fade-up" data-aos-duration="1600">something gorgeous</h1>
+        <h1 class="f-line1" data-aos="fade-up" data-aos-duration="1600">something gorgeous</h1>
       </div>
       <div class="f-3 flex">
         <h1 class="f-g"><a href="./about.html">↑About↓</a></h1>
-        <h1>together</h1>
+        <h1 class="f-line2">together</h1>
       </div>
-      <div class="f-4">
-        <h2>ⓒ YUN YEON JEONG 2023</h2>
-      </div>
+      <p class="f-4">ⓒ YUN YEON JEONG 2023</p>
     </div>
   </footer>
 </body>

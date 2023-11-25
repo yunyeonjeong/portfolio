@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+/***** header *****/
+header .h-box {
+  height: 140px;
+}
+/*** logo ***/
+header .h-box .logo img {
+  height: 90px;
+}
+/*** menu ***/
+header .h-box .menu {
+  font-size: var(--font-size24);
+}
+header .h-box .menu .project {
+  margin-right: 3rem;
+}
+/*** hover ***/
+header .h-box .menu .project:hover {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.6);
+}
+header .h-box .menu .about:hover {
+  text-decoration: underline;
+}
+
+/***** title *****/
+section .title {
+  font-size: var(--font-size150);
+}
+/*** second line ***/
+section .title .box2 {
+  margin: 2rem 0 2rem 11rem;
+}
+/*** third line ***/
+section .title .box3-1 {
+  margin: 0 0 0 12rem;
+}
+/*** third line sns ***/
+.sns {
+  gap: 2rem;
+}
+.sns img {
+  width: 55px;
+  height: 55px;
+  transform: translateY(20%);
+}
+.sns a {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+}
+.sns a .s-i {
+  height: 50px;
+  width: 50px;
+  transform: translateY(26%);
+}
+/*** hover ***/
+.sns a:hover {
+  transform: scale(1.1);
+  transition: transform 3s;
+  filter: brightness(50%);
+  border-radius: 10px;
+}
+/*** fourth line ***/
+section .title .box4 .t-box {
+  font-size: var(--font-size20);
+  gap: 5.8rem;
+  margin: 0 33rem 0 0;
+}
+/*** arrow ***/
+section .title .box5 {
+  top: 90vh;
+}
+
+/***** main *****/
+main {
+  margin: 30rem auto 10rem;
+}
+main .m-wrapper {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+/*** images ***/
+main .m-wrapper .m-inner {
+  width: 31.5vw;
+  height: 45.7vw;
+}
+main .m-wrapper .m-box {
+  width: 31.5vw;
+  height: 45.7vw;
+}
+main .m-wrapper .m-text {
+  font-size: var(--font-size32);
+}
+main .m-wrapper .m-box .m-text .m-g {
+  font-size: var(--font-size24);
+}
+
+/***** footer *****/
+footer {
+  font-size: var(--font-size150);
+  height: 60vh;
+}
+/*** first line ***/
+footer .f-box .f-1 .f-line {
+  margin: 0 5rem 0 0;
+}
+/*** second line ***/
+footer .f-box .f-2 {
+  margin: 2rem 0 2rem 30rem;
+}
+/*** third line ***/
+footer .f-box .f-3 {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+/*** copy line ***/
+footer .f-box .f-4 {
+  font-size: var(--font-size20);
+  margin-top: 18rem;
+}

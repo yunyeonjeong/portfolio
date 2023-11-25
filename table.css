@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+/***** header *****/
+/*** logo ***/
+header .h-box .menu {
+  font-size: var(--font-size20);
+}
+header .h-box .menu .project {
+  margin-right: 2.2rem;
+}
+
+/***** title *****/
+section .title {
+  font-size: var(--font-size80);
+}
+/*** second line ***/
+section .title .box2 {
+  margin: 1rem 2rem;
+  color: var(--point-color);
+}
+/*** third line ***/
+section .title .box3 {
+  width: 100%;
+  flex-direction: row;
+}
+section .title .box3-1 {
+  margin: 1rem 0 1rem 2rem;
+}
+/*** third line sns ***/
+.sns img {
+  width: 32px;
+  height: 32px;
+}
+.sns a {
+  width: 58px;
+  height: 58px;
+  border-radius: 18px;
+}
+.sns a .s-i {
+  height: 30px;
+  width: 30px;
+}
+/*** fourth line ***/
+section .title .box4 {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+section .title .box4 .t-box {
+  gap: 1rem;
+  width: 50%;
+  margin: 1rem 0;
+}
+
+/***** main *****/
+main {
+  margin: 14rem auto 8rem;
+}
+/*** images ***/
+main .m-wrapper .m-text {
+  font-size: var(--font-size32);
+}
+main .m-wrapper .m-box .m-text .m-g {
+  font-size: var(--font-size24);
+}
+
+/***** footer *****/
+footer {
+  height: 24vh;
+  font-size: var(--font-size80);
+}
+/*** first line ***/
+footer .f-box .f-1 {
+  width: 100%;
+  flex-direction: column;
+  flex-direction: row;
+}
+footer .f-box .f-1 .f-line {
+  margin: 0 2rem 0 0;
+}
+/*** second line ***/
+footer .f-box .f-2 {
+  margin: 1rem 0 1rem 5rem;
+}
+/*** third line ***/
+footer .f-box .f-3 {
+  align-items: flex-end;
+}
+footer .f-box .f-3 .f-g {
+  margin: 0 7rem 0 0;
+}
+/*** fourth line ***/
+footer .f-box .f-3 .f-line2 {
+  transform: translateX(0);
+  margin: 1rem 0 0 0;
+}
