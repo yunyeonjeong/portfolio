@@ -1,7 +1,11 @@
 @charset "utf-8";
+
 body {
   scroll-behavior: smooth;
+  overflow: visible;
+  overscroll-behavior: none;
 }
+
 /* 스크롤바 */
 ::-webkit-scrollbar {
   display: none;

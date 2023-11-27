@@ -1,11 +1,5 @@
 @charset "utf-8";
 
-/* 변수 선언 */
-@import url(./common/style/variable.css);
-
-/* common */
-@import url(./common/style/common.css);
-
 body {
   font-family: var(--ko-font);
   color: #fff;
@@ -14,8 +8,6 @@ body {
   background: url(./images/bg.png);
   background-color: rgba(0, 0, 0, 0.1);
   background-blend-mode: multiply;
-  overflow: visible;
-  overscroll-behavior: none;
 }
 
 /***** loader *****/
@@ -50,6 +42,28 @@ header {
     transparent
   );
   z-index: 9999;
+}
+header .h-box {
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  position: static;
+  height: 120px;
+}
+/*** logo ***/
+header .h-box .logo img {
+  height: 72px;
+}
+/*** menu ***/
+header .h-box .menu {
+  font-family: var(--en-font);
+  font-size: var(--font-size16);
+  color: #fff;
+}
+header .h-box .menu .project {
+  color: var(--point-color);
+  margin-right: 1.5rem;
 }
 
 /***** section *****/

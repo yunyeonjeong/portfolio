@@ -3,14 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABOUT</title>
-
     <!-- og -->
-    <meta property="og:title" content="윤연정의 PORTFOLIO 입니다.">
-    <meta property="og:description" content="좋은 하루 되세요.">
     <meta property="og:image" content="https://yunyeonjeong.github.io/portfolio/images/og/og.png">
-    <meta property="og:url" content="https://yunyeonjeong.github.io/portfolio/index">
 
     <!-- favicon -->
     <link rel="shortcut icon" href="./common/favicon/favicon.ico">
@@ -23,8 +19,16 @@
     <!-- font -->
     <link rel="stylesheet" href="./common/style/font.css">
 
-    <!-- style css -->
+    <!-- index css -->
     <link rel="stylesheet" href="./about.css">
+    <!-- table css -->
+    <link rel="stylesheet" href="./-table.css" media="(width >=769px)">
+    <!-- pc css -->
+    <link rel="stylesheet" href="./-pc.css" media="(width >=1400px)">
+    <!-- variable css -->
+    <link rel="stylesheet" href="./common/style/variable.css">
+    <!-- common css-->
+    <link rel="stylesheet" href="./common/style/common.css">
 
     <!-- script-->
     <script src="./common/style/jquery-3.7.0.min.js"></script>
@@ -33,20 +37,22 @@
 </head>
 
 <body>
-    <!-- loader -->
+    <!----- loader ----->
     <div class="loader">
         <img src="./images/loading.gif" alt="loading">
     </div>
 
-    <!--header-->
+    <!----- header ----->
     <header>
         <div class="h-box flex">
-            <div class="h-logo">
-                <a href="index.html"><img src="./images/logo.png" alt="header logo"></a>
+            <!-- logo -->
+            <div class="logo">
+                <a href="index.html"><img src="./images/logo.png" alt="header의 왼쪽 상단에 위치하고 있는 흑백 증명사진 logo"></a>
             </div>
-            <div class="h-menu">
-                <a href="./index.html#box5-a" class="c-g">PROJECT</a>
-                <a href="./about.html" class="g-g">ABOUT</a>
+            <!-- menu -->
+            <div class="menu">
+                <a href="./index.html#box5-a" class="project">PROJECT</a>
+                <a href="./about.html" class="about">ABOUT</a>
             </div>
         </div>
     </header>
