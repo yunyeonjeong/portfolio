@@ -1,77 +1,18 @@
 @charset "utf-8";
 
-/* 변수 선언 */
-@import url(../common/style/variable.css);
-
-body {
-  background-color: #000;
-  font-family: 'NotoSansKR', -apple-system, BlinkMacSystemFont, 'Malgun Gothic',
-    '맑은 고딕', helvetica, 'Apple SD Gothic Neo', sans-serif;
-  color: #fff;
-  line-height: 2;
-}
-
-span {
-  display: block;
-}
-
 /***** title *****/
-.title {
-  width: 100%;
-}
-.title .title-wrapper {
-  font-size: var(--font-size120);
-  color: var(--point-color);
-  font-family: var(--ko-font);
-  padding: 2rem;
-}
 .title .title-img {
-  width: 96%;
-  height: 754px;
-  outline: 5px solid #fff;
+  height: 900px;
   background: url(./images/main-title.png) no-repeat 50% 50% / cover;
-  padding: 0 4%;
-  margin: 0 auto;
-  min-width: 1400px;
-  max-width: 1920px;
 }
-.title .title-img img {
-  width: 1836px;
-  height: 754px;
-}
-.title .intro {
-  font-size: var(--font-size22);
-  align-items: flex-start;
-  justify-content: space-evenly;
-  margin: 6.25rem auto;
-  min-width: 1400px;
-  max-width: 1920px;
-}
-.title .intro .intro-text {
-  width: 38vw;
-  font-size: var(--font-size26);
-  margin-left: 50px;
-}
-.title .intro .intro-list1 {
-  color: #696969;
-  font-weight: 700;
-}
-.title .intro .intro-list2 {
-  margin-left: -200px;
-}
-.line::before {
-  display: inline-block;
-  content: '';
-  height: 1rem;
-  width: 0.1rem;
-  background-color: #fff;
-  margin: 0 1rem;
+.intro-list2 li:nth-child(2) a.line::after {
+  display: none;
 }
 
-/***** main-common *****/
+/***** main *****/
 main {
   width: 70%;
-  margin: 100px auto 200px;
+  margin: 6rem auto 12rem;
 }
 /*** wt-title ***/
 h3.wt-title {
@@ -81,19 +22,7 @@ h3.wt-title {
 }
 /*** sub-title ***/
 h4.sub-title {
-  width: 8.75rem;
-  height: 3.125rem;
-  line-height: 3.125rem;
-  background-color: var(--gray-color);
   font-size: var(--font-size24);
-  font-weight: 700;
-  text-align: center;
-  margin-top: 5rem;
-}
-/*** sub-text ***/
-.sub-text {
-  font-size: var(--font-size22);
-  margin-top: 2rem;
 }
 
 /***** 프로젝트 소개 *****/
@@ -131,18 +60,14 @@ h4.sub-title {
   margin-bottom: 28px;
 }
 
-/***** 스타일 가이드 *****/
-.style {
-  min-width: 1400px;
-  max-width: 1920px;
-}
+/***** style *****/
 /*** 키워드 ***/
 .style .box1 {
   margin-right: 280px;
 }
 /*** 폰트 ***/
 .style .box3 .font-inner {
-  font-family: 'Helvetica-95-Black', 'NotoSansKR';
+  font-family: "Helvetica-95-Black", "NotoSansKR";
   font-size: var(--font-size22);
   margin: 2rem 100px 0 0;
 }
@@ -154,7 +79,7 @@ h4.sub-title {
   margin-right: 100px;
 }
 .style .box3 .font-inner1 {
-  font-family: 'Gyeonggi', 'NotoSansKR';
+  font-family: "Gyeonggi", "NotoSansKR";
   font-size: var(--font-size22);
   margin: 2rem 100px 0 0;
 }

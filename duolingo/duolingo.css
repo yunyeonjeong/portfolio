@@ -1,119 +1,15 @@
 @charset "utf-8";
 
-/* 변수 선언 */
-@import url(../common/style/variable.css);
-
-body {
-  background-color: #000;
-  font-family: 'NotoSansKR', -apple-system, BlinkMacSystemFont, 'Malgun Gothic',
-    '맑은 고딕', helvetica, 'Apple SD Gothic Neo', sans-serif;
-  color: #fff;
-  line-height: 2;
-}
-
-span {
-  display: block;
-}
-
 /***** title *****/
-.title {
-  width: 100%;
-}
-.title .title-wrapper {
-  font-size: var(--font-size164);
-  color: var(--point-color);
-  font-family: var(--main-font);
-  padding: 2rem;
-}
 .title .title-img {
-  width: 96%;
-  height: 754px;
-  outline: 5px solid #fff;
   background: url(./images/title-img.png) no-repeat 50% 50% / cover;
-  padding: 0 4%;
-  margin: 0 auto;
-  min-width: 1400px;
-  max-width: 1920px;
-}
-.title .title-img img {
-  width: 1836px;
-  height: 754px;
-}
-.title .intro {
-  font-size: var(--font-size22);
-  align-items: flex-start;
-  justify-content: space-evenly;
-  margin: 6.25rem auto;
-  min-width: 1400px;
-  max-width: 1920px;
-}
-.title .intro .intro-text {
-  width: 38vw;
-  font-size: var(--font-size26);
-}
-.title .intro .intro-list1 {
-  color: #696969;
-  font-weight: 700;
-}
-.title .intro .intro-list1 li,
-.title .intro .intro-list2 li {
-  margin-bottom: 1rem;
-}
-.title .intro .intro-list2 {
-  margin-left: -200px;
-}
-.line::before {
-  display: inline-block;
-  content: '';
-  height: 1rem;
-  width: 0.1rem;
-  background-color: #fff;
-  margin: 0 1rem;
-}
-.line::after {
-  display: inline-block;
-  content: '';
-  height: 1rem;
-  width: 0.1rem;
-  background-color: #fff;
-  margin: 0 1rem;
 }
 
 /***** style *****/
-main {
-  width: 67%;
-  margin: 100px auto 0;
-}
-.style {
-  min-width: 1400px;
-  max-width: 1920px;
-}
-/*** wt-title ***/
-h3.wt-title {
-  font-family: var(--main-font);
-  font-size: var(--font-size100);
-  margin-top: 6.25rem;
-}
-/*** sub-title ***/
-h4.sub-title {
-  width: 8.75rem;
-  height: 3.125rem;
-  line-height: 3.125rem;
-  background-color: var(--gray-color);
-  font-size: var(--font-size28);
-  font-weight: 700;
-  text-align: center;
-  margin-top: 5rem;
-}
-/*** sub-text ***/
-.sub-text {
-  font-size: var(--font-size22);
-  margin-top: 2rem;
-}
 /*** font ***/
 .style .box1 {
-  font-family: 'Pretendard Variable', -apple-system, BlinkMacSystemFont,
-    'Malgun Gothic', '맑은 고딕', helvetica, 'Apple SD Gothic Neo', sans-serif;
+  font-family: "Pretendard Variable", -apple-system, BlinkMacSystemFont,
+    "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
 }
 .style .box1 .ass-title1 {
   font-size: var(--font-size26);

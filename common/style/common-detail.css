@@ -1,5 +1,91 @@
 @charset "utf-8";
 
+span {
+  display: block;
+}
+
+body {
+  background-color: #000;
+  font-family: "NotoSansKR", -apple-system, BlinkMacSystemFont, "Malgun Gothic",
+    "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+  color: #fff;
+  line-height: 2;
+}
+
+/***** title *****/
+.title .title-wrapper {
+  font-size: var(--font-size164);
+  color: var(--point-color);
+  font-family: var(--main-font);
+  padding: 0 2rem;
+}
+.title .title-img {
+  height: 754px;
+  outline: 5px solid #fff;
+  margin: 0 2rem;
+}
+.title .intro {
+  font-size: var(--font-size22);
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin: 6.25rem auto;
+}
+.title .intro .intro-text {
+  width: 33vw;
+  font-size: var(--font-size26);
+}
+.title .intro .intro-list1 {
+  color: #696969;
+  font-weight: 700;
+}
+.title .intro .intro-list1 li,
+.title .intro .intro-list2 li {
+  margin-bottom: 1rem;
+}
+.title .intro .intro-list2 {
+  margin-left: -240px;
+}
+.line::before,
+.line::after {
+  display: inline-block;
+  content: "";
+  height: 1rem;
+  width: 0.1rem;
+  background-color: #fff;
+  margin: 0 1rem;
+}
+
+/***** style *****/
+main {
+  width: 67%;
+  margin: 6rem auto 0;
+}
+.style {
+  min-width: 1400px;
+  max-width: 1920px;
+}
+/*** wt-title ***/
+h3.wt-title {
+  font-family: var(--main-font);
+  font-size: var(--font-size100);
+  margin-top: 6.25rem;
+}
+/*** sub-title ***/
+h4.sub-title {
+  width: 8.75rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  background-color: var(--gray-color);
+  font-size: var(--font-size28);
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5rem;
+}
+/*** sub-text ***/
+.sub-text {
+  font-size: var(--font-size22);
+  margin-top: 2rem;
+}
 /***** view-project btn ****/
 .url {
   display: block;

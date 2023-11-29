@@ -43,3 +43,35 @@ body {
 .grid {
   display: grid;
 }
+
+/***** header *****/
+header .h-box {
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  position: static;
+  height: 140px;
+}
+/*** logo ***/
+header .h-box .logo img {
+  height: 90px;
+}
+/*** menu ***/
+header .h-box .menu {
+  font-family: var(--en-font);
+  font-size: var(--font-size24);
+  color: #fff;
+}
+header .h-box .menu .project {
+  color: var(--point-color);
+  margin-right: 3rem;
+}
+/*** hover ***/
+header .h-box .menu .project:hover {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.6);
+}
+header .h-box .menu .about:hover {
+  text-decoration: underline;
+}
